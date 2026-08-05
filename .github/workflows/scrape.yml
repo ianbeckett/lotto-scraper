@@ -1,0 +1,35 @@
+name: Scrape WA Lottery Data
+
+on:
+  schedule:
+    # 13:00 UTC daily (~6am Pacific Daylight Time). Adjust if you want a
+    # different cadence - this is deliberately light-touch (once a day).
+    - cron: '0 13 * * *'
+  workflow_dispatch: {}   # lets you trigger a manual re-scrape from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit updated data (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add games.json
+          git diff --quiet --cached || git commit -m "Update scratch ticket data ($(date -u +%Y-%m-%d))"
+          git push
