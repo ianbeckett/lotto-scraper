@@ -272,9 +272,9 @@ INDEX_HTML = """<!DOCTYPE html>
     .controls-right { width: 100%; justify-content: space-between; margin-left: 0; }
 
     .table-scroll { border: none; background: none; box-shadow: none; overflow: visible; }
-    table { min-width: 0; }
-    thead { display: none; }
-    tbody { display: block; }
+    #gamesTable { min-width: 0; }
+    #gamesTable > thead { display: none; }
+    #gamesTable > tbody { display: block; }
 
     tr.game-row {
       display: block;
