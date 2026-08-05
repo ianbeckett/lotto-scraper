@@ -1,12 +1,11 @@
-# WA Lotto Scraper
+# Lotto Scraper
 
 A static site for browsing Washington's Lottery scratch ticket data in one
 sortable, filterable table, instead of clicking through the site's Explorer
 one game at a time. Hosted on GitHub Pages; data refreshes automatically
 once a day via a scheduled GitHub Action - no server required.
 
-Live version: add your GitHub Pages URL here once deployed, e.g.
-`https://<your-username>.github.io/wa-lotto-scraper/`
+Live version: `https://ianbeckett.github.io/lotto-scraper/`
 
 ## How it works
 
@@ -59,20 +58,20 @@ Pages (Pages can't run Flask) - it's just handy for local iteration.
 
 ## Deploying to GitHub Pages
 
-1. Create a new **public** GitHub repo (e.g. `wa-lotto-scraper`).
+1. Create a new **public** GitHub repo named `lotto-scraper`.
 2. From this folder:
    ```bash
    git init
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/wa-lotto-scraper.git
+   git remote add origin https://github.com/ianbeckett/lotto-scraper.git
    git push -u origin main
    ```
 3. In the repo, go to **Settings > Pages**. Under "Build and deployment",
    set Source to "Deploy from a branch", branch `main`, folder `/ (root)`.
    Save. GitHub gives you a URL like
-   `https://<your-username>.github.io/wa-lotto-scraper/` within a minute or two.
+   `https://ianbeckett.github.io/lotto-scraper/` within a minute or two.
 4. Go to the **Actions** tab and manually run the "Scrape WA Lottery Data"
    workflow once (Run workflow button) so `games.json` has real data right
    away, instead of waiting for the next scheduled run.

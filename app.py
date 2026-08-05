@@ -1,5 +1,5 @@
 """
-WA Scratch Ticket Explorer - local web app.
+Lotto Scraper - local web app.
 
 Run:
     pip install -r requirements.txt
@@ -56,7 +56,7 @@ INDEX_HTML = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>WA Scratch Ticket Explorer</title>
+<title>Lotto Scraper</title>
 <style>
   :root {
     --bg: #0f1115;
@@ -157,7 +157,7 @@ INDEX_HTML = """<!DOCTYPE html>
 
 <header>
   <div>
-    <h1>WA Scratch Ticket Explorer</h1>
+    <h1>Lotto Scraper</h1>
     <div class="sub" id="lastUpdated">No data yet - click Refresh Data.</div>
   </div>
   <div>
