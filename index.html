@@ -6,139 +6,332 @@
 <title>Lotto Scraper</title>
 <style>
   :root {
-    --bg: #0f1115;
-    --panel: #161923;
-    --border: #2a2e3a;
-    --text: #e7e9ee;
-    --muted: #9aa1b1;
-    --accent: #4f8cff;
-    --good: #3ecf8e;
+    --bg: #0b0d12;
+    --bg-grad: radial-gradient(circle at 15% 0%, #161b26 0%, #0b0d12 55%);
+    --panel: #151924;
+    --panel-2: #1b2030;
+    --border: #262c3a;
+    --text: #e9ebf1;
+    --muted: #8b93a7;
+    --accent: #5b8cff;
+    --accent-2: #7aa2ff;
+    --good: #34d399;
     --warn: #f0b429;
+    --bad: #f0555f;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px -12px rgba(0,0,0,0.6);
   }
   * { box-sizing: border-box; }
+  html, body { height: 100%; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+    background: var(--bg-grad);
+    background-color: var(--bg);
     color: var(--text);
+    -webkit-font-smoothing: antialiased;
   }
+
+  a { color: inherit; }
+
   header {
-    padding: 20px 24px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    padding: 18px 24px;
     border-bottom: 1px solid var(--border);
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 12px;
+    background: rgba(11, 13, 18, 0.85);
+    backdrop-filter: blur(10px);
   }
-  h1 { font-size: 20px; margin: 0; }
-  .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
-  .controls {
-    display: flex; align-items: center; gap: 10px; padding: 14px 24px;
-    flex-wrap: wrap;
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-icon {
+    width: 34px; height: 34px; border-radius: 9px; flex: 0 0 auto;
+    background: linear-gradient(135deg, var(--accent), #8b5cf6);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 14px -4px rgba(91, 140, 255, 0.6);
   }
-  input[type=text], select {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 8px 10px;
-    border-radius: 6px;
-    font-size: 14px;
-  }
+  h1 { font-size: 17px; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .sub .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--good); margin-right: 6px; vertical-align: 1px; }
+
   a.source-link {
     color: var(--muted);
-    font-size: 13px;
+    font-size: 12.5px;
     text-decoration: none;
     border: 1px solid var(--border);
     padding: 8px 14px;
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
+    background: var(--panel);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: border-color 0.15s, color 0.15s;
   }
   a.source-link:hover { color: var(--text); border-color: var(--accent); }
+
   .banner {
-    margin: 0 24px 12px;
+    margin: 12px 24px 0;
     padding: 10px 14px;
-    border-radius: 6px;
-    background: rgba(240, 180, 41, 0.12);
-    border: 1px solid var(--warn);
+    border-radius: var(--radius-sm);
+    background: rgba(240, 180, 41, 0.1);
+    border: 1px solid rgba(240, 180, 41, 0.4);
     color: var(--warn);
     font-size: 13px;
     display: none;
   }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
-  thead th {
-    position: sticky; top: 0; background: var(--panel);
-    text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border);
-    cursor: pointer; user-select: none; white-space: nowrap;
-    color: var(--muted); font-weight: 600;
+
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 24px 4px;
+    flex-wrap: wrap;
   }
+  .search-wrap { position: relative; flex: 1 1 220px; max-width: 320px; }
+  .search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); opacity: 0.5; pointer-events: none; }
+  input[type=text] {
+    width: 100%;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 9px 10px 9px 32px;
+    border-radius: var(--radius-sm);
+    font-size: 13.5px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  input[type=text]:focus { border-color: var(--accent); }
+  input[type=text]::placeholder { color: var(--muted); }
+
+  select {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 9px 10px;
+    border-radius: var(--radius-sm);
+    font-size: 13.5px;
+    outline: none;
+  }
+
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 7px 12px;
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .chip:hover { color: var(--text); border-color: #3a4256; }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  .controls-right { display: flex; align-items: center; gap: 10px; margin-left: auto; flex-wrap: wrap; }
+  .countLabel { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+
+  .sort-mobile { display: none; align-items: center; gap: 8px; }
+  .sort-dir-btn {
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    width: 34px; height: 34px; border-radius: var(--radius-sm); cursor: pointer;
+    display: flex; align-items: center; justify-content: center; font-size: 14px;
+  }
+
+  .wrap { padding: 12px 24px 40px; }
+
+  /* ---------- Desktop table ---------- */
+  .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 880px; }
+  thead th {
+    position: sticky; top: 0; background: var(--panel-2);
+    text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border);
+    cursor: pointer; user-select: none; white-space: nowrap;
+    color: var(--muted); font-weight: 600; font-size: 11.5px;
+    text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  thead th:first-child { border-top-left-radius: var(--radius); }
+  thead th:last-child { border-top-right-radius: var(--radius); }
   thead th:hover { color: var(--text); }
-  thead th.active { color: var(--accent); }
-  tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); white-space: nowrap; }
-  tbody tr.game-row:hover { background: rgba(255,255,255,0.03); cursor: pointer; }
-  tbody tr.detail-row td { white-space: normal; background: rgba(255,255,255,0.02); }
-  .name-cell { display: flex; align-items: center; gap: 8px; }
-  .name-cell img { width: 28px; height: 28px; object-fit: cover; border-radius: 4px; }
-  .pct-wrap { display: inline-flex; align-items: center; gap: 6px; }
-  .pct-num { flex: 0 0 auto; }
-  .pct-bar { flex: 0 0 60px; width: 60px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
-  .pct-bar-fill { display: block; height: 100%; background: var(--good); }
+  thead th.active { color: var(--accent-2); }
+  thead th .arrow { opacity: 0; margin-left: 4px; font-size: 10px; }
+  thead th.active .arrow { opacity: 1; }
+
+  tbody td { padding: 11px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr.game-row { transition: background 0.12s; }
+  tbody tr.game-row:hover { background: rgba(255,255,255,0.025); cursor: pointer; }
+  tbody tr.game-row.expanded { background: rgba(91, 140, 255, 0.06); }
+  tbody tr.detail-row td { white-space: normal; background: rgba(255,255,255,0.015); padding: 14px; }
+
+  .name-cell { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+  .name-cell img { width: 32px; height: 32px; object-fit: cover; border-radius: 6px; border: 1px solid var(--border); background: #000; flex: 0 0 auto; }
+  .name-text { display: flex; flex-direction: column; }
+  .name-text .gname { line-height: 1.2; }
+  .name-text .gnum { color: var(--muted); font-weight: 500; font-size: 11px; }
+
+  .price-badge {
+    display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 12px; font-weight: 700;
+    background: rgba(91, 140, 255, 0.14); color: var(--accent-2); border: 1px solid rgba(91, 140, 255, 0.3);
+  }
+
+  .pct-wrap { display: inline-flex; align-items: center; gap: 8px; }
+  .pct-num { flex: 0 0 auto; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .pct-bar { flex: 0 0 64px; width: 64px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+  .pct-bar-fill { display: block; height: 100%; border-radius: 3px; }
+
+  .sold-out { color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; background: rgba(255,255,255,0.06); padding: 2px 7px; border-radius: 5px; }
+
   .muted { color: var(--muted); }
-  .wrap { padding: 0 24px 40px; overflow-x: auto; }
-  .tier-table { width: auto; margin-top: 8px; font-size: 12px; }
-  .tier-table th, .tier-table td { padding: 4px 10px; white-space: nowrap; }
-  #emptyState { padding: 40px 24px; color: var(--muted); text-align: center; }
-  footer { padding: 16px 24px 32px; color: var(--muted); font-size: 12px; }
-  footer a { color: var(--muted); }
+  .tier-title { font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 0 0 8px; font-weight: 700; }
+  .tier-scroll { overflow-x: auto; }
+  .tier-table { width: 100%; min-width: 360px; border-collapse: collapse; font-size: 12.5px; }
+  .tier-table th, .tier-table td { padding: 6px 12px; white-space: nowrap; text-align: left; }
+  .tier-table th { color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--border); font-size: 11px; text-transform: uppercase; letter-spacing: 0.03em; }
+  .tier-table td { border-bottom: 1px solid rgba(255,255,255,0.04); }
+  .tier-table tr:last-child td { border-bottom: none; }
+
+  #emptyState { padding: 60px 24px; color: var(--muted); text-align: center; font-size: 14px; }
+  #emptyState svg { display: block; margin: 0 auto 14px; opacity: 0.4; }
+
+  footer { padding: 20px 24px 36px; color: var(--muted); font-size: 12px; text-align: center; }
+  footer a { text-decoration: underline; text-underline-offset: 2px; }
+
+  /* ---------- Mobile card layout ---------- */
+  @media (max-width: 760px) {
+    header { padding: 14px 16px; }
+    .controls { padding: 12px 16px 4px; }
+    .wrap { padding: 8px 16px 32px; }
+    .search-wrap { flex: 1 1 100%; max-width: none; }
+    .sort-mobile { display: flex; flex: 1 1 100%; }
+    .sort-mobile select { flex: 1; }
+    .controls-right { width: 100%; justify-content: space-between; margin-left: 0; }
+
+    .table-scroll { border: none; background: none; box-shadow: none; overflow: visible; }
+    table { min-width: 0; }
+    thead { display: none; }
+    tbody { display: block; }
+
+    tr.game-row {
+      display: block;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 10px;
+      padding: 4px 14px;
+    }
+    tr.game-row.expanded { border-color: rgba(91, 140, 255, 0.4); }
+
+    tbody td {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 9px 0;
+      border-bottom: 1px dashed var(--border);
+      white-space: normal;
+      text-align: right;
+    }
+    tbody tr.game-row td:last-child { border-bottom: none; }
+
+    td[data-label]::before {
+      content: attr(data-label);
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      text-align: left;
+      flex: 0 0 auto;
+    }
+
+    td.name-td {
+      justify-content: flex-start;
+      padding-top: 12px;
+      padding-bottom: 10px;
+    }
+    td.name-td::before { content: none; }
+    .name-cell { width: 100%; }
+    .name-text .gname { font-size: 14px; }
+
+    tr.detail-row { display: block; }
+    tr.detail-row td { display: block; padding: 4px 14px 14px; background: transparent; border: none; }
+  }
 </style>
 </head>
 <body>
 
 <header>
-  <div>
-    <h1>Lotto Scraper</h1>
-    <div class="sub" id="lastUpdated">Loading...</div>
+  <div class="brand">
+    <div class="brand-icon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 1 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 1 0 0-4V8Z" stroke="white" stroke-width="1.6"/>
+        <path d="M9 6.5v11" stroke="white" stroke-width="1.6" stroke-dasharray="2 2"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Lotto Scraper</h1>
+      <div class="sub" id="lastUpdated"><span class="dot"></span>Loading...</div>
+    </div>
   </div>
-  <div>
-    <a class="source-link" href="https://walottery.com/Scratch/TopPrizesRemaining.aspx" target="_blank" rel="noopener">Source: WA Lottery</a>
-  </div>
+  <a class="source-link" href="https://walottery.com/Scratch/TopPrizesRemaining.aspx" target="_blank" rel="noopener">
+    Source: WA Lottery ↗
+  </a>
 </header>
 
 <div class="banner" id="warningBanner"></div>
 
 <div class="controls">
-  <input type="text" id="search" placeholder="Search game name..." oninput="render()">
-  <select id="priceFilter" onchange="render()">
-    <option value="">All prices</option>
-    <option value="$1">$1</option>
-    <option value="$2">$2</option>
-    <option value="$3">$3</option>
-    <option value="$5">$5</option>
-    <option value="$10">$10</option>
-    <option value="$20">$20</option>
-    <option value="$30">$30</option>
-  </select>
-  <span class="muted" id="countLabel"></span>
+  <div class="search-wrap">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <input type="text" id="search" placeholder="Search game name..." oninput="render()">
+  </div>
+
+  <div class="chips" id="priceChips"></div>
+
+  <div class="sort-mobile">
+    <select id="sortSelect" onchange="onSortSelect()"></select>
+    <button class="sort-dir-btn" id="sortDirBtn" onclick="toggleSortDir()" title="Toggle sort direction">▼</button>
+  </div>
+
+  <div class="controls-right">
+    <span class="countLabel" id="countLabel"></span>
+  </div>
 </div>
 
 <div class="wrap">
-  <table id="gamesTable">
-    <thead>
-      <tr>
-        <th data-key="name">Game</th>
-        <th data-key="price">Price</th>
-        <th data-key="game_number">Game #</th>
-        <th data-key="top_prize_amount">Top Prize</th>
-        <th data-key="top_prize_remaining">Top Prize Left</th>
-        <th data-key="top_prize_pct_remaining">Top Prize % Left</th>
-        <th data-key="total_prizes_remaining">All Prizes Left</th>
-        <th data-key="total_prizes_pct_remaining">All Prizes % Left</th>
-        <th data-key="remaining_cash_value">Remaining Cash Value</th>
-        <th data-key="last_day_to_redeem">Last Day to Redeem</th>
-      </tr>
-    </thead>
-    <tbody id="tbody"></tbody>
-  </table>
-  <div id="emptyState" style="display:none;">No data available yet.</div>
+  <div class="table-scroll">
+    <table id="gamesTable">
+      <thead>
+        <tr>
+          <th data-key="name">Game<span class="arrow"></span></th>
+          <th data-key="price">Price<span class="arrow"></span></th>
+          <th data-key="game_number">Game #<span class="arrow"></span></th>
+          <th data-key="top_prize_amount">Top Prize<span class="arrow"></span></th>
+          <th data-key="top_prize_remaining">Top Prize Left<span class="arrow"></span></th>
+          <th data-key="top_prize_pct_remaining">Top Prize % Left<span class="arrow"></span></th>
+          <th data-key="total_prizes_remaining">All Prizes Left<span class="arrow"></span></th>
+          <th data-key="total_prizes_pct_remaining">All Prizes % Left<span class="arrow"></span></th>
+          <th data-key="remaining_cash_value">Remaining Cash Value<span class="arrow"></span></th>
+          <th data-key="last_day_to_redeem">Last Day to Redeem<span class="arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <div id="emptyState" style="display:none;">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    No games available yet.
+  </div>
 </div>
 
 <footer>
@@ -151,6 +344,21 @@ let allGames = [];
 let sortKey = "top_prize_pct_remaining";
 let sortDir = -1; // -1 desc, 1 asc
 let expandedId = null;
+let activePrice = "";
+
+const PRICES = ["$1", "$2", "$3", "$5", "$10", "$20", "$30"];
+const COLUMNS = [
+  { key: "name", label: "Game" },
+  { key: "price", label: "Price" },
+  { key: "game_number", label: "Game #" },
+  { key: "top_prize_amount", label: "Top Prize" },
+  { key: "top_prize_remaining", label: "Top Prize Left" },
+  { key: "top_prize_pct_remaining", label: "Top Prize % Left" },
+  { key: "total_prizes_remaining", label: "All Prizes Left" },
+  { key: "total_prizes_pct_remaining", label: "All Prizes % Left" },
+  { key: "remaining_cash_value", label: "Remaining Cash Value" },
+  { key: "last_day_to_redeem", label: "Last Day to Redeem" },
+];
 
 function money(n) {
   if (n === null || n === undefined) return "-";
@@ -160,10 +368,53 @@ function num(n) {
   if (n === null || n === undefined) return "-";
   return Number(n).toLocaleString();
 }
+function pctColor(p) {
+  if (p < 15) return "var(--bad)";
+  if (p < 40) return "var(--warn)";
+  return "var(--good)";
+}
 function pctBar(p) {
   if (p === null || p === undefined) return "-";
   const clamped = Math.max(0, Math.min(100, p));
-  return `<span class="pct-wrap"><span class="pct-num">${p.toFixed(1)}%</span><span class="pct-bar"><span class="pct-bar-fill" style="width:${clamped}%"></span></span></span>`;
+  const color = pctColor(clamped);
+  return `<span class="pct-wrap"><span class="pct-num">${p.toFixed(1)}%</span><span class="pct-bar"><span class="pct-bar-fill" style="width:${clamped}%;background:${color}"></span></span></span>`;
+}
+
+function buildChips() {
+  const wrap = document.getElementById("priceChips");
+  wrap.innerHTML = "";
+  const all = document.createElement("div");
+  all.className = "chip active";
+  all.textContent = "All";
+  all.onclick = () => setPrice("", all);
+  wrap.appendChild(all);
+  for (const p of PRICES) {
+    const chip = document.createElement("div");
+    chip.className = "chip";
+    chip.textContent = p;
+    chip.onclick = () => setPrice(p, chip);
+    wrap.appendChild(chip);
+  }
+}
+function setPrice(p, el) {
+  activePrice = p;
+  document.querySelectorAll("#priceChips .chip").forEach(c => c.classList.remove("active"));
+  el.classList.add("active");
+  render();
+}
+
+function buildSortSelect() {
+  const sel = document.getElementById("sortSelect");
+  sel.innerHTML = COLUMNS.map(c => `<option value="${c.key}">Sort: ${c.label}</option>`).join("");
+  sel.value = sortKey;
+}
+function onSortSelect() {
+  sortKey = document.getElementById("sortSelect").value;
+  render();
+}
+function toggleSortDir() {
+  sortDir *= -1;
+  render();
 }
 
 async function loadData() {
@@ -186,15 +437,16 @@ function applyData(data) {
     banner.style.display = "none";
   }
   const lu = document.getElementById("lastUpdated");
-  lu.textContent = data.scraped_at ? ("Last updated: " + new Date(data.scraped_at).toLocaleString()) : "No data yet.";
+  lu.innerHTML = data.scraped_at
+    ? ('<span class="dot"></span>Last updated: ' + new Date(data.scraped_at).toLocaleString())
+    : "No data yet.";
   render();
 }
 
 function getFiltered() {
   const q = document.getElementById("search").value.trim().toLowerCase();
-  const priceFilter = document.getElementById("priceFilter").value;
   let rows = allGames.filter(g => {
-    if (priceFilter && g.price !== priceFilter) return false;
+    if (activePrice && g.price !== activePrice) return false;
     if (q && !g.name.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -212,30 +464,37 @@ function getFiltered() {
 
 function render() {
   const rows = getFiltered();
-  document.getElementById("countLabel").textContent = rows.length + " game(s)";
+  document.getElementById("countLabel").textContent = rows.length + " game" + (rows.length === 1 ? "" : "s");
   document.getElementById("emptyState").style.display = allGames.length === 0 ? "block" : "none";
 
-  document.querySelectorAll("thead th").forEach(th => {
-    th.classList.toggle("active", th.dataset.key === sortKey);
+  document.querySelectorAll("#gamesTable > thead th").forEach(th => {
+    const active = th.dataset.key === sortKey;
+    th.classList.toggle("active", active);
+    th.querySelector(".arrow").textContent = active ? (sortDir === -1 ? "▼" : "▲") : "";
   });
+  document.getElementById("sortSelect").value = sortKey;
+  document.getElementById("sortDirBtn").textContent = sortDir === -1 ? "▼" : "▲";
 
   const tbody = document.getElementById("tbody");
   tbody.innerHTML = "";
   for (const g of rows) {
     const tr = document.createElement("tr");
-    tr.className = "game-row";
+    tr.className = "game-row" + (expandedId === g.id ? " expanded" : "");
     tr.onclick = () => toggleExpand(g.id);
+
+    const soldOutTop = g.top_prize_remaining === 0;
+
     tr.innerHTML = `
-      <td><div class="name-cell"><img src="${g.image_url || ''}" onerror="this.style.display='none'"><span>${g.name}</span></div></td>
-      <td>${g.price || '-'}</td>
-      <td>${g.game_number || '-'}</td>
-      <td>${money(g.top_prize_amount)}</td>
-      <td>${num(g.top_prize_remaining)} / ${num(g.top_prize_total)}</td>
-      <td>${pctBar(g.top_prize_pct_remaining)}</td>
-      <td>${num(g.total_prizes_remaining)} / ${num(g.total_prizes_total)}</td>
-      <td>${pctBar(g.total_prizes_pct_remaining)}</td>
-      <td>${money(g.remaining_cash_value)}</td>
-      <td>${g.last_day_to_redeem || '<span class="muted">Ongoing</span>'}</td>
+      <td class="name-td"><div class="name-cell"><img src="${g.image_url || ''}" onerror="this.style.display='none'"><div class="name-text"><span class="gname">${g.name}</span><span class="gnum">#${g.game_number || '-'}</span></div></div></td>
+      <td data-label="Price"><span class="price-badge">${g.price || '-'}</span></td>
+      <td data-label="Game #">${g.game_number || '-'}</td>
+      <td data-label="Top Prize">${money(g.top_prize_amount)}</td>
+      <td data-label="Top Prize Left">${soldOutTop ? '<span class="sold-out">Sold out</span>' : `${num(g.top_prize_remaining)} / ${num(g.top_prize_total)}`}</td>
+      <td data-label="Top Prize % Left">${pctBar(g.top_prize_pct_remaining)}</td>
+      <td data-label="All Prizes Left">${num(g.total_prizes_remaining)} / ${num(g.total_prizes_total)}</td>
+      <td data-label="All Prizes % Left">${pctBar(g.total_prizes_pct_remaining)}</td>
+      <td data-label="Cash Value Left">${money(g.remaining_cash_value)}</td>
+      <td data-label="Last Day to Redeem">${g.last_day_to_redeem || '<span class="muted">Ongoing</span>'}</td>
     `;
     tbody.appendChild(tr);
 
@@ -252,13 +511,13 @@ function render() {
 }
 
 function buildTierTable(g) {
-  let html = `<table class="tier-table"><thead><tr>
+  let html = `<p class="tier-title">Prize tiers</p><div class="tier-scroll"><table class="tier-table"><thead><tr>
     <th>Prize Amount</th><th>Total Prizes</th><th>Prizes Paid</th><th>Prizes Remaining</th>
   </tr></thead><tbody>`;
   for (const t of g.prize_tiers) {
     html += `<tr><td>${money(t.amount)}</td><td>${num(t.total)}</td><td>${num(t.paid)}</td><td>${num(t.remaining)}</td></tr>`;
   }
-  html += `</tbody></table>`;
+  html += `</tbody></table></div>`;
   return html;
 }
 
@@ -267,7 +526,7 @@ function toggleExpand(id) {
   render();
 }
 
-document.querySelectorAll("thead th").forEach(th => {
+document.querySelectorAll("#gamesTable > thead th").forEach(th => {
   th.addEventListener("click", () => {
     const key = th.dataset.key;
     if (sortKey === key) {
@@ -280,6 +539,8 @@ document.querySelectorAll("thead th").forEach(th => {
   });
 });
 
+buildChips();
+buildSortSelect();
 loadData();
 </script>
 
