@@ -25,6 +25,16 @@ from bs4 import BeautifulSoup, Tag, NavigableString
 BASE_URL = "https://walottery.com/Scratch/TopPrizesRemaining.aspx"
 PRICE_BRACKETS = ["$1", "$2", "$3", "$5", "$10", "$20", "$30"]
 
+# The Scratch Explorer page is JS-driven (the visible ticket popup shows
+# "N/A" until JavaScript runs), but the data it renders from is embedded
+# directly in the page's initial HTML as a plain JSON blob assigned to
+# WaLottery.Scratch.data.all - a JS string literal, not fetched separately
+# over the network. That means a plain server-side GET (no browser/JS
+# execution needed) can read it. It covers every active game in one request,
+# keyed by game Id, and includes "TicketsPrinted" and "OverallOdds", which
+# aren't present anywhere in TopPrizesRemaining.aspx.
+EXPLORER_URL = "https://walottery.com/Scratch/Explorer.aspx"
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -34,6 +44,13 @@ HEADERS = {
 
 PRICE_NUMBER_RE = re.compile(r"\$([\d,]+)\s*\|\s*(\d+)")
 REDEEM_RE = re.compile(r"Last Day To Redeem:\s*([\d/]+)")
+
+# Non-greedy: the JSON blob itself never contains the literal 2-char
+# sequence "')" (it's all double-quoted JSON with no embedded apostrophes -
+# names like "S'MORE SLINGO" are HTML-entity-encoded as S&#39;MORE SLINGO in
+# the source, specifically to avoid breaking out of this single-quoted JS
+# string), so the first "')" reliably marks the true end of the "all" value.
+EXPLORER_DATA_RE = re.compile(r"all\s*:\s*JSON\.parse\('(.*?)'\)\s*,\s*featured\s*:", re.S)
 
 
 def _to_number(text):
@@ -56,6 +73,42 @@ def fetch_price_page(price, session=None, timeout=20):
     resp = sess.get(BASE_URL, params={"price": price}, headers=HEADERS, timeout=timeout)
     resp.raise_for_status()
     return resp.text
+
+
+def fetch_explorer_extras(session=None, timeout=20):
+    """Fetch Tickets Printed / Overall Odds for every active game.
+
+    Reads the WaLottery.Scratch.data.all JSON blob embedded in the Scratch
+    Explorer page's HTML (see EXPLORER_DATA_RE above). Returns a dict keyed
+    by game id (string) -> {"tickets_printed": int|None, "overall_odds": str|None}.
+    Returns {} if the page structure has changed and the blob can't be found
+    or parsed - callers should treat that as "extras unavailable this run"
+    rather than a hard failure, since the core prize-remaining data doesn't
+    depend on this.
+    """
+    sess = session or requests
+    resp = sess.get(EXPLORER_URL, headers=HEADERS, timeout=timeout)
+    resp.raise_for_status()
+
+    m = EXPLORER_DATA_RE.search(resp.text)
+    if not m:
+        return {}
+
+    try:
+        payload = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return {}
+
+    extras = {}
+    for g in payload.get("Games", []):
+        gid = g.get("Id")
+        if gid is None:
+            continue
+        extras[str(gid)] = {
+            "tickets_printed": _to_number(g.get("TicketsPrinted")),
+            "overall_odds": g.get("OverallOdds") or None,
+        }
+    return extras
 
 
 def parse_price_page(html, price_bracket):
@@ -173,6 +226,10 @@ def _build_game_record(name, game_id, price, game_number, last_day_to_redeem, ti
         "remaining_cash_value": remaining_cash_value,
         "original_cash_value": original_cash_value,
         "cash_value_pct_remaining": pct(remaining_cash_value, original_cash_value),
+        # Filled in later from fetch_explorer_extras(); default to None so
+        # the field is always present even if that fetch fails.
+        "tickets_printed": None,
+        "overall_odds": None,
         "prize_tiers": tiers_sorted,
     }
 
@@ -195,11 +252,25 @@ def scrape_all(progress_cb=None):
                 progress_cb(price, len(games))
             time.sleep(0.5)  # be polite
 
+        try:
+            extras = fetch_explorer_extras(session=sess)
+            if not extras:
+                warnings.append("Tickets Printed / Overall Odds unavailable this run - Explorer page structure may have changed.")
+        except requests.RequestException as e:
+            extras = {}
+            warnings.append(f"Failed to fetch Tickets Printed / Overall Odds: {e}")
+
     # de-dupe by game id (in case a game appears under multiple filters)
     deduped = {}
     for g in games:
         key = g["id"] or g["name"]
         deduped[key] = g
+
+    for g in deduped.values():
+        extra = extras.get(g["id"])
+        if extra:
+            g["tickets_printed"] = extra["tickets_printed"]
+            g["overall_odds"] = extra["overall_odds"]
 
     return list(deduped.values()), warnings
 

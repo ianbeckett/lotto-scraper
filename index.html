@@ -150,7 +150,7 @@
 
   /* ---------- Desktop table ---------- */
   .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 880px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 1080px; }
   thead th {
     position: sticky; top: 0; background: var(--panel-2);
     text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border);
@@ -326,6 +326,8 @@
           <th data-key="name">Game<span class="arrow"></span></th>
           <th data-key="price">Price<span class="arrow"></span></th>
           <th data-key="game_number">Game #<span class="arrow"></span></th>
+          <th data-key="tickets_printed">Tickets Printed<span class="arrow"></span></th>
+          <th data-key="overall_odds">Overall Odds<span class="arrow"></span></th>
           <th data-key="top_prize_amount">Top Prize<span class="arrow"></span></th>
           <th data-key="top_prize_remaining">Top Prize Left<span class="arrow"></span></th>
           <th data-key="top_prize_pct_remaining">Top Prize % Left<span class="arrow"></span></th>
@@ -361,6 +363,8 @@ const COLUMNS = [
   { key: "name", label: "Game" },
   { key: "price", label: "Price" },
   { key: "game_number", label: "Game #" },
+  { key: "tickets_printed", label: "Tickets Printed" },
+  { key: "overall_odds", label: "Overall Odds" },
   { key: "top_prize_amount", label: "Top Prize" },
   { key: "top_prize_remaining", label: "Top Prize Left" },
   { key: "top_prize_pct_remaining", label: "Top Prize % Left" },
@@ -498,6 +502,8 @@ function render() {
       <td class="name-td"><div class="name-cell"><img src="${g.image_url || ''}" onerror="this.style.display='none'"><div class="name-text"><span class="gname">${g.name}</span><span class="gnum">#${g.game_number || '-'}</span></div></div></td>
       <td data-label="Price"><span class="price-badge">${g.price || '-'}</span></td>
       <td data-label="Game #">${g.game_number || '-'}</td>
+      <td data-label="Tickets Printed">${num(g.tickets_printed)}</td>
+      <td data-label="Overall Odds">${g.overall_odds || '<span class="muted">-</span>'}</td>
       <td data-label="Top Prize">${money(g.top_prize_amount)}</td>
       <td data-label="Top Prize Left">${soldOutTop ? '<span class="sold-out">Sold out</span>' : `${num(g.top_prize_remaining)} / ${num(g.top_prize_total)}`}</td>
       <td data-label="Top Prize % Left">${pctBar(g.top_prize_pct_remaining)}</td>
@@ -512,7 +518,7 @@ function render() {
       const detailTr = document.createElement("tr");
       detailTr.className = "detail-row";
       const td = document.createElement("td");
-      td.colSpan = 10;
+      td.colSpan = 12;
       td.innerHTML = buildTierTable(g);
       detailTr.appendChild(td);
       tbody.appendChild(detailTr);

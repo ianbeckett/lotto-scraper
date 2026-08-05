@@ -24,10 +24,17 @@ on the site:
 - **All Prizes % Left** - how much of every prize tier combined is still unclaimed
 - **Remaining Cash Value** - total dollar value of all unclaimed prizes still in circulation for that game
 
-(Note: "Tickets Printed" and "Overall Odds," shown on the Explorer's
-per-game popup, aren't available from this page and require the JS-driven
-Explorer - they're static numbers set at print time anyway, so they're less
-useful than the "remaining" metrics above for deciding which ticket to buy.)
+It also pulls **Tickets Printed** and **Overall Odds** for every game from
+the Scratch Explorer page (`walottery.com/Scratch/Explorer.aspx`). That page
+renders its ticket-flip UI with JavaScript, but the data behind it -
+`TicketsPrinted`, `OverallOdds`, and per-game prize tiers for every active
+game - is embedded directly in the page's initial HTML as a JSON blob
+(`WaLottery.Scratch.data.all`), so a plain server-side request can read it
+without needing to run any JavaScript. `scraper.fetch_explorer_extras()`
+extracts that blob with a regex and merges `tickets_printed` /
+`overall_odds` into each game record by id. These are static numbers set at
+print time, so they're less useful than the "remaining" metrics above for
+deciding which ticket to buy, but they're shown for reference.
 
 ## Architecture
 
