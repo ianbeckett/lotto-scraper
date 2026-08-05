@@ -33,3 +33,8 @@ jobs:
           git add games.json
           git diff --quiet --cached || git commit -m "Update scratch ticket data ($(date -u +%Y-%m-%d))"
           git push
+
+  sync:
+    needs: scrape
+    uses: ./.github/workflows/sync-to-site.yml
+    secrets: inherit
