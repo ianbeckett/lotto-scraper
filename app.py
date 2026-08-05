@@ -287,7 +287,7 @@ INDEX_HTML = """<!DOCTYPE html>
     }
     tr.game-row.expanded { border-color: rgba(91, 140, 255, 0.4); }
 
-    tbody td {
+    #gamesTable > tbody > tr.game-row > td {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -297,9 +297,9 @@ INDEX_HTML = """<!DOCTYPE html>
       white-space: normal;
       text-align: right;
     }
-    tbody tr.game-row td:last-child { border-bottom: none; }
+    #gamesTable > tbody > tr.game-row > td:last-child { border-bottom: none; }
 
-    td[data-label]::before {
+    #gamesTable > tbody > tr.game-row > td[data-label]::before {
       content: attr(data-label);
       color: var(--muted);
       font-weight: 600;
@@ -310,17 +310,27 @@ INDEX_HTML = """<!DOCTYPE html>
       flex: 0 0 auto;
     }
 
-    td.name-td {
+    #gamesTable > tbody > tr.game-row > td.name-td {
       justify-content: flex-start;
       padding-top: 12px;
       padding-bottom: 10px;
     }
-    td.name-td::before { content: none; }
+    #gamesTable > tbody > tr.game-row > td.name-td::before { content: none; }
     .name-cell { width: 100%; }
     .name-text .gname { font-size: 14px; }
 
-    tr.detail-row { display: block; }
-    tr.detail-row td { display: block; padding: 4px 14px 14px; background: transparent; border: none; }
+    #gamesTable > tbody > tr.detail-row { display: block; }
+    #gamesTable > tbody > tr.detail-row > td {
+      display: block;
+      padding: 4px 14px 14px;
+      background: transparent;
+      border: none;
+      white-space: normal;
+    }
+
+    /* Prize tier detail table: keep it a real compact table, just make room */
+    .tier-table { min-width: 320px; font-size: 12px; }
+    .tier-table th, .tier-table td { padding: 6px 8px; }
   }
 </style>
 </head>
