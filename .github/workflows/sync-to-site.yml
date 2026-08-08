@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout lotto-scraper
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Checkout ibeckett.com
         uses: actions/checkout@v4
