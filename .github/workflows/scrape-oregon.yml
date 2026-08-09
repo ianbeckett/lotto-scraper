@@ -1,0 +1,58 @@
+name: Scrape Oregon Lottery Data
+
+on:
+  schedule:
+    # Daily, not hourly like WA - Oregon's own scratch-its list page says
+    # prize/ticket data is "updated once daily" on their end, and this
+    # scrape is much heavier than WA's (renders ~50-60 pages with a real
+    # headless browser instead of ~7 plain HTTP GETs), so there's nothing
+    # to gain from running it more often. Offset 15 minutes from the WA
+    # workflow's :00 trigger so they don't both start at once.
+    - cron: '15 13 * * *'
+  workflow_dispatch: {}   # lets you trigger a manual re-scrape from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  # Shared with scrape.yml's "scrape" job (same group name) so a WA scrape
+  # and an OR scrape can never run at the same time - both jobs commit to
+  # and push games.json on main, and OR's run takes minutes (headless
+  # browser, ~50-60 page loads) vs WA's seconds, so without this an
+  # overlapping run could push a stale games.json over a fresher one, or
+  # just fail outright on a non-fast-forward push. cancel-in-progress:
+  # false means an overlapping trigger waits its turn instead of being
+  # dropped, so a scheduled scrape is delayed rather than skipped.
+  group: games-json-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements-oregon.txt
+          playwright install --with-deps chromium
+
+      - name: Run Oregon scraper
+        run: python scraper_oregon.py
+
+      - name: Commit updated data (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add games.json
+          git diff --quiet --cached || git commit -m "Update Oregon scratch ticket data ($(date -u +%Y-%m-%d))"
+          git push
+
+  sync:
+    needs: scrape
+    uses: ./.github/workflows/sync-to-site.yml
+    secrets: inherit

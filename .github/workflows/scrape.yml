@@ -2,13 +2,20 @@ name: Scrape WA Lottery Data
 
 on:
   schedule:
-    # 13:00 UTC daily (~6am Pacific Daylight Time). Adjust if you want a
-    # different cadence - this is deliberately light-touch (once a day).
-    - cron: '0 13 * * *'
+    # Hourly, on the :00. WA Lottery's numbers don't update that often, but
+    # this keeps us close without hammering a small state site with no API.
+    - cron: '0 * * * *'
   workflow_dispatch: {}   # lets you trigger a manual re-scrape from the Actions tab
 
 permissions:
   contents: write
+
+concurrency:
+  # Shared with scrape-oregon.yml's "scrape" job (same group name) - see
+  # the comment there for why. cancel-in-progress: false means an
+  # overlapping trigger waits its turn instead of being dropped.
+  group: games-json-scrape
+  cancel-in-progress: false
 
 jobs:
   scrape:

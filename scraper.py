@@ -17,11 +17,13 @@ title link with the plain-text "$PRICE | GAME_NUMBER" line, an optional
 import re
 import time
 import json
-from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup, Tag, NavigableString
 
+import multistate
+
+STATE = "WA"
 BASE_URL = "https://walottery.com/Scratch/TopPrizesRemaining.aspx"
 PRICE_BRACKETS = ["$1", "$2", "$3", "$5", "$10", "$20", "$30"]
 
@@ -209,6 +211,7 @@ def _build_game_record(name, game_id, price, game_number, last_day_to_redeem, ti
 
     return {
         "id": game_id,
+        "state": STATE,
         "name": name,
         "price": price,
         "game_number": game_number,
@@ -277,15 +280,7 @@ def scrape_all(progress_cb=None):
 
 def scrape_and_save(out_path="games.json"):
     games, warnings = scrape_all()
-    payload = {
-        "scraped_at": datetime.now(timezone.utc).isoformat(),
-        "count": len(games),
-        "warnings": warnings,
-        "games": games,
-    }
-    with open(out_path, "w") as f:
-        json.dump(payload, f, indent=2)
-    return payload
+    return multistate.save_state_games(STATE, games, warnings, out_path=out_path)
 
 
 if __name__ == "__main__":

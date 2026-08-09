@@ -165,6 +165,12 @@
   thead th .arrow { opacity: 0; margin-left: 4px; font-size: 10px; }
   thead th.active .arrow { opacity: 1; }
 
+  .state-badge {
+    display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.03em; background: rgba(255,255,255,0.08); color: var(--muted); border: 1px solid var(--border);
+  }
+  #gamesTable.single-state .state-col { display: none; }
+
   tbody td { padding: 11px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr.game-row { transition: background 0.12s; }
@@ -293,7 +299,7 @@
       <div class="sub" id="lastUpdated"><span class="dot"></span>Loading...</div>
     </div>
   </div>
-  <a class="source-link" href="https://walottery.com/Scratch/TopPrizesRemaining.aspx" target="_blank" rel="noopener">
+  <a class="source-link" id="sourceLink" href="https://walottery.com/Scratch/TopPrizesRemaining.aspx" target="_blank" rel="noopener">
     Source: WA Lottery ↗
   </a>
 </header>
@@ -305,6 +311,8 @@
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
     <input type="text" id="search" placeholder="Search game name..." oninput="render()">
   </div>
+
+  <div class="chips" id="stateChips"></div>
 
   <div class="chips" id="priceChips"></div>
 
@@ -323,6 +331,7 @@
     <table id="gamesTable">
       <thead>
         <tr>
+          <th data-key="state" class="state-col">State<span class="arrow"></span></th>
           <th data-key="name">Game<span class="arrow"></span></th>
           <th data-key="price">Price<span class="arrow"></span></th>
           <th data-key="game_number">Game #<span class="arrow"></span></th>
@@ -347,19 +356,28 @@
 </div>
 
 <footer>
-  Data refreshes automatically once a day via a scheduled job. Not affiliated with Washington's Lottery.
+  WA data refreshes hourly, OR data refreshes daily, both via scheduled jobs. Not affiliated with
+  Washington's Lottery or the Oregon Lottery.
   See <a href="https://github.com/" target="_blank" rel="noopener">source on GitHub</a>.
 </footer>
 
 <script>
 let allGames = [];
+let latestData = null; // full games.json payload, kept around so switching states can recompute the header without re-fetching
 let sortKey = "top_prize_pct_remaining";
 let sortDir = -1; // -1 desc, 1 asc
 let expandedId = null;
 let activePrice = "";
+let activeState = "WA"; // "WA" | "OR" | "Combined"
 
 const PRICES = ["$1", "$2", "$3", "$5", "$10", "$20", "$30"];
+const STATES = ["WA", "OR"];
+const STATE_INFO = {
+  WA: { label: "WA", sourceLabel: "Source: WA Lottery ↗", sourceUrl: "https://walottery.com/Scratch/TopPrizesRemaining.aspx" },
+  OR: { label: "OR", sourceLabel: "Source: OR Lottery ↗", sourceUrl: "https://www.oregonlottery.org/scratch-its/list/" },
+};
 const COLUMNS = [
+  { key: "state", label: "State" },
   { key: "name", label: "Game" },
   { key: "price", label: "Price" },
   { key: "game_number", label: "Game #" },
@@ -392,6 +410,73 @@ function pctBar(p) {
   const clamped = Math.max(0, Math.min(100, p));
   const color = pctColor(clamped);
   return `<span class="pct-wrap"><span class="pct-num">${p.toFixed(1)}%</span><span class="pct-bar"><span class="pct-bar-fill" style="width:${clamped}%;background:${color}"></span></span></span>`;
+}
+
+function buildStateChips() {
+  const wrap = document.getElementById("stateChips");
+  wrap.innerHTML = "";
+  for (const s of STATES) {
+    const chip = document.createElement("div");
+    chip.className = "chip" + (s === activeState ? " active" : "");
+    chip.textContent = STATE_INFO[s].label;
+    chip.onclick = () => setState(s, chip);
+    wrap.appendChild(chip);
+  }
+  const combined = document.createElement("div");
+  combined.className = "chip" + (activeState === "Combined" ? " active" : "");
+  combined.textContent = "Combined";
+  combined.onclick = () => setState("Combined", combined);
+  wrap.appendChild(combined);
+}
+function setState(s, el) {
+  activeState = s;
+  document.querySelectorAll("#stateChips .chip").forEach(c => c.classList.remove("active"));
+  el.classList.add("active");
+  updateHeaderForState();
+  render();
+}
+
+function updateHeaderForState() {
+  const sourceLink = document.getElementById("sourceLink");
+  const lu = document.getElementById("lastUpdated");
+  const banner = document.getElementById("warningBanner");
+  if (!latestData) return;
+
+  const sources = latestData.sources || {};
+
+  if (activeState === "Combined") {
+    sourceLink.style.display = "none";
+    const scrapedAt = latestData.scraped_at;
+    lu.innerHTML = scrapedAt
+      ? ('<span class="dot"></span>Last updated: ' + new Date(scrapedAt).toLocaleString())
+      : "No data yet.";
+    const allWarnings = STATES.flatMap(s => (sources[s] && sources[s].warnings) || []);
+    if (allWarnings.length) {
+      banner.style.display = "block";
+      banner.textContent = "Warnings: " + allWarnings.join(" | ");
+    } else {
+      banner.style.display = "none";
+    }
+  } else {
+    const info = STATE_INFO[activeState];
+    sourceLink.style.display = "";
+    sourceLink.href = info.sourceUrl;
+    sourceLink.textContent = info.sourceLabel;
+    const src = sources[activeState];
+    const scrapedAt = src ? src.scraped_at : latestData.scraped_at;
+    lu.innerHTML = scrapedAt
+      ? ('<span class="dot"></span>Last updated: ' + new Date(scrapedAt).toLocaleString())
+      : "No data yet.";
+    const warnings = src ? src.warnings : (latestData.warnings || []);
+    if (warnings && warnings.length) {
+      banner.style.display = "block";
+      banner.textContent = "Warnings: " + warnings.join(" | ");
+    } else {
+      banner.style.display = "none";
+    }
+  }
+
+  document.getElementById("gamesTable").classList.toggle("single-state", activeState !== "Combined");
 }
 
 function buildChips() {
@@ -442,24 +527,16 @@ async function loadData() {
 }
 
 function applyData(data) {
+  latestData = data;
   allGames = data.games || [];
-  const banner = document.getElementById("warningBanner");
-  if (data.warnings && data.warnings.length) {
-    banner.style.display = "block";
-    banner.textContent = "Warnings: " + data.warnings.join(" | ");
-  } else {
-    banner.style.display = "none";
-  }
-  const lu = document.getElementById("lastUpdated");
-  lu.innerHTML = data.scraped_at
-    ? ('<span class="dot"></span>Last updated: ' + new Date(data.scraped_at).toLocaleString())
-    : "No data yet.";
+  updateHeaderForState();
   render();
 }
 
 function getFiltered() {
   const q = document.getElementById("search").value.trim().toLowerCase();
   let rows = allGames.filter(g => {
+    if (activeState !== "Combined" && g.state !== activeState) return false;
     if (activePrice && g.price !== activePrice) return false;
     if (q && !g.name.toLowerCase().includes(q)) return false;
     return true;
@@ -499,6 +576,7 @@ function render() {
     const soldOutTop = g.top_prize_remaining === 0;
 
     tr.innerHTML = `
+      <td data-label="State" class="state-col"><span class="state-badge">${g.state || '-'}</span></td>
       <td class="name-td"><div class="name-cell"><img src="${g.image_url || ''}" onerror="this.style.display='none'"><div class="name-text"><span class="gname">${g.name}</span><span class="gnum">#${g.game_number || '-'}</span></div></div></td>
       <td data-label="Price"><span class="price-badge">${g.price || '-'}</span></td>
       <td data-label="Game #">${g.game_number || '-'}</td>
@@ -518,7 +596,7 @@ function render() {
       const detailTr = document.createElement("tr");
       detailTr.className = "detail-row";
       const td = document.createElement("td");
-      td.colSpan = 12;
+      td.colSpan = 13;
       td.innerHTML = buildTierTable(g);
       detailTr.appendChild(td);
       tbody.appendChild(detailTr);
@@ -555,6 +633,7 @@ document.querySelectorAll("#gamesTable > thead th").forEach(th => {
   });
 });
 
+buildStateChips();
 buildChips();
 buildSortSelect();
 loadData();
