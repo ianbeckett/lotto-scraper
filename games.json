@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-10T01:05:14.432296+00:00",
-  "count": 108,
+  "scraped_at": "2026-08-10T03:45:02.216908+00:00",
+  "count": 110,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-08-10T01:05:14.432296+00:00",
-      "count": 55,
+      "scraped_at": "2026-08-10T03:45:02.216908+00:00",
+      "count": 57,
       "warnings": []
     },
     "OR": {
@@ -5918,6 +5918,109 @@
       ]
     },
     {
+      "id": "WA-1965",
+      "state": "WA",
+      "name": "PIXEL BINGO",
+      "price": "$3",
+      "game_number": "1965",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1965",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1965.jpg",
+      "top_prize_amount": 30000,
+      "top_prize_total": 5,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 5,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 1040321,
+      "total_prizes_remaining": 1040309,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 7680899,
+      "original_cash_value": 7680955,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 3940500,
+      "overall_odds": "1 in 3.79",
+      "prize_tiers": [
+        {
+          "amount": 30000,
+          "total": 5,
+          "paid": 0,
+          "remaining": 5
+        },
+        {
+          "amount": 1000,
+          "total": 10,
+          "paid": 0,
+          "remaining": 10
+        },
+        {
+          "amount": 500,
+          "total": 64,
+          "paid": 0,
+          "remaining": 64
+        },
+        {
+          "amount": 250,
+          "total": 653,
+          "paid": 0,
+          "remaining": 653
+        },
+        {
+          "amount": 200,
+          "total": 1285,
+          "paid": 0,
+          "remaining": 1285
+        },
+        {
+          "amount": 100,
+          "total": 1651,
+          "paid": 0,
+          "remaining": 1651
+        },
+        {
+          "amount": 75,
+          "total": 2128,
+          "paid": 0,
+          "remaining": 2128
+        },
+        {
+          "amount": 50,
+          "total": 19736,
+          "paid": 0,
+          "remaining": 19736
+        },
+        {
+          "amount": 25,
+          "total": 39568,
+          "paid": 0,
+          "remaining": 39568
+        },
+        {
+          "amount": 15,
+          "total": 49238,
+          "paid": 1,
+          "remaining": 49237
+        },
+        {
+          "amount": 10,
+          "total": 69048,
+          "paid": 0,
+          "remaining": 69048
+        },
+        {
+          "amount": 5,
+          "total": 384075,
+          "paid": 4,
+          "remaining": 384071
+        },
+        {
+          "amount": 3,
+          "total": 472860,
+          "paid": 7,
+          "remaining": 472853
+        }
+      ]
+    },
+    {
       "id": "WA-1944",
       "state": "WA",
       "name": "JACKPOT BINGO",
@@ -6114,6 +6217,97 @@
           "total": 354116,
           "paid": 257166,
           "remaining": 96950
+        }
+      ]
+    },
+    {
+      "id": "WA-2010",
+      "state": "WA",
+      "name": "SEATTLE SEAHAWKS",
+      "price": "$5",
+      "game_number": "2010",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2010",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2010.jpg",
+      "top_prize_amount": 50000,
+      "top_prize_total": 4,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 486270,
+      "total_prizes_remaining": 486254,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 5595890,
+      "original_cash_value": 5596095,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1658500,
+      "overall_odds": "1 in 3.41",
+      "prize_tiers": [
+        {
+          "amount": 50000,
+          "total": 4,
+          "paid": 0,
+          "remaining": 4
+        },
+        {
+          "amount": 1000,
+          "total": 8,
+          "paid": 0,
+          "remaining": 8
+        },
+        {
+          "amount": 500,
+          "total": 10,
+          "paid": 0,
+          "remaining": 10
+        },
+        {
+          "amount": 100,
+          "total": 1682,
+          "paid": 0,
+          "remaining": 1682
+        },
+        {
+          "amount": 75,
+          "total": 833,
+          "paid": 0,
+          "remaining": 833
+        },
+        {
+          "amount": 50,
+          "total": 34481,
+          "paid": 2,
+          "remaining": 34479
+        },
+        {
+          "amount": 30,
+          "total": 6924,
+          "paid": 0,
+          "remaining": 6924
+        },
+        {
+          "amount": 25,
+          "total": 2780,
+          "paid": 0,
+          "remaining": 2780
+        },
+        {
+          "amount": 20,
+          "total": 16576,
+          "paid": 1,
+          "remaining": 16575
+        },
+        {
+          "amount": 10,
+          "total": 140954,
+          "paid": 4,
+          "remaining": 140950
+        },
+        {
+          "amount": 5,
+          "total": 282018,
+          "paid": 9,
+          "remaining": 282009
         }
       ]
     },
