@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-17T03:42:16.153303+00:00",
-  "count": 108,
+  "scraped_at": "2026-08-17T04:32:52.449550+00:00",
+  "count": 111,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-08-17T03:42:16.153303+00:00",
-      "count": 56,
+      "scraped_at": "2026-08-17T04:32:52.449550+00:00",
+      "count": 59,
       "warnings": []
     },
     "OR": {
@@ -4580,6 +4580,91 @@
       "pct_tickets_sold": 26.07
     },
     {
+      "id": "WA-2016",
+      "state": "WA",
+      "name": "MONSTER MONEY",
+      "price": "$1",
+      "game_number": "2016",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2016",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2016.jpg",
+      "top_prize_amount": 2000,
+      "top_prize_total": 4,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 406869,
+      "total_prizes_remaining": 406864,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 975293,
+      "original_cash_value": 975304,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1590400,
+      "overall_odds": "1 in 3.91",
+      "prize_tiers": [
+        {
+          "amount": 2000,
+          "total": 4,
+          "paid": 0,
+          "remaining": 4
+        },
+        {
+          "amount": 100,
+          "total": 69,
+          "paid": 0,
+          "remaining": 69
+        },
+        {
+          "amount": 50,
+          "total": 132,
+          "paid": 0,
+          "remaining": 132
+        },
+        {
+          "amount": 30,
+          "total": 198,
+          "paid": 0,
+          "remaining": 198
+        },
+        {
+          "amount": 20,
+          "total": 874,
+          "paid": 0,
+          "remaining": 874
+        },
+        {
+          "amount": 10,
+          "total": 3966,
+          "paid": 0,
+          "remaining": 3966
+        },
+        {
+          "amount": 5,
+          "total": 29822,
+          "paid": 0,
+          "remaining": 29822
+        },
+        {
+          "amount": 4,
+          "total": 93444,
+          "paid": 2,
+          "remaining": 93442
+        },
+        {
+          "amount": 2,
+          "total": 89478,
+          "paid": 0,
+          "remaining": 89478
+        },
+        {
+          "amount": 1,
+          "total": 188882,
+          "paid": 3,
+          "remaining": 188879
+        }
+      ]
+    },
+    {
       "id": "WA-2005",
       "state": "WA",
       "name": "LUCKY DOG DOUBLER",
@@ -6032,6 +6117,103 @@
           "total": 354116,
           "paid": 261200,
           "remaining": 92916
+        }
+      ]
+    },
+    {
+      "id": "WA-2011",
+      "state": "WA",
+      "name": "PICK YOUR POTION",
+      "price": "$5",
+      "game_number": "2011",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2011",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2011.jpg",
+      "top_prize_amount": 50000,
+      "top_prize_total": 4,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 368226,
+      "total_prizes_remaining": 368224,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 4142210,
+      "original_cash_value": 4142225,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1228200,
+      "overall_odds": "1 in 3.34",
+      "prize_tiers": [
+        {
+          "amount": 50000,
+          "total": 4,
+          "paid": 0,
+          "remaining": 4
+        },
+        {
+          "amount": 1000,
+          "total": 6,
+          "paid": 0,
+          "remaining": 6
+        },
+        {
+          "amount": 500,
+          "total": 8,
+          "paid": 0,
+          "remaining": 8
+        },
+        {
+          "amount": 100,
+          "total": 126,
+          "paid": 0,
+          "remaining": 126
+        },
+        {
+          "amount": 75,
+          "total": 100,
+          "paid": 0,
+          "remaining": 100
+        },
+        {
+          "amount": 50,
+          "total": 25064,
+          "paid": 0,
+          "remaining": 25064
+        },
+        {
+          "amount": 30,
+          "total": 8259,
+          "paid": 0,
+          "remaining": 8259
+        },
+        {
+          "amount": 25,
+          "total": 3103,
+          "paid": 0,
+          "remaining": 3103
+        },
+        {
+          "amount": 20,
+          "total": 12300,
+          "paid": 0,
+          "remaining": 12300
+        },
+        {
+          "amount": 15,
+          "total": 6170,
+          "paid": 0,
+          "remaining": 6170
+        },
+        {
+          "amount": 10,
+          "total": 85920,
+          "paid": 1,
+          "remaining": 85919
+        },
+        {
+          "amount": 5,
+          "total": 227166,
+          "paid": 1,
+          "remaining": 227165
         }
       ]
     },
@@ -9078,6 +9260,91 @@
           "total": 123292,
           "paid": 39859,
           "remaining": 83433
+        }
+      ]
+    },
+    {
+      "id": "WA-1949",
+      "state": "WA",
+      "name": "$1,000,000 SIZZLING RICHES",
+      "price": "$20",
+      "game_number": "1949",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1949",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1949.jpg",
+      "top_prize_amount": 1000000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 559077,
+      "total_prizes_remaining": 559071,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 28429430,
+      "original_cash_value": 28429600,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1848900,
+      "overall_odds": "1 in 3.31",
+      "prize_tiers": [
+        {
+          "amount": 1000000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 50000,
+          "total": 5,
+          "paid": 0,
+          "remaining": 5
+        },
+        {
+          "amount": 5000,
+          "total": 20,
+          "paid": 0,
+          "remaining": 20
+        },
+        {
+          "amount": 1000,
+          "total": 120,
+          "paid": 0,
+          "remaining": 120
+        },
+        {
+          "amount": 500,
+          "total": 606,
+          "paid": 0,
+          "remaining": 606
+        },
+        {
+          "amount": 200,
+          "total": 16201,
+          "paid": 0,
+          "remaining": 16201
+        },
+        {
+          "amount": 100,
+          "total": 83422,
+          "paid": 0,
+          "remaining": 83422
+        },
+        {
+          "amount": 50,
+          "total": 88920,
+          "paid": 1,
+          "remaining": 88919
+        },
+        {
+          "amount": 25,
+          "total": 246520,
+          "paid": 4,
+          "remaining": 246516
+        },
+        {
+          "amount": 20,
+          "total": 123260,
+          "paid": 1,
+          "remaining": 123259
         }
       ]
     },
