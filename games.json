@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-20T22:18:19.059891+00:00",
-  "count": 111,
+  "scraped_at": "2026-08-20T23:17:52.349898+00:00",
+  "count": 112,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-08-20T22:18:19.059891+00:00",
-      "count": 59,
+      "scraped_at": "2026-08-20T23:17:52.349898+00:00",
+      "count": 60,
       "warnings": []
     },
     "OR": {
@@ -9752,6 +9752,85 @@
           "total": 246888,
           "paid": 113878,
           "remaining": 133010
+        }
+      ]
+    },
+    {
+      "id": "WA-1950",
+      "state": "WA",
+      "name": "$2,000,000 DIAMOND Dazzler",
+      "price": "$30",
+      "game_number": "1950",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1950",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1950.jpg",
+      "top_prize_amount": 2000000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 619348,
+      "total_prizes_remaining": 619348,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 43831700,
+      "original_cash_value": 43831700,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1852290,
+      "overall_odds": "1 in 2.99",
+      "prize_tiers": [
+        {
+          "amount": 2000000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 10000,
+          "total": 6,
+          "paid": 0,
+          "remaining": 6
+        },
+        {
+          "amount": 1000,
+          "total": 40,
+          "paid": 0,
+          "remaining": 40
+        },
+        {
+          "amount": 500,
+          "total": 1092,
+          "paid": 0,
+          "remaining": 1092
+        },
+        {
+          "amount": 200,
+          "total": 62365,
+          "paid": 0,
+          "remaining": 62365
+        },
+        {
+          "amount": 100,
+          "total": 61898,
+          "paid": 0,
+          "remaining": 61898
+        },
+        {
+          "amount": 50,
+          "total": 123486,
+          "paid": 0,
+          "remaining": 123486
+        },
+        {
+          "amount": 40,
+          "total": 123486,
+          "paid": 0,
+          "remaining": 123486
+        },
+        {
+          "amount": 30,
+          "total": 246972,
+          "paid": 0,
+          "remaining": 246972
         }
       ]
     },
