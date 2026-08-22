@@ -1,16 +1,12 @@
 {
-  "scraped_at": "2026-08-22T20:14:09.625915+00:00",
-  "count": 105,
-  "warnings": [
-    "Failed to fetch $20 bracket: HTTPSConnectionPool(host='walottery.com', port=443): Read timed out. (read timeout=20)"
-  ],
+  "scraped_at": "2026-08-22T21:13:37.045445+00:00",
+  "count": 112,
+  "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-08-22T20:14:09.625915+00:00",
-      "count": 53,
-      "warnings": [
-        "Failed to fetch $20 bracket: HTTPSConnectionPool(host='walottery.com', port=443): Read timed out. (read timeout=20)"
-      ]
+      "scraped_at": "2026-08-22T21:13:37.045445+00:00",
+      "count": 60,
+      "warnings": []
     },
     "OR": {
       "scraped_at": "2026-08-22T13:44:28.268527+00:00",
@@ -9021,6 +9017,583 @@
           "total": 291594,
           "paid": 248904,
           "remaining": 42690
+        }
+      ]
+    },
+    {
+      "id": "WA-2001",
+      "state": "WA",
+      "name": "LOTERIA SUPER GRANDE 5TH EDIT",
+      "price": "$20",
+      "game_number": "2001",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2001",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2001.jpg",
+      "top_prize_amount": 500000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 550983,
+      "total_prizes_remaining": 502280,
+      "total_prizes_pct_remaining": 91.16,
+      "remaining_cash_value": 25258155,
+      "original_cash_value": 27631360,
+      "cash_value_pct_remaining": 91.41,
+      "tickets_printed": 1851570,
+      "overall_odds": "1 in 3.36",
+      "prize_tiers": [
+        {
+          "amount": 500000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 50000,
+          "total": 2,
+          "paid": 1,
+          "remaining": 1
+        },
+        {
+          "amount": 5000,
+          "total": 20,
+          "paid": 4,
+          "remaining": 16
+        },
+        {
+          "amount": 1000,
+          "total": 40,
+          "paid": 2,
+          "remaining": 38
+        },
+        {
+          "amount": 500,
+          "total": 968,
+          "paid": 77,
+          "remaining": 891
+        },
+        {
+          "amount": 200,
+          "total": 26618,
+          "paid": 2386,
+          "remaining": 24232
+        },
+        {
+          "amount": 100,
+          "total": 75844,
+          "paid": 6846,
+          "remaining": 68998
+        },
+        {
+          "amount": 50,
+          "total": 77174,
+          "paid": 6811,
+          "remaining": 70363
+        },
+        {
+          "amount": 25,
+          "total": 246876,
+          "paid": 21767,
+          "remaining": 225109
+        },
+        {
+          "amount": 20,
+          "total": 123438,
+          "paid": 10809,
+          "remaining": 112629
+        }
+      ]
+    },
+    {
+      "id": "WA-1984",
+      "state": "WA",
+      "name": "$2,500 FRENZY",
+      "price": "$20",
+      "game_number": "1984",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1984",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1984.jpg",
+      "top_prize_amount": 2500,
+      "top_prize_total": 672,
+      "top_prize_paid": 571,
+      "top_prize_remaining": 101,
+      "top_prize_pct_remaining": 15.03,
+      "total_prizes_total": 264291,
+      "total_prizes_remaining": 42391,
+      "total_prizes_pct_remaining": 16.04,
+      "remaining_cash_value": 2165345,
+      "original_cash_value": 13853770,
+      "cash_value_pct_remaining": 15.63,
+      "tickets_printed": 926490,
+      "overall_odds": "1 in 3.51",
+      "prize_tiers": [
+        {
+          "amount": 2500,
+          "total": 672,
+          "paid": 571,
+          "remaining": 101
+        },
+        {
+          "amount": 1000,
+          "total": 20,
+          "paid": 18,
+          "remaining": 2
+        },
+        {
+          "amount": 500,
+          "total": 124,
+          "paid": 105,
+          "remaining": 19
+        },
+        {
+          "amount": 200,
+          "total": 15331,
+          "paid": 12934,
+          "remaining": 2397
+        },
+        {
+          "amount": 100,
+          "total": 31193,
+          "paid": 26500,
+          "remaining": 4693
+        },
+        {
+          "amount": 50,
+          "total": 31653,
+          "paid": 26686,
+          "remaining": 4967
+        },
+        {
+          "amount": 25,
+          "total": 123532,
+          "paid": 103521,
+          "remaining": 20011
+        },
+        {
+          "amount": 20,
+          "total": 61766,
+          "paid": 51565,
+          "remaining": 10201
+        }
+      ]
+    },
+    {
+      "id": "WA-1968",
+      "state": "WA",
+      "name": "LUCKY 7 BONUS",
+      "price": "$20",
+      "game_number": "1968",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1968",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1968.jpg",
+      "top_prize_amount": 500000,
+      "top_prize_total": 5,
+      "top_prize_paid": 1,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 80.0,
+      "total_prizes_total": 526657,
+      "total_prizes_remaining": 344543,
+      "total_prizes_pct_remaining": 65.42,
+      "remaining_cash_value": 18282805,
+      "original_cash_value": 27567290,
+      "cash_value_pct_remaining": 66.32,
+      "tickets_printed": 1849380,
+      "overall_odds": "1 in 3.51",
+      "prize_tiers": [
+        {
+          "amount": 500000,
+          "total": 5,
+          "paid": 1,
+          "remaining": 4
+        },
+        {
+          "amount": 50000,
+          "total": 5,
+          "paid": 3,
+          "remaining": 2
+        },
+        {
+          "amount": 5000,
+          "total": 20,
+          "paid": 7,
+          "remaining": 13
+        },
+        {
+          "amount": 1000,
+          "total": 60,
+          "paid": 20,
+          "remaining": 40
+        },
+        {
+          "amount": 500,
+          "total": 923,
+          "paid": 323,
+          "remaining": 600
+        },
+        {
+          "amount": 200,
+          "total": 30786,
+          "paid": 10840,
+          "remaining": 19946
+        },
+        {
+          "amount": 100,
+          "total": 63181,
+          "paid": 22301,
+          "remaining": 40880
+        },
+        {
+          "amount": 50,
+          "total": 61801,
+          "paid": 20700,
+          "remaining": 41101
+        },
+        {
+          "amount": 25,
+          "total": 246584,
+          "paid": 85301,
+          "remaining": 161283
+        },
+        {
+          "amount": 20,
+          "total": 123292,
+          "paid": 42618,
+          "remaining": 80674
+        }
+      ]
+    },
+    {
+      "id": "WA-1949",
+      "state": "WA",
+      "name": "$1,000,000 SIZZLING RICHES",
+      "price": "$20",
+      "game_number": "1949",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1949",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1949.jpg",
+      "top_prize_amount": 1000000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 559077,
+      "total_prizes_remaining": 555811,
+      "total_prizes_pct_remaining": 99.42,
+      "remaining_cash_value": 28284180,
+      "original_cash_value": 28429600,
+      "cash_value_pct_remaining": 99.49,
+      "tickets_printed": 1848900,
+      "overall_odds": "1 in 3.31",
+      "prize_tiers": [
+        {
+          "amount": 1000000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 50000,
+          "total": 5,
+          "paid": 0,
+          "remaining": 5
+        },
+        {
+          "amount": 5000,
+          "total": 20,
+          "paid": 0,
+          "remaining": 20
+        },
+        {
+          "amount": 1000,
+          "total": 120,
+          "paid": 0,
+          "remaining": 120
+        },
+        {
+          "amount": 500,
+          "total": 606,
+          "paid": 2,
+          "remaining": 604
+        },
+        {
+          "amount": 200,
+          "total": 16201,
+          "paid": 91,
+          "remaining": 16110
+        },
+        {
+          "amount": 100,
+          "total": 83422,
+          "paid": 502,
+          "remaining": 82920
+        },
+        {
+          "amount": 50,
+          "total": 88920,
+          "paid": 514,
+          "remaining": 88406
+        },
+        {
+          "amount": 25,
+          "total": 246520,
+          "paid": 1436,
+          "remaining": 245084
+        },
+        {
+          "amount": 20,
+          "total": 123260,
+          "paid": 721,
+          "remaining": 122539
+        }
+      ]
+    },
+    {
+      "id": "WA-1948",
+      "state": "WA",
+      "name": "LOTERIA SUPER GRANDE!",
+      "price": "$20",
+      "game_number": "1948",
+      "last_day_to_redeem": "02/09/27",
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1948",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1948.jpg",
+      "top_prize_amount": 500000,
+      "top_prize_total": 3,
+      "top_prize_paid": 3,
+      "top_prize_remaining": 0,
+      "top_prize_pct_remaining": 0.0,
+      "total_prizes_total": 550724,
+      "total_prizes_remaining": 119231,
+      "total_prizes_pct_remaining": 21.65,
+      "remaining_cash_value": 5552055,
+      "original_cash_value": 27620140,
+      "cash_value_pct_remaining": 20.1,
+      "tickets_printed": 1850730,
+      "overall_odds": "1 in 3.36",
+      "prize_tiers": [
+        {
+          "amount": 500000,
+          "total": 3,
+          "paid": 3,
+          "remaining": 0
+        },
+        {
+          "amount": 50000,
+          "total": 2,
+          "paid": 2,
+          "remaining": 0
+        },
+        {
+          "amount": 5000,
+          "total": 20,
+          "paid": 15,
+          "remaining": 5
+        },
+        {
+          "amount": 1000,
+          "total": 40,
+          "paid": 32,
+          "remaining": 8
+        },
+        {
+          "amount": 500,
+          "total": 971,
+          "paid": 767,
+          "remaining": 204
+        },
+        {
+          "amount": 200,
+          "total": 26601,
+          "paid": 21105,
+          "remaining": 5496
+        },
+        {
+          "amount": 100,
+          "total": 75813,
+          "paid": 59748,
+          "remaining": 16065
+        },
+        {
+          "amount": 50,
+          "total": 77128,
+          "paid": 60690,
+          "remaining": 16438
+        },
+        {
+          "amount": 25,
+          "total": 246764,
+          "paid": 192933,
+          "remaining": 53831
+        },
+        {
+          "amount": 20,
+          "total": 123382,
+          "paid": 96198,
+          "remaining": 27184
+        }
+      ]
+    },
+    {
+      "id": "WA-1783",
+      "state": "WA",
+      "name": "MONEY MADNESS",
+      "price": "$20",
+      "game_number": "1783",
+      "last_day_to_redeem": "11/24/26",
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1783",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1783.jpg",
+      "top_prize_amount": 500000,
+      "top_prize_total": 5,
+      "top_prize_paid": 5,
+      "top_prize_remaining": 0,
+      "top_prize_pct_remaining": 0.0,
+      "total_prizes_total": 527067,
+      "total_prizes_remaining": 48566,
+      "total_prizes_pct_remaining": 9.21,
+      "remaining_cash_value": 2279420,
+      "original_cash_value": 27585450,
+      "cash_value_pct_remaining": 8.26,
+      "tickets_printed": 1850850,
+      "overall_odds": "1 in 3.51",
+      "prize_tiers": [
+        {
+          "amount": 500000,
+          "total": 5,
+          "paid": 5,
+          "remaining": 0
+        },
+        {
+          "amount": 50000,
+          "total": 5,
+          "paid": 4,
+          "remaining": 1
+        },
+        {
+          "amount": 5000,
+          "total": 20,
+          "paid": 18,
+          "remaining": 2
+        },
+        {
+          "amount": 1000,
+          "total": 60,
+          "paid": 54,
+          "remaining": 6
+        },
+        {
+          "amount": 500,
+          "total": 927,
+          "paid": 845,
+          "remaining": 82
+        },
+        {
+          "amount": 200,
+          "total": 30789,
+          "paid": 27988,
+          "remaining": 2801
+        },
+        {
+          "amount": 100,
+          "total": 63246,
+          "paid": 57973,
+          "remaining": 5273
+        },
+        {
+          "amount": 50,
+          "total": 61845,
+          "paid": 56481,
+          "remaining": 5364
+        },
+        {
+          "amount": 25,
+          "total": 246780,
+          "paid": 223584,
+          "remaining": 23196
+        },
+        {
+          "amount": 20,
+          "total": 123390,
+          "paid": 111549,
+          "remaining": 11841
+        }
+      ]
+    },
+    {
+      "id": "WA-1780",
+      "state": "WA",
+      "name": "$1,000,000 DIAMOND DAZZLER",
+      "price": "$20",
+      "game_number": "1780",
+      "last_day_to_redeem": "10/21/26",
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1780",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1780.jpg",
+      "top_prize_amount": 50000,
+      "top_prize_total": 5,
+      "top_prize_paid": 4,
+      "top_prize_remaining": 1,
+      "top_prize_pct_remaining": 20.0,
+      "total_prizes_total": 760356,
+      "total_prizes_remaining": 107068,
+      "total_prizes_pct_remaining": 14.08,
+      "remaining_cash_value": 4792965,
+      "original_cash_value": 34921450,
+      "cash_value_pct_remaining": 13.72,
+      "tickets_printed": 2582100,
+      "overall_odds": "1 in 3.40",
+      "prize_tiers": [
+        {
+          "amount": 50000,
+          "total": 5,
+          "paid": 4,
+          "remaining": 1
+        },
+        {
+          "amount": 5000,
+          "total": 20,
+          "paid": 16,
+          "remaining": 4
+        },
+        {
+          "amount": 1000,
+          "total": 80,
+          "paid": 67,
+          "remaining": 13
+        },
+        {
+          "amount": 500,
+          "total": 1289,
+          "paid": 1121,
+          "remaining": 168
+        },
+        {
+          "amount": 200,
+          "total": 29232,
+          "paid": 25378,
+          "remaining": 3854
+        },
+        {
+          "amount": 100,
+          "total": 105705,
+          "paid": 91846,
+          "remaining": 13859
+        },
+        {
+          "amount": 50,
+          "total": 107605,
+          "paid": 93027,
+          "remaining": 14578
+        },
+        {
+          "amount": 25,
+          "total": 344280,
+          "paid": 294571,
+          "remaining": 49709
+        },
+        {
+          "amount": 20,
+          "total": 172140,
+          "paid": 147258,
+          "remaining": 24882
         }
       ]
     },
