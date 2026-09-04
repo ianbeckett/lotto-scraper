@@ -1,16 +1,12 @@
 {
-  "scraped_at": "2026-09-04T10:14:27.807260+00:00",
-  "count": 106,
-  "warnings": [
-    "Failed to fetch $2 bracket: HTTPSConnectionPool(host='walottery.com', port=443): Read timed out. (read timeout=20)"
-  ],
+  "scraped_at": "2026-09-04T14:38:37.968152+00:00",
+  "count": 110,
+  "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-09-04T10:14:27.807260+00:00",
-      "count": 54,
-      "warnings": [
-        "Failed to fetch $2 bracket: HTTPSConnectionPool(host='walottery.com', port=443): Read timed out. (read timeout=20)"
-      ]
+      "scraped_at": "2026-09-04T14:38:37.968152+00:00",
+      "count": 58,
+      "warnings": []
     },
     "OR": {
       "scraped_at": "2026-09-03T17:03:29.044478+00:00",
@@ -4926,6 +4922,340 @@
           "total": 341067,
           "paid": 259796,
           "remaining": 81271
+        }
+      ]
+    },
+    {
+      "id": "WA-1992",
+      "state": "WA",
+      "name": "TIC TAC TRIPLER",
+      "price": "$2",
+      "game_number": "1992",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1992",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1992.jpg",
+      "top_prize_amount": 20000,
+      "top_prize_total": 4,
+      "top_prize_paid": 2,
+      "top_prize_remaining": 2,
+      "top_prize_pct_remaining": 50.0,
+      "total_prizes_total": 644911,
+      "total_prizes_remaining": 420634,
+      "total_prizes_pct_remaining": 65.22,
+      "remaining_cash_value": 2376957,
+      "original_cash_value": 3680159,
+      "cash_value_pct_remaining": 64.59,
+      "tickets_printed": 2833100,
+      "overall_odds": "1 in 4.39",
+      "prize_tiers": [
+        {
+          "amount": 20000,
+          "total": 4,
+          "paid": 2,
+          "remaining": 2
+        },
+        {
+          "amount": 500,
+          "total": 10,
+          "paid": 3,
+          "remaining": 7
+        },
+        {
+          "amount": 90,
+          "total": 20,
+          "paid": 5,
+          "remaining": 15
+        },
+        {
+          "amount": 30,
+          "total": 7399,
+          "paid": 2686,
+          "remaining": 4713
+        },
+        {
+          "amount": 18,
+          "total": 7098,
+          "paid": 2553,
+          "remaining": 4545
+        },
+        {
+          "amount": 10,
+          "total": 21233,
+          "paid": 7591,
+          "remaining": 13642
+        },
+        {
+          "amount": 9,
+          "total": 99208,
+          "paid": 35171,
+          "remaining": 64037
+        },
+        {
+          "amount": 6,
+          "total": 198136,
+          "paid": 69184,
+          "remaining": 128952
+        },
+        {
+          "amount": 4,
+          "total": 85075,
+          "paid": 29814,
+          "remaining": 55261
+        },
+        {
+          "amount": 3,
+          "total": 155851,
+          "paid": 53373,
+          "remaining": 102478
+        },
+        {
+          "amount": 2,
+          "total": 70877,
+          "paid": 23895,
+          "remaining": 46982
+        }
+      ]
+    },
+    {
+      "id": "WA-1990",
+      "state": "WA",
+      "name": "CELEBRATE",
+      "price": "$2",
+      "game_number": "1990",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1990",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1990.jpg",
+      "top_prize_amount": 100,
+      "top_prize_total": 1045,
+      "top_prize_paid": 486,
+      "top_prize_remaining": 559,
+      "top_prize_pct_remaining": 53.49,
+      "total_prizes_total": 648386,
+      "total_prizes_remaining": 369189,
+      "total_prizes_pct_remaining": 56.94,
+      "remaining_cash_value": 2083887,
+      "original_cash_value": 3695030,
+      "cash_value_pct_remaining": 56.4,
+      "tickets_printed": 2840200,
+      "overall_odds": "1 in 4.38",
+      "prize_tiers": [
+        {
+          "amount": 100,
+          "total": 1045,
+          "paid": 486,
+          "remaining": 559
+        },
+        {
+          "amount": 50,
+          "total": 238,
+          "paid": 114,
+          "remaining": 124
+        },
+        {
+          "amount": 30,
+          "total": 946,
+          "paid": 419,
+          "remaining": 527
+        },
+        {
+          "amount": 20,
+          "total": 28402,
+          "paid": 12668,
+          "remaining": 15734
+        },
+        {
+          "amount": 10,
+          "total": 99422,
+          "paid": 43764,
+          "remaining": 55658
+        },
+        {
+          "amount": 5,
+          "total": 205818,
+          "paid": 88945,
+          "remaining": 116873
+        },
+        {
+          "amount": 4,
+          "total": 92375,
+          "paid": 39860,
+          "remaining": 52515
+        },
+        {
+          "amount": 3,
+          "total": 149120,
+          "paid": 63226,
+          "remaining": 85894
+        },
+        {
+          "amount": 2,
+          "total": 71020,
+          "paid": 29715,
+          "remaining": 41305
+        }
+      ]
+    },
+    {
+      "id": "WA-1972",
+      "state": "WA",
+      "name": "LOTERIA 29TH EDITION",
+      "price": "$2",
+      "game_number": "1972",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1972",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1972.jpg",
+      "top_prize_amount": 20000,
+      "top_prize_total": 5,
+      "top_prize_paid": 3,
+      "top_prize_remaining": 2,
+      "top_prize_pct_remaining": 40.0,
+      "total_prizes_total": 1507735,
+      "total_prizes_remaining": 479143,
+      "total_prizes_pct_remaining": 31.78,
+      "remaining_cash_value": 2165761,
+      "original_cash_value": 7109274,
+      "cash_value_pct_remaining": 30.46,
+      "tickets_printed": 5470100,
+      "overall_odds": "1 in 3.63",
+      "prize_tiers": [
+        {
+          "amount": 20000,
+          "total": 5,
+          "paid": 3,
+          "remaining": 2
+        },
+        {
+          "amount": 200,
+          "total": 361,
+          "paid": 267,
+          "remaining": 94
+        },
+        {
+          "amount": 50,
+          "total": 3083,
+          "paid": 2210,
+          "remaining": 873
+        },
+        {
+          "amount": 20,
+          "total": 68372,
+          "paid": 48909,
+          "remaining": 19463
+        },
+        {
+          "amount": 15,
+          "total": 54701,
+          "paid": 39336,
+          "remaining": 15365
+        },
+        {
+          "amount": 10,
+          "total": 82078,
+          "paid": 58068,
+          "remaining": 24010
+        },
+        {
+          "amount": 5,
+          "total": 287122,
+          "paid": 199452,
+          "remaining": 87670
+        },
+        {
+          "amount": 3,
+          "total": 314553,
+          "paid": 212759,
+          "remaining": 101794
+        },
+        {
+          "amount": 2,
+          "total": 697460,
+          "paid": 467588,
+          "remaining": 229872
+        }
+      ]
+    },
+    {
+      "id": "WA-1953",
+      "state": "WA",
+      "name": "DOUBLE DOLLAR$",
+      "price": "$2",
+      "game_number": "1953",
+      "last_day_to_redeem": "12/10/26",
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1953",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1953.jpg",
+      "top_prize_amount": 20000,
+      "top_prize_total": 4,
+      "top_prize_paid": 4,
+      "top_prize_remaining": 0,
+      "top_prize_pct_remaining": 0.0,
+      "total_prizes_total": 646702,
+      "total_prizes_remaining": 115812,
+      "total_prizes_pct_remaining": 17.91,
+      "remaining_cash_value": 614163,
+      "original_cash_value": 3684305,
+      "cash_value_pct_remaining": 16.67,
+      "tickets_printed": 2834100,
+      "overall_odds": "1 in 4.38",
+      "prize_tiers": [
+        {
+          "amount": 20000,
+          "total": 4,
+          "paid": 4,
+          "remaining": 0
+        },
+        {
+          "amount": 100,
+          "total": 20,
+          "paid": 18,
+          "remaining": 2
+        },
+        {
+          "amount": 50,
+          "total": 98,
+          "paid": 86,
+          "remaining": 12
+        },
+        {
+          "amount": 30,
+          "total": 1826,
+          "paid": 1583,
+          "remaining": 243
+        },
+        {
+          "amount": 20,
+          "total": 28341,
+          "paid": 24154,
+          "remaining": 4187
+        },
+        {
+          "amount": 10,
+          "total": 99128,
+          "paid": 82875,
+          "remaining": 16253
+        },
+        {
+          "amount": 5,
+          "total": 205731,
+          "paid": 170131,
+          "remaining": 35600
+        },
+        {
+          "amount": 4,
+          "total": 91995,
+          "paid": 74771,
+          "remaining": 17224
+        },
+        {
+          "amount": 3,
+          "total": 148772,
+          "paid": 120447,
+          "remaining": 28325
+        },
+        {
+          "amount": 2,
+          "total": 70787,
+          "paid": 56821,
+          "remaining": 13966
         }
       ]
     },
