@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-08T02:15:48.137136+00:00",
-  "count": 110,
+  "scraped_at": "2026-09-08T07:36:13.719420+00:00",
+  "count": 109,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-09-08T02:15:48.137136+00:00",
-      "count": 58,
+      "scraped_at": "2026-09-08T07:36:13.719420+00:00",
+      "count": 57,
       "warnings": []
     },
     "OR": {
@@ -7300,109 +7300,6 @@
           "total": 568608,
           "paid": 464017,
           "remaining": 104591
-        }
-      ]
-    },
-    {
-      "id": "WA-1940",
-      "state": "WA",
-      "name": "LOTERIA GRANDE 12TH EDITION",
-      "price": "$5",
-      "game_number": "1940",
-      "last_day_to_redeem": "09/08/26",
-      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1940",
-      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1940.jpg",
-      "top_prize_amount": 50000,
-      "top_prize_total": 4,
-      "top_prize_paid": 4,
-      "top_prize_remaining": 0,
-      "top_prize_pct_remaining": 0.0,
-      "total_prizes_total": 966642,
-      "total_prizes_remaining": 114350,
-      "total_prizes_pct_remaining": 11.83,
-      "remaining_cash_value": 1129725,
-      "original_cash_value": 10826075,
-      "cash_value_pct_remaining": 10.44,
-      "tickets_printed": 3208000,
-      "overall_odds": "1 in 3.32",
-      "prize_tiers": [
-        {
-          "amount": 50000,
-          "total": 4,
-          "paid": 4,
-          "remaining": 0
-        },
-        {
-          "amount": 1000,
-          "total": 6,
-          "paid": 6,
-          "remaining": 0
-        },
-        {
-          "amount": 500,
-          "total": 8,
-          "paid": 8,
-          "remaining": 0
-        },
-        {
-          "amount": 250,
-          "total": 158,
-          "paid": 138,
-          "remaining": 20
-        },
-        {
-          "amount": 100,
-          "total": 219,
-          "paid": 199,
-          "remaining": 20
-        },
-        {
-          "amount": 75,
-          "total": 324,
-          "paid": 299,
-          "remaining": 25
-        },
-        {
-          "amount": 50,
-          "total": 65505,
-          "paid": 59603,
-          "remaining": 5902
-        },
-        {
-          "amount": 40,
-          "total": 20185,
-          "paid": 18382,
-          "remaining": 1803
-        },
-        {
-          "amount": 25,
-          "total": 14101,
-          "paid": 12623,
-          "remaining": 1478
-        },
-        {
-          "amount": 20,
-          "total": 32116,
-          "paid": 28954,
-          "remaining": 3162
-        },
-        {
-          "amount": 15,
-          "total": 16054,
-          "paid": 14337,
-          "remaining": 1717
-        },
-        {
-          "amount": 10,
-          "total": 224452,
-          "paid": 199138,
-          "remaining": 25314
-        },
-        {
-          "amount": 5,
-          "total": 593510,
-          "paid": 518601,
-          "remaining": 74909
         }
       ]
     },
