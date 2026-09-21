@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-21T11:32:51.492689+00:00",
-  "count": 108,
+  "scraped_at": "2026-09-21T17:30:49.198885+00:00",
+  "count": 110,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-09-21T11:32:51.492689+00:00",
-      "count": 57,
+      "scraped_at": "2026-09-21T17:30:49.198885+00:00",
+      "count": 59,
       "warnings": []
     },
     "OR": {
@@ -5257,6 +5257,109 @@
       ]
     },
     {
+      "id": "WA-1995",
+      "state": "WA",
+      "name": "ITS TIME TO SLINGO",
+      "price": "$3",
+      "game_number": "1995",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1995",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1995.jpg",
+      "top_prize_amount": 30000,
+      "top_prize_total": 6,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 6,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 947721,
+      "total_prizes_remaining": 947671,
+      "total_prizes_pct_remaining": 99.99,
+      "remaining_cash_value": 7699376,
+      "original_cash_value": 7699786,
+      "cash_value_pct_remaining": 99.99,
+      "tickets_printed": 3952200,
+      "overall_odds": "1 in 4.17",
+      "prize_tiers": [
+        {
+          "amount": 30000,
+          "total": 6,
+          "paid": 0,
+          "remaining": 6
+        },
+        {
+          "amount": 1000,
+          "total": 100,
+          "paid": 0,
+          "remaining": 100
+        },
+        {
+          "amount": 500,
+          "total": 324,
+          "paid": 0,
+          "remaining": 324
+        },
+        {
+          "amount": 100,
+          "total": 3293,
+          "paid": 0,
+          "remaining": 3293
+        },
+        {
+          "amount": 90,
+          "total": 1303,
+          "paid": 1,
+          "remaining": 1302
+        },
+        {
+          "amount": 50,
+          "total": 2447,
+          "paid": 0,
+          "remaining": 2447
+        },
+        {
+          "amount": 30,
+          "total": 41161,
+          "paid": 1,
+          "remaining": 41160
+        },
+        {
+          "amount": 20,
+          "total": 39522,
+          "paid": 1,
+          "remaining": 39521
+        },
+        {
+          "amount": 15,
+          "total": 49410,
+          "paid": 2,
+          "remaining": 49408
+        },
+        {
+          "amount": 10,
+          "total": 79044,
+          "paid": 6,
+          "remaining": 79038
+        },
+        {
+          "amount": 6,
+          "total": 207499,
+          "paid": 13,
+          "remaining": 207486
+        },
+        {
+          "amount": 5,
+          "total": 158088,
+          "paid": 12,
+          "remaining": 158076
+        },
+        {
+          "amount": 3,
+          "total": 365524,
+          "paid": 14,
+          "remaining": 365510
+        }
+      ]
+    },
+    {
       "id": "WA-1994",
       "state": "WA",
       "name": "LOTERIA EXTRA! 4TH EDITION",
@@ -5932,6 +6035,109 @@
           "total": 354116,
           "paid": 278531,
           "remaining": 75585
+        }
+      ]
+    },
+    {
+      "id": "WA-2013",
+      "state": "WA",
+      "name": "LOTERIA GRANDE 14TH EDITION",
+      "price": "$5",
+      "game_number": "2013",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2013",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2013.jpg",
+      "top_prize_amount": 50000,
+      "top_prize_total": 4,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 984413,
+      "total_prizes_remaining": 984372,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 11022250,
+      "original_cash_value": 11022645,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 3267400,
+      "overall_odds": "1 in 3.32",
+      "prize_tiers": [
+        {
+          "amount": 50000,
+          "total": 4,
+          "paid": 0,
+          "remaining": 4
+        },
+        {
+          "amount": 1000,
+          "total": 6,
+          "paid": 0,
+          "remaining": 6
+        },
+        {
+          "amount": 500,
+          "total": 8,
+          "paid": 0,
+          "remaining": 8
+        },
+        {
+          "amount": 250,
+          "total": 164,
+          "paid": 0,
+          "remaining": 164
+        },
+        {
+          "amount": 100,
+          "total": 219,
+          "paid": 0,
+          "remaining": 219
+        },
+        {
+          "amount": 75,
+          "total": 329,
+          "paid": 0,
+          "remaining": 329
+        },
+        {
+          "amount": 50,
+          "total": 66702,
+          "paid": 2,
+          "remaining": 66700
+        },
+        {
+          "amount": 40,
+          "total": 20599,
+          "paid": 1,
+          "remaining": 20598
+        },
+        {
+          "amount": 25,
+          "total": 14318,
+          "paid": 1,
+          "remaining": 14317
+        },
+        {
+          "amount": 20,
+          "total": 32774,
+          "paid": 0,
+          "remaining": 32774
+        },
+        {
+          "amount": 15,
+          "total": 16404,
+          "paid": 0,
+          "remaining": 16404
+        },
+        {
+          "amount": 10,
+          "total": 228418,
+          "paid": 9,
+          "remaining": 228409
+        },
+        {
+          "amount": 5,
+          "total": 604468,
+          "paid": 28,
+          "remaining": 604440
         }
       ]
     },
