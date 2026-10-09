@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-10-09T19:56:20.782719+00:00",
-  "count": 109,
+  "scraped_at": "2026-10-09T23:46:10.057339+00:00",
+  "count": 110,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-10-09T19:56:20.782719+00:00",
-      "count": 58,
+      "scraped_at": "2026-10-09T23:46:10.057339+00:00",
+      "count": 59,
       "warnings": []
     },
     "OR": {
@@ -5174,6 +5174,103 @@
           "total": 70787,
           "paid": 56932,
           "remaining": 13855
+        }
+      ]
+    },
+    {
+      "id": "WA-2014",
+      "state": "WA",
+      "name": "LOTERIA EXTRA! 5TH EDITION",
+      "price": "$3",
+      "game_number": "2014",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2014",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2014.jpg",
+      "top_prize_amount": 30000,
+      "top_prize_total": 4,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 647514,
+      "total_prizes_remaining": 647514,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 5253318,
+      "original_cash_value": 5253318,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 2687400,
+      "overall_odds": "1 in 4.15",
+      "prize_tiers": [
+        {
+          "amount": 30000,
+          "total": 4,
+          "paid": 0,
+          "remaining": 4
+        },
+        {
+          "amount": 500,
+          "total": 339,
+          "paid": 0,
+          "remaining": 339
+        },
+        {
+          "amount": 200,
+          "total": 555,
+          "paid": 0,
+          "remaining": 555
+        },
+        {
+          "amount": 100,
+          "total": 1115,
+          "paid": 0,
+          "remaining": 1115
+        },
+        {
+          "amount": 75,
+          "total": 2258,
+          "paid": 0,
+          "remaining": 2258
+        },
+        {
+          "amount": 50,
+          "total": 3701,
+          "paid": 0,
+          "remaining": 3701
+        },
+        {
+          "amount": 30,
+          "total": 27985,
+          "paid": 0,
+          "remaining": 27985
+        },
+        {
+          "amount": 20,
+          "total": 26874,
+          "paid": 0,
+          "remaining": 26874
+        },
+        {
+          "amount": 15,
+          "total": 33565,
+          "paid": 0,
+          "remaining": 33565
+        },
+        {
+          "amount": 10,
+          "total": 60421,
+          "paid": 0,
+          "remaining": 60421
+        },
+        {
+          "amount": 5,
+          "total": 215056,
+          "paid": 0,
+          "remaining": 215056
+        },
+        {
+          "amount": 3,
+          "total": 275641,
+          "paid": 0,
+          "remaining": 275641
         }
       ]
     },
