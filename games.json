@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-10-18T19:07:03.013563+00:00",
-  "count": 106,
+  "scraped_at": "2026-10-18T22:05:39.516695+00:00",
+  "count": 111,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-10-18T19:07:03.013563+00:00",
-      "count": 59,
+      "scraped_at": "2026-10-18T22:05:39.516695+00:00",
+      "count": 64,
       "warnings": []
     },
     "OR": {
@@ -4122,6 +4122,91 @@
       "pct_tickets_sold": 11.44
     },
     {
+      "id": "WA-2023",
+      "state": "WA",
+      "name": "WHITE ELEPHANT",
+      "price": "$1",
+      "game_number": "2023",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2023",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2023.jpg",
+      "top_prize_amount": 2000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 482697,
+      "total_prizes_remaining": 482671,
+      "total_prizes_pct_remaining": 99.99,
+      "remaining_cash_value": 1134373,
+      "original_cash_value": 1134437,
+      "cash_value_pct_remaining": 99.99,
+      "tickets_printed": 1850200,
+      "overall_odds": "1 in 3.83",
+      "prize_tiers": [
+        {
+          "amount": 2000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 100,
+          "total": 60,
+          "paid": 0,
+          "remaining": 60
+        },
+        {
+          "amount": 50,
+          "total": 153,
+          "paid": 0,
+          "remaining": 153
+        },
+        {
+          "amount": 30,
+          "total": 316,
+          "paid": 0,
+          "remaining": 316
+        },
+        {
+          "amount": 20,
+          "total": 1147,
+          "paid": 0,
+          "remaining": 1147
+        },
+        {
+          "amount": 10,
+          "total": 4634,
+          "paid": 0,
+          "remaining": 4634
+        },
+        {
+          "amount": 5,
+          "total": 34699,
+          "paid": 2,
+          "remaining": 34697
+        },
+        {
+          "amount": 4,
+          "total": 108683,
+          "paid": 8,
+          "remaining": 108675
+        },
+        {
+          "amount": 2,
+          "total": 94798,
+          "paid": 6,
+          "remaining": 94792
+        },
+        {
+          "amount": 1,
+          "total": 238204,
+          "paid": 10,
+          "remaining": 238194
+        }
+      ]
+    },
+    {
       "id": "WA-2016",
       "state": "WA",
       "name": "MONSTER MONEY",
@@ -4464,6 +4549,91 @@
           "total": 341067,
           "paid": 260832,
           "remaining": 80235
+        }
+      ]
+    },
+    {
+      "id": "WA-2024",
+      "state": "WA",
+      "name": "MISTLE TOADS",
+      "price": "$2",
+      "game_number": "2024",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2024",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2024.jpg",
+      "top_prize_amount": 20000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 350782,
+      "total_prizes_remaining": 350775,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 2013187,
+      "original_cash_value": 2013230,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1537600,
+      "overall_odds": "1 in 4.38",
+      "prize_tiers": [
+        {
+          "amount": 20000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 100,
+          "total": 20,
+          "paid": 0,
+          "remaining": 20
+        },
+        {
+          "amount": 50,
+          "total": 53,
+          "paid": 0,
+          "remaining": 53
+        },
+        {
+          "amount": 30,
+          "total": 886,
+          "paid": 0,
+          "remaining": 886
+        },
+        {
+          "amount": 20,
+          "total": 15376,
+          "paid": 0,
+          "remaining": 15376
+        },
+        {
+          "amount": 10,
+          "total": 53824,
+          "paid": 3,
+          "remaining": 53821
+        },
+        {
+          "amount": 5,
+          "total": 111390,
+          "paid": 1,
+          "remaining": 111389
+        },
+        {
+          "amount": 4,
+          "total": 50048,
+          "paid": 1,
+          "remaining": 50047
+        },
+        {
+          "amount": 3,
+          "total": 80734,
+          "paid": 0,
+          "remaining": 80734
+        },
+        {
+          "amount": 2,
+          "total": 38448,
+          "paid": 2,
+          "remaining": 38446
         }
       ]
     },
@@ -5768,6 +5938,133 @@
           "total": 354116,
           "paid": 285808,
           "remaining": 68308
+        }
+      ]
+    },
+    {
+      "id": "WA-2025",
+      "state": "WA",
+      "name": "WARM WINTER WISHES TRIPLER!",
+      "price": "$5",
+      "game_number": "2025",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2025",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2025.jpg",
+      "top_prize_amount": 50000,
+      "top_prize_total": 4,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 385668,
+      "total_prizes_remaining": 385656,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 4351860,
+      "original_cash_value": 4351950,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1289500,
+      "overall_odds": "1 in 3.34",
+      "prize_tiers": [
+        {
+          "amount": 50000,
+          "total": 4,
+          "paid": 0,
+          "remaining": 4
+        },
+        {
+          "amount": 1000,
+          "total": 6,
+          "paid": 0,
+          "remaining": 6
+        },
+        {
+          "amount": 500,
+          "total": 8,
+          "paid": 0,
+          "remaining": 8
+        },
+        {
+          "amount": 200,
+          "total": 46,
+          "paid": 0,
+          "remaining": 46
+        },
+        {
+          "amount": 100,
+          "total": 177,
+          "paid": 0,
+          "remaining": 177
+        },
+        {
+          "amount": 90,
+          "total": 151,
+          "paid": 0,
+          "remaining": 151
+        },
+        {
+          "amount": 70,
+          "total": 146,
+          "paid": 0,
+          "remaining": 146
+        },
+        {
+          "amount": 60,
+          "total": 222,
+          "paid": 0,
+          "remaining": 222
+        },
+        {
+          "amount": 50,
+          "total": 26351,
+          "paid": 0,
+          "remaining": 26351
+        },
+        {
+          "amount": 45,
+          "total": 427,
+          "paid": 0,
+          "remaining": 427
+        },
+        {
+          "amount": 35,
+          "total": 1872,
+          "paid": 0,
+          "remaining": 1872
+        },
+        {
+          "amount": 30,
+          "total": 4287,
+          "paid": 0,
+          "remaining": 4287
+        },
+        {
+          "amount": 25,
+          "total": 3879,
+          "paid": 0,
+          "remaining": 3879
+        },
+        {
+          "amount": 20,
+          "total": 12886,
+          "paid": 1,
+          "remaining": 12885
+        },
+        {
+          "amount": 15,
+          "total": 6484,
+          "paid": 0,
+          "remaining": 6484
+        },
+        {
+          "amount": 10,
+          "total": 90292,
+          "paid": 3,
+          "remaining": 90289
+        },
+        {
+          "amount": 5,
+          "total": 238430,
+          "paid": 8,
+          "remaining": 238422
         }
       ]
     },
@@ -7652,6 +7949,85 @@
       ]
     },
     {
+      "id": "WA-2026",
+      "state": "WA",
+      "name": "HOLIDAY COUNTDOWN",
+      "price": "$10",
+      "game_number": "2026",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2026",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2026.jpg",
+      "top_prize_amount": 250000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 276404,
+      "total_prizes_remaining": 276401,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 7632310,
+      "original_cash_value": 7632355,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1047650,
+      "overall_odds": "1 in 3.79",
+      "prize_tiers": [
+        {
+          "amount": 250000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 10000,
+          "total": 5,
+          "paid": 0,
+          "remaining": 5
+        },
+        {
+          "amount": 500,
+          "total": 267,
+          "paid": 0,
+          "remaining": 267
+        },
+        {
+          "amount": 200,
+          "total": 360,
+          "paid": 0,
+          "remaining": 360
+        },
+        {
+          "amount": 100,
+          "total": 21043,
+          "paid": 0,
+          "remaining": 21043
+        },
+        {
+          "amount": 50,
+          "total": 22528,
+          "paid": 0,
+          "remaining": 22528
+        },
+        {
+          "amount": 25,
+          "total": 43653,
+          "paid": 1,
+          "remaining": 43652
+        },
+        {
+          "amount": 20,
+          "total": 41938,
+          "paid": 0,
+          "remaining": 41938
+        },
+        {
+          "amount": 10,
+          "total": 146607,
+          "paid": 2,
+          "remaining": 146605
+        }
+      ]
+    },
+    {
       "id": "WA-2004",
       "state": "WA",
       "name": "KEYS AND CASH",
@@ -8474,6 +8850,85 @@
           "total": 381034,
           "paid": 323604,
           "remaining": 57430
+        }
+      ]
+    },
+    {
+      "id": "WA-2022",
+      "state": "WA",
+      "name": "HOLIDAY TREASURE",
+      "price": "$20",
+      "game_number": "2022",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2022",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2022.jpg",
+      "top_prize_amount": 500000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 233920,
+      "total_prizes_remaining": 233919,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 11928980,
+      "original_cash_value": 11929030,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 801510,
+      "overall_odds": "1 in 3.43",
+      "prize_tiers": [
+        {
+          "amount": 500000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 50000,
+          "total": 2,
+          "paid": 0,
+          "remaining": 2
+        },
+        {
+          "amount": 5000,
+          "total": 8,
+          "paid": 0,
+          "remaining": 8
+        },
+        {
+          "amount": 500,
+          "total": 416,
+          "paid": 0,
+          "remaining": 416
+        },
+        {
+          "amount": 200,
+          "total": 6926,
+          "paid": 0,
+          "remaining": 6926
+        },
+        {
+          "amount": 100,
+          "total": 32846,
+          "paid": 0,
+          "remaining": 32846
+        },
+        {
+          "amount": 50,
+          "total": 33417,
+          "paid": 1,
+          "remaining": 33416
+        },
+        {
+          "amount": 25,
+          "total": 106868,
+          "paid": 0,
+          "remaining": 106868
+        },
+        {
+          "amount": 20,
+          "total": 53434,
+          "paid": 0,
+          "remaining": 53434
         }
       ]
     },
