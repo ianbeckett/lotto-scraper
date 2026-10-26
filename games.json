@@ -1,12 +1,10 @@
 {
-  "scraped_at": "2026-10-26T19:15:13.972023+00:00",
+  "scraped_at": "2026-10-26T22:56:52.806572+00:00",
   "count": 63,
-  "warnings": [
-    "Failed to load Oregon scratch-its list page: Page.wait_for_selector: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator(\"table.ol-table tbody tr\") to be visible\n"
-  ],
+  "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-10-26T18:08:31.947756+00:00",
+      "scraped_at": "2026-10-26T22:56:52.806572+00:00",
       "count": 63,
       "warnings": []
     },
