@@ -1,12 +1,16 @@
 {
-  "scraped_at": "2026-11-04T12:41:23.075996+00:00",
-  "count": 109,
-  "warnings": [],
+  "scraped_at": "2026-11-04T20:11:00.274061+00:00",
+  "count": 105,
+  "warnings": [
+    "Failed to fetch $1 bracket: HTTPSConnectionPool(host='walottery.com', port=443): Read timed out. (read timeout=20)"
+  ],
   "sources": {
     "WA": {
-      "scraped_at": "2026-11-04T12:41:23.075996+00:00",
-      "count": 62,
-      "warnings": []
+      "scraped_at": "2026-11-04T20:11:00.274061+00:00",
+      "count": 58,
+      "warnings": [
+        "Failed to fetch $1 bracket: HTTPSConnectionPool(host='walottery.com', port=443): Read timed out. (read timeout=20)"
+      ]
     },
     "OR": {
       "scraped_at": "2026-11-03T20:07:49.491285+00:00",
@@ -4122,437 +4126,6 @@
       "pct_tickets_sold": 16.32
     },
     {
-      "id": "WA-2023",
-      "state": "WA",
-      "name": "WHITE ELEPHANT",
-      "price": "$1",
-      "game_number": "2023",
-      "last_day_to_redeem": null,
-      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2023",
-      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2023.jpg",
-      "top_prize_amount": 2000,
-      "top_prize_total": 3,
-      "top_prize_paid": 0,
-      "top_prize_remaining": 3,
-      "top_prize_pct_remaining": 100.0,
-      "total_prizes_total": 482697,
-      "total_prizes_remaining": 436906,
-      "total_prizes_pct_remaining": 90.51,
-      "remaining_cash_value": 1023896,
-      "original_cash_value": 1134437,
-      "cash_value_pct_remaining": 90.26,
-      "tickets_printed": 1850200,
-      "overall_odds": "1 in 3.83",
-      "prize_tiers": [
-        {
-          "amount": 2000,
-          "total": 3,
-          "paid": 0,
-          "remaining": 3
-        },
-        {
-          "amount": 100,
-          "total": 60,
-          "paid": 6,
-          "remaining": 54
-        },
-        {
-          "amount": 50,
-          "total": 153,
-          "paid": 20,
-          "remaining": 133
-        },
-        {
-          "amount": 30,
-          "total": 316,
-          "paid": 35,
-          "remaining": 281
-        },
-        {
-          "amount": 20,
-          "total": 1147,
-          "paid": 128,
-          "remaining": 1019
-        },
-        {
-          "amount": 10,
-          "total": 4634,
-          "paid": 487,
-          "remaining": 4147
-        },
-        {
-          "amount": 5,
-          "total": 34699,
-          "paid": 3528,
-          "remaining": 31171
-        },
-        {
-          "amount": 4,
-          "total": 108683,
-          "paid": 10781,
-          "remaining": 97902
-        },
-        {
-          "amount": 2,
-          "total": 94798,
-          "paid": 8891,
-          "remaining": 85907
-        },
-        {
-          "amount": 1,
-          "total": 238204,
-          "paid": 21915,
-          "remaining": 216289
-        }
-      ]
-    },
-    {
-      "id": "WA-2016",
-      "state": "WA",
-      "name": "MONSTER MONEY",
-      "price": "$1",
-      "game_number": "2016",
-      "last_day_to_redeem": null,
-      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2016",
-      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2016.jpg",
-      "top_prize_amount": 2000,
-      "top_prize_total": 4,
-      "top_prize_paid": 3,
-      "top_prize_remaining": 1,
-      "top_prize_pct_remaining": 25.0,
-      "total_prizes_total": 406869,
-      "total_prizes_remaining": 128205,
-      "total_prizes_pct_remaining": 31.51,
-      "remaining_cash_value": 291334,
-      "original_cash_value": 975304,
-      "cash_value_pct_remaining": 29.87,
-      "tickets_printed": 1590400,
-      "overall_odds": "1 in 3.91",
-      "prize_tiers": [
-        {
-          "amount": 2000,
-          "total": 4,
-          "paid": 3,
-          "remaining": 1
-        },
-        {
-          "amount": 100,
-          "total": 69,
-          "paid": 52,
-          "remaining": 17
-        },
-        {
-          "amount": 50,
-          "total": 132,
-          "paid": 97,
-          "remaining": 35
-        },
-        {
-          "amount": 30,
-          "total": 198,
-          "paid": 145,
-          "remaining": 53
-        },
-        {
-          "amount": 20,
-          "total": 874,
-          "paid": 660,
-          "remaining": 214
-        },
-        {
-          "amount": 10,
-          "total": 3966,
-          "paid": 2902,
-          "remaining": 1064
-        },
-        {
-          "amount": 5,
-          "total": 29822,
-          "paid": 21349,
-          "remaining": 8473
-        },
-        {
-          "amount": 4,
-          "total": 93444,
-          "paid": 66536,
-          "remaining": 26908
-        },
-        {
-          "amount": 2,
-          "total": 89478,
-          "paid": 61541,
-          "remaining": 27937
-        },
-        {
-          "amount": 1,
-          "total": 188882,
-          "paid": 125379,
-          "remaining": 63503
-        }
-      ]
-    },
-    {
-      "id": "WA-2005",
-      "state": "WA",
-      "name": "LUCKY DOG DOUBLER",
-      "price": "$1",
-      "game_number": "2005",
-      "last_day_to_redeem": null,
-      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2005",
-      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2005.jpg",
-      "top_prize_amount": 2000,
-      "top_prize_total": 4,
-      "top_prize_paid": 3,
-      "top_prize_remaining": 1,
-      "top_prize_pct_remaining": 25.0,
-      "total_prizes_total": 746650,
-      "total_prizes_remaining": 167817,
-      "total_prizes_pct_remaining": 22.48,
-      "remaining_cash_value": 356464,
-      "original_cash_value": 1669584,
-      "cash_value_pct_remaining": 21.35,
-      "tickets_printed": 2714800,
-      "overall_odds": "1 in 3.64",
-      "prize_tiers": [
-        {
-          "amount": 2000,
-          "total": 4,
-          "paid": 3,
-          "remaining": 1
-        },
-        {
-          "amount": 100,
-          "total": 93,
-          "paid": 73,
-          "remaining": 20
-        },
-        {
-          "amount": 50,
-          "total": 224,
-          "paid": 188,
-          "remaining": 36
-        },
-        {
-          "amount": 30,
-          "total": 470,
-          "paid": 404,
-          "remaining": 66
-        },
-        {
-          "amount": 20,
-          "total": 2620,
-          "paid": 2135,
-          "remaining": 485
-        },
-        {
-          "amount": 10,
-          "total": 6772,
-          "paid": 5519,
-          "remaining": 1253
-        },
-        {
-          "amount": 5,
-          "total": 64489,
-          "paid": 51775,
-          "remaining": 12714
-        },
-        {
-          "amount": 3,
-          "total": 186645,
-          "paid": 147383,
-          "remaining": 39262
-        },
-        {
-          "amount": 2,
-          "total": 139151,
-          "paid": 108033,
-          "remaining": 31118
-        },
-        {
-          "amount": 1,
-          "total": 346182,
-          "paid": 263320,
-          "remaining": 82862
-        }
-      ]
-    },
-    {
-      "id": "WA-1986",
-      "state": "WA",
-      "name": "WINNER WINNER CHICKEN DINNER",
-      "price": "$1",
-      "game_number": "1986",
-      "last_day_to_redeem": "03/14/27",
-      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1986",
-      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1986.jpg",
-      "top_prize_amount": 1000,
-      "top_prize_total": 4,
-      "top_prize_paid": 3,
-      "top_prize_remaining": 1,
-      "top_prize_pct_remaining": 25.0,
-      "total_prizes_total": 732173,
-      "total_prizes_remaining": 162574,
-      "total_prizes_pct_remaining": 22.2,
-      "remaining_cash_value": 345173,
-      "original_cash_value": 1666250,
-      "cash_value_pct_remaining": 20.72,
-      "tickets_printed": 2711600,
-      "overall_odds": "1 in 3.70",
-      "prize_tiers": [
-        {
-          "amount": 1000,
-          "total": 4,
-          "paid": 3,
-          "remaining": 1
-        },
-        {
-          "amount": 250,
-          "total": 69,
-          "paid": 62,
-          "remaining": 7
-        },
-        {
-          "amount": 100,
-          "total": 86,
-          "paid": 77,
-          "remaining": 9
-        },
-        {
-          "amount": 50,
-          "total": 227,
-          "paid": 203,
-          "remaining": 24
-        },
-        {
-          "amount": 30,
-          "total": 452,
-          "paid": 392,
-          "remaining": 60
-        },
-        {
-          "amount": 20,
-          "total": 2616,
-          "paid": 2169,
-          "remaining": 447
-        },
-        {
-          "amount": 10,
-          "total": 6785,
-          "paid": 5561,
-          "remaining": 1224
-        },
-        {
-          "amount": 5,
-          "total": 64394,
-          "paid": 52105,
-          "remaining": 12289
-        },
-        {
-          "amount": 3,
-          "total": 186423,
-          "paid": 147800,
-          "remaining": 38623
-        },
-        {
-          "amount": 2,
-          "total": 138964,
-          "paid": 108825,
-          "remaining": 30139
-        },
-        {
-          "amount": 1,
-          "total": 332153,
-          "paid": 252402,
-          "remaining": 79751
-        }
-      ]
-    },
-    {
-      "id": "WA-1976",
-      "state": "WA",
-      "name": "BLACK CHERRY DOUBLER",
-      "price": "$1",
-      "game_number": "1976",
-      "last_day_to_redeem": "11/24/26",
-      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1976",
-      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1976.jpg",
-      "top_prize_amount": 2000,
-      "top_prize_total": 4,
-      "top_prize_paid": 4,
-      "top_prize_remaining": 0,
-      "top_prize_pct_remaining": 0.0,
-      "total_prizes_total": 735696,
-      "total_prizes_remaining": 162833,
-      "total_prizes_pct_remaining": 22.13,
-      "remaining_cash_value": 341244,
-      "original_cash_value": 1644384,
-      "cash_value_pct_remaining": 20.75,
-      "tickets_printed": 2675800,
-      "overall_odds": "1 in 3.64",
-      "prize_tiers": [
-        {
-          "amount": 2000,
-          "total": 4,
-          "paid": 4,
-          "remaining": 0
-        },
-        {
-          "amount": 100,
-          "total": 85,
-          "paid": 73,
-          "remaining": 12
-        },
-        {
-          "amount": 50,
-          "total": 224,
-          "paid": 194,
-          "remaining": 30
-        },
-        {
-          "amount": 30,
-          "total": 436,
-          "paid": 367,
-          "remaining": 69
-        },
-        {
-          "amount": 20,
-          "total": 2582,
-          "paid": 2122,
-          "remaining": 460
-        },
-        {
-          "amount": 10,
-          "total": 6722,
-          "paid": 5383,
-          "remaining": 1339
-        },
-        {
-          "amount": 5,
-          "total": 63523,
-          "paid": 51762,
-          "remaining": 11761
-        },
-        {
-          "amount": 3,
-          "total": 183956,
-          "paid": 147299,
-          "remaining": 36657
-        },
-        {
-          "amount": 2,
-          "total": 137097,
-          "paid": 104494,
-          "remaining": 32603
-        },
-        {
-          "amount": 1,
-          "total": 341067,
-          "paid": 261165,
-          "remaining": 79902
-        }
-      ]
-    },
-    {
       "id": "WA-2024",
       "state": "WA",
       "name": "MISTLE TOADS",
@@ -6247,6 +5820,91 @@
           "total": 282018,
           "paid": 135149,
           "remaining": 146869
+        }
+      ]
+    },
+    {
+      "id": "WA-2009",
+      "state": "WA",
+      "name": "STRUCK BY LUCK",
+      "price": "$5",
+      "game_number": "2009",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2009",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2009.jpg",
+      "top_prize_amount": 50000,
+      "top_prize_total": 4,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 4,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 641779,
+      "total_prizes_remaining": 641779,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 7488155,
+      "original_cash_value": 7488155,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 2220500,
+      "overall_odds": "1 in 3.46",
+      "prize_tiers": [
+        {
+          "amount": 50000,
+          "total": 4,
+          "paid": 0,
+          "remaining": 4
+        },
+        {
+          "amount": 500,
+          "total": 10,
+          "paid": 0,
+          "remaining": 10
+        },
+        {
+          "amount": 100,
+          "total": 1099,
+          "paid": 0,
+          "remaining": 1099
+        },
+        {
+          "amount": 75,
+          "total": 1365,
+          "paid": 0,
+          "remaining": 1365
+        },
+        {
+          "amount": 50,
+          "total": 45337,
+          "paid": 0,
+          "remaining": 45337
+        },
+        {
+          "amount": 30,
+          "total": 12116,
+          "paid": 0,
+          "remaining": 12116
+        },
+        {
+          "amount": 25,
+          "total": 4423,
+          "paid": 0,
+          "remaining": 4423
+        },
+        {
+          "amount": 20,
+          "total": 44410,
+          "paid": 0,
+          "remaining": 44410
+        },
+        {
+          "amount": 10,
+          "total": 155340,
+          "paid": 0,
+          "remaining": 155340
+        },
+        {
+          "amount": 5,
+          "total": 377675,
+          "paid": 0,
+          "remaining": 377675
         }
       ]
     },
