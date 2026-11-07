@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-11-07T02:28:30.820684+00:00",
+  "scraped_at": "2026-11-07T09:27:13.118713+00:00",
   "count": 107,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-11-07T02:28:30.820684+00:00",
+      "scraped_at": "2026-11-07T09:27:13.118713+00:00",
       "count": 60,
       "warnings": []
     },
@@ -4136,11 +4136,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 482697,
-      "total_prizes_remaining": 426792,
-      "total_prizes_pct_remaining": 88.42,
-      "remaining_cash_value": 999415,
+      "total_prizes_remaining": 421709,
+      "total_prizes_pct_remaining": 87.37,
+      "remaining_cash_value": 987002,
       "original_cash_value": 1134437,
-      "cash_value_pct_remaining": 88.1,
+      "cash_value_pct_remaining": 87.0,
       "tickets_printed": 1850200,
       "overall_odds": "1 in 3.83",
       "prize_tiers": [
@@ -4153,56 +4153,56 @@
         {
           "amount": 100,
           "total": 60,
-          "paid": 8,
-          "remaining": 52
+          "paid": 9,
+          "remaining": 51
         },
         {
           "amount": 50,
           "total": 153,
-          "paid": 25,
-          "remaining": 128
+          "paid": 27,
+          "remaining": 126
         },
         {
           "amount": 30,
           "total": 316,
-          "paid": 44,
-          "remaining": 272
+          "paid": 50,
+          "remaining": 266
         },
         {
           "amount": 20,
           "total": 1147,
-          "paid": 149,
-          "remaining": 998
+          "paid": 167,
+          "remaining": 980
         },
         {
           "amount": 10,
           "total": 4634,
-          "paid": 596,
-          "remaining": 4038
+          "paid": 654,
+          "remaining": 3980
         },
         {
           "amount": 5,
           "total": 34699,
-          "paid": 4309,
-          "remaining": 30390
+          "paid": 4682,
+          "remaining": 30017
         },
         {
           "amount": 4,
           "total": 108683,
-          "paid": 13176,
-          "remaining": 95507
+          "paid": 14386,
+          "remaining": 94297
         },
         {
           "amount": 2,
           "total": 94798,
-          "paid": 10865,
-          "remaining": 83933
+          "paid": 11838,
+          "remaining": 82960
         },
         {
           "amount": 1,
           "total": 238204,
-          "paid": 26733,
-          "remaining": 211471
+          "paid": 29175,
+          "remaining": 209029
         }
       ]
     },
@@ -4221,11 +4221,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 406869,
-      "total_prizes_remaining": 125158,
-      "total_prizes_pct_remaining": 30.76,
-      "remaining_cash_value": 284250,
+      "total_prizes_remaining": 123762,
+      "total_prizes_pct_remaining": 30.42,
+      "remaining_cash_value": 280987,
       "original_cash_value": 975304,
-      "cash_value_pct_remaining": 29.14,
+      "cash_value_pct_remaining": 28.81,
       "tickets_printed": 1590400,
       "overall_odds": "1 in 3.91",
       "prize_tiers": [
@@ -4244,8 +4244,8 @@
         {
           "amount": 50,
           "total": 132,
-          "paid": 97,
-          "remaining": 35
+          "paid": 98,
+          "remaining": 34
         },
         {
           "amount": 30,
@@ -4256,38 +4256,38 @@
         {
           "amount": 20,
           "total": 874,
-          "paid": 668,
-          "remaining": 206
+          "paid": 671,
+          "remaining": 203
         },
         {
           "amount": 10,
           "total": 3966,
-          "paid": 2925,
-          "remaining": 1041
+          "paid": 2938,
+          "remaining": 1028
         },
         {
           "amount": 5,
           "total": 29822,
-          "paid": 21566,
-          "remaining": 8256
+          "paid": 21686,
+          "remaining": 8136
         },
         {
           "amount": 4,
           "total": 93444,
-          "paid": 67226,
-          "remaining": 26218
+          "paid": 67517,
+          "remaining": 25927
         },
         {
           "amount": 2,
           "total": 89478,
-          "paid": 62223,
-          "remaining": 27255
+          "paid": 62514,
+          "remaining": 26964
         },
         {
           "amount": 1,
           "total": 188882,
-          "paid": 126804,
-          "remaining": 62078
+          "paid": 127481,
+          "remaining": 61401
         }
       ]
     },
@@ -4306,11 +4306,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 746650,
-      "total_prizes_remaining": 166638,
-      "total_prizes_pct_remaining": 22.32,
-      "remaining_cash_value": 353739,
+      "total_prizes_remaining": 166069,
+      "total_prizes_pct_remaining": 22.24,
+      "remaining_cash_value": 352429,
       "original_cash_value": 1669584,
-      "cash_value_pct_remaining": 21.19,
+      "cash_value_pct_remaining": 21.11,
       "tickets_printed": 2714800,
       "overall_odds": "1 in 3.64",
       "prize_tiers": [
@@ -4341,38 +4341,38 @@
         {
           "amount": 20,
           "total": 2620,
-          "paid": 2140,
-          "remaining": 480
+          "paid": 2144,
+          "remaining": 476
         },
         {
           "amount": 10,
           "total": 6772,
-          "paid": 5529,
-          "remaining": 1243
+          "paid": 5534,
+          "remaining": 1238
         },
         {
           "amount": 5,
           "total": 64489,
-          "paid": 51870,
-          "remaining": 12619
+          "paid": 51932,
+          "remaining": 12557
         },
         {
           "amount": 3,
           "total": 186645,
-          "paid": 147692,
-          "remaining": 38953
+          "paid": 147830,
+          "remaining": 38815
         },
         {
           "amount": 2,
           "total": 139151,
-          "paid": 108260,
-          "remaining": 30891
+          "paid": 108356,
+          "remaining": 30795
         },
         {
           "amount": 1,
           "total": 346182,
-          "paid": 263849,
-          "remaining": 82333
+          "paid": 264113,
+          "remaining": 82069
         }
       ]
     },
@@ -4391,11 +4391,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 732173,
-      "total_prizes_remaining": 162416,
-      "total_prizes_pct_remaining": 22.18,
-      "remaining_cash_value": 344860,
+      "total_prizes_remaining": 162303,
+      "total_prizes_pct_remaining": 22.17,
+      "remaining_cash_value": 344617,
       "original_cash_value": 1666250,
-      "cash_value_pct_remaining": 20.7,
+      "cash_value_pct_remaining": 20.68,
       "tickets_printed": 2711600,
       "overall_odds": "1 in 3.70",
       "prize_tiers": [
@@ -4438,32 +4438,32 @@
         {
           "amount": 10,
           "total": 6785,
-          "paid": 5561,
-          "remaining": 1224
+          "paid": 5562,
+          "remaining": 1223
         },
         {
           "amount": 5,
           "total": 64394,
-          "paid": 52118,
-          "remaining": 12276
+          "paid": 52127,
+          "remaining": 12267
         },
         {
           "amount": 3,
           "total": 186423,
-          "paid": 147834,
-          "remaining": 38589
+          "paid": 147864,
+          "remaining": 38559
         },
         {
           "amount": 2,
           "total": 138964,
-          "paid": 108860,
-          "remaining": 30104
+          "paid": 108885,
+          "remaining": 30079
         },
         {
           "amount": 1,
           "total": 332153,
-          "paid": 252478,
-          "remaining": 79675
+          "paid": 252526,
+          "remaining": 79627
         }
       ]
     },
@@ -4482,11 +4482,11 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 735696,
-      "total_prizes_remaining": 162775,
-      "total_prizes_pct_remaining": 22.13,
-      "remaining_cash_value": 341144,
+      "total_prizes_remaining": 162750,
+      "total_prizes_pct_remaining": 22.12,
+      "remaining_cash_value": 341102,
       "original_cash_value": 1644384,
-      "cash_value_pct_remaining": 20.75,
+      "cash_value_pct_remaining": 20.74,
       "tickets_printed": 2675800,
       "overall_odds": "1 in 3.64",
       "prize_tiers": [
@@ -4529,26 +4529,26 @@
         {
           "amount": 5,
           "total": 63523,
-          "paid": 51763,
-          "remaining": 11760
+          "paid": 51764,
+          "remaining": 11759
         },
         {
           "amount": 3,
           "total": 183956,
-          "paid": 147312,
-          "remaining": 36644
+          "paid": 147314,
+          "remaining": 36642
         },
         {
           "amount": 2,
           "total": 137097,
-          "paid": 104506,
-          "remaining": 32591
+          "paid": 104515,
+          "remaining": 32582
         },
         {
           "amount": 1,
           "total": 341067,
-          "paid": 261197,
-          "remaining": 79870
+          "paid": 261210,
+          "remaining": 79857
         }
       ]
     },
@@ -4567,11 +4567,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 350782,
-      "total_prizes_remaining": 322445,
-      "total_prizes_pct_remaining": 91.92,
-      "remaining_cash_value": 1852355,
+      "total_prizes_remaining": 319679,
+      "total_prizes_pct_remaining": 91.13,
+      "remaining_cash_value": 1836224,
       "original_cash_value": 2013230,
-      "cash_value_pct_remaining": 92.01,
+      "cash_value_pct_remaining": 91.21,
       "tickets_printed": 1537600,
       "overall_odds": "1 in 4.38",
       "prize_tiers": [
@@ -4596,44 +4596,44 @@
         {
           "amount": 30,
           "total": 886,
-          "paid": 76,
-          "remaining": 810
+          "paid": 86,
+          "remaining": 800
         },
         {
           "amount": 20,
           "total": 15376,
-          "paid": 1310,
-          "remaining": 14066
+          "paid": 1455,
+          "remaining": 13921
         },
         {
           "amount": 10,
           "total": 53824,
-          "paid": 4570,
-          "remaining": 49254
+          "paid": 5034,
+          "remaining": 48790
         },
         {
           "amount": 5,
           "total": 111390,
-          "paid": 9084,
-          "remaining": 102306
+          "paid": 9965,
+          "remaining": 101425
         },
         {
           "amount": 4,
           "total": 50048,
-          "paid": 3912,
-          "remaining": 46136
+          "paid": 4289,
+          "remaining": 45759
         },
         {
           "amount": 3,
           "total": 80734,
-          "paid": 6373,
-          "remaining": 74361
+          "paid": 6973,
+          "remaining": 73761
         },
         {
           "amount": 2,
           "total": 38448,
-          "paid": 3004,
-          "remaining": 35444
+          "paid": 3293,
+          "remaining": 35155
         }
       ]
     },
@@ -4652,11 +4652,11 @@
       "top_prize_remaining": 5,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 1527876,
-      "total_prizes_remaining": 1522117,
-      "total_prizes_pct_remaining": 99.62,
-      "remaining_cash_value": 7177041,
+      "total_prizes_remaining": 1519871,
+      "total_prizes_pct_remaining": 99.48,
+      "remaining_cash_value": 7166568,
       "original_cash_value": 7204592,
-      "cash_value_pct_remaining": 99.62,
+      "cash_value_pct_remaining": 99.47,
       "tickets_printed": 5543300,
       "overall_odds": "1 in 3.63",
       "prize_tiers": [
@@ -4669,50 +4669,50 @@
         {
           "amount": 200,
           "total": 373,
-          "paid": 1,
-          "remaining": 372
+          "paid": 2,
+          "remaining": 371
         },
         {
           "amount": 50,
           "total": 3126,
-          "paid": 13,
-          "remaining": 3113
+          "paid": 17,
+          "remaining": 3109
         },
         {
           "amount": 20,
           "total": 69309,
-          "paid": 275,
-          "remaining": 69034
+          "paid": 376,
+          "remaining": 68933
         },
         {
           "amount": 15,
           "total": 55433,
-          "paid": 236,
-          "remaining": 55197
+          "paid": 316,
+          "remaining": 55117
         },
         {
           "amount": 10,
           "total": 83141,
-          "paid": 327,
-          "remaining": 82814
+          "paid": 444,
+          "remaining": 82697
         },
         {
           "amount": 5,
           "total": 290960,
-          "paid": 1124,
-          "remaining": 289836
+          "paid": 1570,
+          "remaining": 289390
         },
         {
           "amount": 3,
           "total": 318749,
-          "paid": 1205,
-          "remaining": 317544
+          "paid": 1664,
+          "remaining": 317085
         },
         {
           "amount": 2,
           "total": 706780,
-          "paid": 2578,
-          "remaining": 704202
+          "paid": 3616,
+          "remaining": 703164
         }
       ]
     },
@@ -4731,11 +4731,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 644911,
-      "total_prizes_remaining": 310985,
-      "total_prizes_pct_remaining": 48.22,
-      "remaining_cash_value": 1738235,
+      "total_prizes_remaining": 309769,
+      "total_prizes_pct_remaining": 48.03,
+      "remaining_cash_value": 1731363,
       "original_cash_value": 3680159,
-      "cash_value_pct_remaining": 47.23,
+      "cash_value_pct_remaining": 47.05,
       "tickets_printed": 2833100,
       "overall_odds": "1 in 4.39",
       "prize_tiers": [
@@ -4760,50 +4760,50 @@
         {
           "amount": 30,
           "total": 7399,
-          "paid": 4001,
-          "remaining": 3398
+          "paid": 4015,
+          "remaining": 3384
         },
         {
           "amount": 18,
           "total": 7098,
-          "paid": 3798,
-          "remaining": 3300
+          "paid": 3811,
+          "remaining": 3287
         },
         {
           "amount": 10,
           "total": 21233,
-          "paid": 11267,
-          "remaining": 9966
+          "paid": 11307,
+          "remaining": 9926
         },
         {
           "amount": 9,
           "total": 99208,
-          "paid": 52335,
-          "remaining": 46873
+          "paid": 52534,
+          "remaining": 46674
         },
         {
           "amount": 6,
           "total": 198136,
-          "paid": 103262,
-          "remaining": 94874
+          "paid": 103644,
+          "remaining": 94492
         },
         {
           "amount": 4,
           "total": 85075,
-          "paid": 44222,
-          "remaining": 40853
+          "paid": 44381,
+          "remaining": 40694
         },
         {
           "amount": 3,
           "total": 155851,
-          "paid": 79353,
-          "remaining": 76498
+          "paid": 79634,
+          "remaining": 76217
         },
         {
           "amount": 2,
           "total": 70877,
-          "paid": 35668,
-          "remaining": 35209
+          "paid": 35796,
+          "remaining": 35081
         }
       ]
     },
@@ -4818,23 +4818,23 @@
       "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1990.jpg",
       "top_prize_amount": 100,
       "top_prize_total": 1045,
-      "top_prize_paid": 539,
-      "top_prize_remaining": 506,
-      "top_prize_pct_remaining": 48.42,
+      "top_prize_paid": 541,
+      "top_prize_remaining": 504,
+      "top_prize_pct_remaining": 48.23,
       "total_prizes_total": 648386,
-      "total_prizes_remaining": 335810,
-      "total_prizes_pct_remaining": 51.79,
-      "remaining_cash_value": 1891650,
+      "total_prizes_remaining": 335381,
+      "total_prizes_pct_remaining": 51.73,
+      "remaining_cash_value": 1888960,
       "original_cash_value": 3695030,
-      "cash_value_pct_remaining": 51.19,
+      "cash_value_pct_remaining": 51.12,
       "tickets_printed": 2840200,
       "overall_odds": "1 in 4.38",
       "prize_tiers": [
         {
           "amount": 100,
           "total": 1045,
-          "paid": 539,
-          "remaining": 506
+          "paid": 541,
+          "remaining": 504
         },
         {
           "amount": 50,
@@ -4845,44 +4845,44 @@
         {
           "amount": 30,
           "total": 946,
-          "paid": 473,
-          "remaining": 473
+          "paid": 474,
+          "remaining": 472
         },
         {
           "amount": 20,
           "total": 28402,
-          "paid": 14197,
-          "remaining": 14205
+          "paid": 14221,
+          "remaining": 14181
         },
         {
           "amount": 10,
           "total": 99422,
-          "paid": 48935,
-          "remaining": 50487
+          "paid": 49009,
+          "remaining": 50413
         },
         {
           "amount": 5,
           "total": 205818,
-          "paid": 99852,
-          "remaining": 105966
+          "paid": 99981,
+          "remaining": 105837
         },
         {
           "amount": 4,
           "total": 92375,
-          "paid": 44442,
-          "remaining": 47933
+          "paid": 44492,
+          "remaining": 47883
         },
         {
           "amount": 3,
           "total": 149120,
-          "paid": 70744,
-          "remaining": 78376
+          "paid": 70841,
+          "remaining": 78279
         },
         {
           "amount": 2,
           "total": 71020,
-          "paid": 33270,
-          "remaining": 37750
+          "paid": 33322,
+          "remaining": 37698
         }
       ]
     },
@@ -4901,11 +4901,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 20.0,
       "total_prizes_total": 1507735,
-      "total_prizes_remaining": 230892,
-      "total_prizes_pct_remaining": 15.31,
-      "remaining_cash_value": 972009,
+      "total_prizes_remaining": 228373,
+      "total_prizes_pct_remaining": 15.15,
+      "remaining_cash_value": 960441,
       "original_cash_value": 7109274,
-      "cash_value_pct_remaining": 13.67,
+      "cash_value_pct_remaining": 13.51,
       "tickets_printed": 5470100,
       "overall_odds": "1 in 3.63",
       "prize_tiers": [
@@ -4924,44 +4924,44 @@
         {
           "amount": 50,
           "total": 3083,
-          "paid": 2745,
-          "remaining": 338
+          "paid": 2750,
+          "remaining": 333
         },
         {
           "amount": 20,
           "total": 68372,
-          "paid": 60573,
-          "remaining": 7799
+          "paid": 60676,
+          "remaining": 7696
         },
         {
           "amount": 15,
           "total": 54701,
-          "paid": 48747,
-          "remaining": 5954
+          "paid": 48846,
+          "remaining": 5855
         },
         {
           "amount": 10,
           "total": 82078,
-          "paid": 72106,
-          "remaining": 9972
+          "paid": 72256,
+          "remaining": 9822
         },
         {
           "amount": 5,
           "total": 287122,
-          "paid": 247419,
-          "remaining": 39703
+          "paid": 247894,
+          "remaining": 39228
         },
         {
           "amount": 3,
           "total": 314553,
-          "paid": 264149,
-          "remaining": 50404
+          "paid": 264673,
+          "remaining": 49880
         },
         {
           "amount": 2,
           "total": 697460,
-          "paid": 580774,
-          "remaining": 116686
+          "paid": 581937,
+          "remaining": 115523
         }
       ]
     },
@@ -4980,9 +4980,9 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 646702,
-      "total_prizes_remaining": 114453,
-      "total_prizes_pct_remaining": 17.7,
-      "remaining_cash_value": 607295,
+      "total_prizes_remaining": 114420,
+      "total_prizes_pct_remaining": 17.69,
+      "remaining_cash_value": 607090,
       "original_cash_value": 3684305,
       "cash_value_pct_remaining": 16.48,
       "tickets_printed": 2834100,
@@ -5015,32 +5015,32 @@
         {
           "amount": 20,
           "total": 28341,
-          "paid": 24198,
-          "remaining": 4143
+          "paid": 24199,
+          "remaining": 4142
         },
         {
           "amount": 10,
           "total": 99128,
-          "paid": 83023,
-          "remaining": 16105
+          "paid": 83031,
+          "remaining": 16097
         },
         {
           "amount": 5,
           "total": 205731,
-          "paid": 170571,
-          "remaining": 35160
+          "paid": 170586,
+          "remaining": 35145
         },
         {
           "amount": 4,
           "total": 91995,
-          "paid": 74976,
-          "remaining": 17019
+          "paid": 74979,
+          "remaining": 17016
         },
         {
           "amount": 3,
           "total": 148772,
-          "paid": 120779,
-          "remaining": 27993
+          "paid": 120785,
+          "remaining": 27987
         },
         {
           "amount": 2,
@@ -5065,11 +5065,11 @@
       "top_prize_remaining": 4,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 647514,
-      "total_prizes_remaining": 600746,
-      "total_prizes_pct_remaining": 92.78,
-      "remaining_cash_value": 4865444,
+      "total_prizes_remaining": 597770,
+      "total_prizes_pct_remaining": 92.32,
+      "remaining_cash_value": 4842099,
       "original_cash_value": 5253318,
-      "cash_value_pct_remaining": 92.62,
+      "cash_value_pct_remaining": 92.17,
       "tickets_printed": 2687400,
       "overall_odds": "1 in 4.15",
       "prize_tiers": [
@@ -5082,68 +5082,68 @@
         {
           "amount": 500,
           "total": 339,
-          "paid": 34,
-          "remaining": 305
+          "paid": 35,
+          "remaining": 304
         },
         {
           "amount": 200,
           "total": 555,
-          "paid": 41,
-          "remaining": 514
+          "paid": 44,
+          "remaining": 511
         },
         {
           "amount": 100,
           "total": 1115,
-          "paid": 94,
-          "remaining": 1021
+          "paid": 98,
+          "remaining": 1017
         },
         {
           "amount": 75,
           "total": 2258,
-          "paid": 181,
-          "remaining": 2077
+          "paid": 192,
+          "remaining": 2066
         },
         {
           "amount": 50,
           "total": 3701,
-          "paid": 278,
-          "remaining": 3423
+          "paid": 299,
+          "remaining": 3402
         },
         {
           "amount": 30,
           "total": 27985,
-          "paid": 2183,
-          "remaining": 25802
+          "paid": 2309,
+          "remaining": 25676
         },
         {
           "amount": 20,
           "total": 26874,
-          "paid": 2068,
-          "remaining": 24806
+          "paid": 2189,
+          "remaining": 24685
         },
         {
           "amount": 15,
           "total": 33565,
-          "paid": 2573,
-          "remaining": 30992
+          "paid": 2727,
+          "remaining": 30838
         },
         {
           "amount": 10,
           "total": 60421,
-          "paid": 4492,
-          "remaining": 55929
+          "paid": 4757,
+          "remaining": 55664
         },
         {
           "amount": 5,
           "total": 215056,
-          "paid": 15481,
-          "remaining": 199575
+          "paid": 16481,
+          "remaining": 198575
         },
         {
           "amount": 3,
           "total": 275641,
-          "paid": 19343,
-          "remaining": 256298
+          "paid": 20613,
+          "remaining": 255028
         }
       ]
     },
@@ -5162,11 +5162,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 60.0,
       "total_prizes_total": 662054,
-      "total_prizes_remaining": 338364,
-      "total_prizes_pct_remaining": 51.11,
-      "remaining_cash_value": 2537801,
+      "total_prizes_remaining": 335552,
+      "total_prizes_pct_remaining": 50.68,
+      "remaining_cash_value": 2516470,
       "original_cash_value": 5043341,
-      "cash_value_pct_remaining": 50.32,
+      "cash_value_pct_remaining": 49.9,
       "tickets_printed": 2588100,
       "overall_odds": "1 in 3.91",
       "prize_tiers": [
@@ -5185,8 +5185,8 @@
         {
           "amount": 250,
           "total": 109,
-          "paid": 62,
-          "remaining": 47
+          "paid": 64,
+          "remaining": 45
         },
         {
           "amount": 150,
@@ -5197,44 +5197,44 @@
         {
           "amount": 75,
           "total": 3352,
-          "paid": 1715,
-          "remaining": 1637
+          "paid": 1734,
+          "remaining": 1618
         },
         {
           "amount": 60,
           "total": 4299,
-          "paid": 2215,
-          "remaining": 2084
+          "paid": 2234,
+          "remaining": 2065
         },
         {
           "amount": 30,
           "total": 39435,
-          "paid": 20098,
-          "remaining": 19337
+          "paid": 20277,
+          "remaining": 19158
         },
         {
           "amount": 15,
           "total": 58258,
-          "paid": 29538,
-          "remaining": 28720
+          "paid": 29750,
+          "remaining": 28508
         },
         {
           "amount": 10,
           "total": 19403,
-          "paid": 9703,
-          "remaining": 9700
+          "paid": 9788,
+          "remaining": 9615
         },
         {
           "amount": 5,
           "total": 226397,
-          "paid": 112564,
-          "remaining": 113833
+          "paid": 113553,
+          "remaining": 112844
         },
         {
           "amount": 3,
           "total": 310572,
-          "paid": 147685,
-          "remaining": 162887
+          "paid": 148992,
+          "remaining": 161580
         }
       ]
     },
@@ -5253,11 +5253,11 @@
       "top_prize_remaining": 4,
       "top_prize_pct_remaining": 66.67,
       "total_prizes_total": 947721,
-      "total_prizes_remaining": 844419,
-      "total_prizes_pct_remaining": 89.1,
-      "remaining_cash_value": 6804806,
+      "total_prizes_remaining": 841794,
+      "total_prizes_pct_remaining": 88.82,
+      "remaining_cash_value": 6783182,
       "original_cash_value": 7699786,
-      "cash_value_pct_remaining": 88.38,
+      "cash_value_pct_remaining": 88.1,
       "tickets_printed": 3952200,
       "overall_odds": "1 in 4.17",
       "prize_tiers": [
@@ -5276,68 +5276,68 @@
         {
           "amount": 500,
           "total": 324,
-          "paid": 33,
-          "remaining": 291
+          "paid": 36,
+          "remaining": 288
         },
         {
           "amount": 100,
           "total": 3293,
-          "paid": 377,
-          "remaining": 2916
+          "paid": 388,
+          "remaining": 2905
         },
         {
           "amount": 90,
           "total": 1303,
-          "paid": 161,
-          "remaining": 1142
+          "paid": 164,
+          "remaining": 1139
         },
         {
           "amount": 50,
           "total": 2447,
-          "paid": 281,
-          "remaining": 2166
+          "paid": 285,
+          "remaining": 2162
         },
         {
           "amount": 30,
           "total": 41161,
-          "paid": 4698,
-          "remaining": 36463
+          "paid": 4803,
+          "remaining": 36358
         },
         {
           "amount": 20,
           "total": 39522,
-          "paid": 4464,
-          "remaining": 35058
+          "paid": 4583,
+          "remaining": 34939
         },
         {
           "amount": 15,
           "total": 49410,
-          "paid": 5602,
-          "remaining": 43808
+          "paid": 5747,
+          "remaining": 43663
         },
         {
           "amount": 10,
           "total": 79044,
-          "paid": 8887,
-          "remaining": 70157
+          "paid": 9099,
+          "remaining": 69945
         },
         {
           "amount": 6,
           "total": 207499,
-          "paid": 22968,
-          "remaining": 184531
+          "paid": 23534,
+          "remaining": 183965
         },
         {
           "amount": 5,
           "total": 158088,
-          "paid": 17426,
-          "remaining": 140662
+          "paid": 17907,
+          "remaining": 140181
         },
         {
           "amount": 3,
           "total": 365524,
-          "paid": 38394,
-          "remaining": 327130
+          "paid": 39370,
+          "remaining": 326154
         }
       ]
     },
@@ -5356,11 +5356,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 714009,
-      "total_prizes_remaining": 125598,
-      "total_prizes_pct_remaining": 17.59,
-      "remaining_cash_value": 942445,
+      "total_prizes_remaining": 124948,
+      "total_prizes_pct_remaining": 17.5,
+      "remaining_cash_value": 936315,
       "original_cash_value": 5783469,
-      "cash_value_pct_remaining": 16.3,
+      "cash_value_pct_remaining": 16.19,
       "tickets_printed": 2964200,
       "overall_odds": "1 in 4.15",
       "prize_tiers": [
@@ -5373,68 +5373,68 @@
         {
           "amount": 500,
           "total": 373,
-          "paid": 317,
-          "remaining": 56
+          "paid": 319,
+          "remaining": 54
         },
         {
           "amount": 200,
           "total": 627,
-          "paid": 535,
-          "remaining": 92
+          "paid": 536,
+          "remaining": 91
         },
         {
           "amount": 100,
           "total": 1239,
-          "paid": 1073,
-          "remaining": 166
+          "paid": 1074,
+          "remaining": 165
         },
         {
           "amount": 75,
           "total": 2467,
-          "paid": 2146,
-          "remaining": 321
+          "paid": 2147,
+          "remaining": 320
         },
         {
           "amount": 50,
           "total": 4079,
-          "paid": 3473,
-          "remaining": 606
+          "paid": 3478,
+          "remaining": 601
         },
         {
           "amount": 30,
           "total": 30865,
-          "paid": 26567,
-          "remaining": 4298
+          "paid": 26601,
+          "remaining": 4264
         },
         {
           "amount": 20,
           "total": 29642,
-          "paid": 25028,
-          "remaining": 4614
+          "paid": 25053,
+          "remaining": 4589
         },
         {
           "amount": 15,
           "total": 37055,
-          "paid": 31521,
-          "remaining": 5534
+          "paid": 31558,
+          "remaining": 5497
         },
         {
           "amount": 10,
           "total": 66691,
-          "paid": 55637,
-          "remaining": 11054
+          "paid": 55693,
+          "remaining": 10998
         },
         {
           "amount": 5,
           "total": 237134,
-          "paid": 195268,
-          "remaining": 41866
+          "paid": 195471,
+          "remaining": 41663
         },
         {
           "amount": 3,
           "total": 303833,
-          "paid": 246843,
-          "remaining": 56990
+          "paid": 247128,
+          "remaining": 56705
         }
       ]
     },
@@ -5453,9 +5453,9 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 662710,
-      "total_prizes_remaining": 87340,
-      "total_prizes_pct_remaining": 13.18,
-      "remaining_cash_value": 554462,
+      "total_prizes_remaining": 87312,
+      "total_prizes_pct_remaining": 13.17,
+      "remaining_cash_value": 554341,
       "original_cash_value": 5049253,
       "cash_value_pct_remaining": 10.98,
       "tickets_printed": 2590300,
@@ -5506,26 +5506,26 @@
         {
           "amount": 15,
           "total": 58264,
-          "paid": 52314,
-          "remaining": 5950
+          "paid": 52315,
+          "remaining": 5949
         },
         {
           "amount": 10,
           "total": 19430,
-          "paid": 17233,
-          "remaining": 2197
+          "paid": 17234,
+          "remaining": 2196
         },
         {
           "amount": 5,
           "total": 226699,
-          "paid": 199889,
-          "remaining": 26810
+          "paid": 199898,
+          "remaining": 26801
         },
         {
           "amount": 3,
           "total": 310836,
-          "paid": 262987,
-          "remaining": 47849
+          "paid": 263004,
+          "remaining": 47832
         }
       ]
     },
@@ -5544,11 +5544,11 @@
       "top_prize_remaining": 4,
       "top_prize_pct_remaining": 80.0,
       "total_prizes_total": 1040321,
-      "total_prizes_remaining": 811056,
-      "total_prizes_pct_remaining": 77.96,
-      "remaining_cash_value": 5965941,
+      "total_prizes_remaining": 808402,
+      "total_prizes_pct_remaining": 77.71,
+      "remaining_cash_value": 5946941,
       "original_cash_value": 7680955,
-      "cash_value_pct_remaining": 77.67,
+      "cash_value_pct_remaining": 77.42,
       "tickets_printed": 3940500,
       "overall_odds": "1 in 3.79",
       "prize_tiers": [
@@ -5573,62 +5573,62 @@
         {
           "amount": 250,
           "total": 653,
-          "paid": 149,
-          "remaining": 504
+          "paid": 152,
+          "remaining": 501
         },
         {
           "amount": 200,
           "total": 1285,
-          "paid": 297,
-          "remaining": 988
+          "paid": 299,
+          "remaining": 986
         },
         {
           "amount": 100,
           "total": 1651,
-          "paid": 371,
-          "remaining": 1280
+          "paid": 373,
+          "remaining": 1278
         },
         {
           "amount": 75,
           "total": 2128,
-          "paid": 504,
-          "remaining": 1624
+          "paid": 506,
+          "remaining": 1622
         },
         {
           "amount": 50,
           "total": 19736,
-          "paid": 4484,
-          "remaining": 15252
+          "paid": 4540,
+          "remaining": 15196
         },
         {
           "amount": 25,
           "total": 39568,
-          "paid": 9032,
-          "remaining": 30536
+          "paid": 9133,
+          "remaining": 30435
         },
         {
           "amount": 15,
           "total": 49238,
-          "paid": 11129,
-          "remaining": 38109
+          "paid": 11256,
+          "remaining": 37982
         },
         {
           "amount": 10,
           "total": 69048,
-          "paid": 15468,
-          "remaining": 53580
+          "paid": 15643,
+          "remaining": 53405
         },
         {
           "amount": 5,
           "total": 384075,
-          "paid": 84455,
-          "remaining": 299620
+          "paid": 85436,
+          "remaining": 298639
         },
         {
           "amount": 3,
           "total": 472860,
-          "paid": 103358,
-          "remaining": 369502
+          "paid": 104563,
+          "remaining": 368297
         }
       ]
     },
@@ -5647,9 +5647,9 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 20.0,
       "total_prizes_total": 1015683,
-      "total_prizes_remaining": 135351,
-      "total_prizes_pct_remaining": 13.33,
-      "remaining_cash_value": 975490,
+      "total_prizes_remaining": 135303,
+      "total_prizes_pct_remaining": 13.32,
+      "remaining_cash_value": 975181,
       "original_cash_value": 7509431,
       "cash_value_pct_remaining": 12.99,
       "tickets_printed": 3848600,
@@ -5694,38 +5694,38 @@
         {
           "amount": 50,
           "total": 19248,
-          "paid": 17016,
-          "remaining": 2232
+          "paid": 17017,
+          "remaining": 2231
         },
         {
           "amount": 25,
           "total": 38649,
-          "paid": 33943,
-          "remaining": 4706
+          "paid": 33944,
+          "remaining": 4705
         },
         {
           "amount": 15,
           "total": 48090,
-          "paid": 42524,
-          "remaining": 5566
+          "paid": 42529,
+          "remaining": 5561
         },
         {
           "amount": 10,
           "total": 67316,
-          "paid": 59103,
-          "remaining": 8213
+          "paid": 59105,
+          "remaining": 8211
         },
         {
           "amount": 5,
           "total": 375360,
-          "paid": 325374,
-          "remaining": 49986
+          "paid": 325385,
+          "remaining": 49975
         },
         {
           "amount": 3,
           "total": 461832,
-          "paid": 397952,
-          "remaining": 63880
+          "paid": 397980,
+          "remaining": 63852
         }
       ]
     },
@@ -5744,11 +5744,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 16.67,
       "total_prizes_total": 918100,
-      "total_prizes_remaining": 145638,
-      "total_prizes_pct_remaining": 15.86,
-      "remaining_cash_value": 1050372,
+      "total_prizes_remaining": 145485,
+      "total_prizes_pct_remaining": 15.85,
+      "remaining_cash_value": 1049061,
       "original_cash_value": 7468376,
-      "cash_value_pct_remaining": 14.06,
+      "cash_value_pct_remaining": 14.05,
       "tickets_printed": 3828200,
       "overall_odds": "1 in 4.17",
       "prize_tiers": [
@@ -5773,8 +5773,8 @@
         {
           "amount": 100,
           "total": 3192,
-          "paid": 2824,
-          "remaining": 368
+          "paid": 2825,
+          "remaining": 367
         },
         {
           "amount": 90,
@@ -5785,50 +5785,50 @@
         {
           "amount": 50,
           "total": 2374,
-          "paid": 2105,
-          "remaining": 269
+          "paid": 2106,
+          "remaining": 268
         },
         {
           "amount": 30,
           "total": 39892,
-          "paid": 35025,
-          "remaining": 4867
+          "paid": 35034,
+          "remaining": 4858
         },
         {
           "amount": 20,
           "total": 38282,
-          "paid": 33524,
-          "remaining": 4758
+          "paid": 33533,
+          "remaining": 4749
         },
         {
           "amount": 15,
           "total": 47834,
-          "paid": 41757,
-          "remaining": 6077
+          "paid": 41766,
+          "remaining": 6068
         },
         {
           "amount": 10,
           "total": 76564,
-          "paid": 66121,
-          "remaining": 10443
+          "paid": 66128,
+          "remaining": 10436
         },
         {
           "amount": 6,
           "total": 201023,
-          "paid": 172473,
-          "remaining": 28550
+          "paid": 172502,
+          "remaining": 28521
         },
         {
           "amount": 5,
           "total": 153128,
-          "paid": 129715,
-          "remaining": 23413
+          "paid": 129749,
+          "remaining": 23379
         },
         {
           "amount": 3,
           "total": 354116,
-          "paid": 287432,
-          "remaining": 66684
+          "paid": 287486,
+          "remaining": 66630
         }
       ]
     },
@@ -5847,11 +5847,11 @@
       "top_prize_remaining": 4,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 385668,
-      "total_prizes_remaining": 341925,
-      "total_prizes_pct_remaining": 88.66,
-      "remaining_cash_value": 3866975,
+      "total_prizes_remaining": 337897,
+      "total_prizes_pct_remaining": 87.61,
+      "remaining_cash_value": 3821595,
       "original_cash_value": 4351950,
-      "cash_value_pct_remaining": 88.86,
+      "cash_value_pct_remaining": 87.81,
       "tickets_printed": 1289500,
       "overall_odds": "1 in 3.34",
       "prize_tiers": [
@@ -5876,86 +5876,86 @@
         {
           "amount": 200,
           "total": 46,
-          "paid": 5,
-          "remaining": 41
+          "paid": 6,
+          "remaining": 40
         },
         {
           "amount": 100,
           "total": 177,
-          "paid": 24,
-          "remaining": 153
+          "paid": 25,
+          "remaining": 152
         },
         {
           "amount": 90,
           "total": 151,
-          "paid": 24,
-          "remaining": 127
+          "paid": 28,
+          "remaining": 123
         },
         {
           "amount": 70,
           "total": 146,
-          "paid": 15,
-          "remaining": 131
+          "paid": 16,
+          "remaining": 130
         },
         {
           "amount": 60,
           "total": 222,
-          "paid": 30,
-          "remaining": 192
+          "paid": 31,
+          "remaining": 191
         },
         {
           "amount": 50,
           "total": 26351,
-          "paid": 3196,
-          "remaining": 23155
+          "paid": 3508,
+          "remaining": 22843
         },
         {
           "amount": 45,
           "total": 427,
-          "paid": 50,
-          "remaining": 377
+          "paid": 58,
+          "remaining": 369
         },
         {
           "amount": 35,
           "total": 1872,
-          "paid": 232,
-          "remaining": 1640
+          "paid": 253,
+          "remaining": 1619
         },
         {
           "amount": 30,
           "total": 4287,
-          "paid": 491,
-          "remaining": 3796
+          "paid": 548,
+          "remaining": 3739
         },
         {
           "amount": 25,
           "total": 3879,
-          "paid": 457,
-          "remaining": 3422
+          "paid": 502,
+          "remaining": 3377
         },
         {
           "amount": 20,
           "total": 12886,
-          "paid": 1577,
-          "remaining": 11309
+          "paid": 1709,
+          "remaining": 11177
         },
         {
           "amount": 15,
           "total": 6484,
-          "paid": 740,
-          "remaining": 5744
+          "paid": 801,
+          "remaining": 5683
         },
         {
           "amount": 10,
           "total": 90292,
-          "paid": 10320,
-          "remaining": 79972
+          "paid": 11237,
+          "remaining": 79055
         },
         {
           "amount": 5,
           "total": 238430,
-          "paid": 26580,
-          "remaining": 211850
+          "paid": 29047,
+          "remaining": 209383
         }
       ]
     },
@@ -5974,11 +5974,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 75.0,
       "total_prizes_total": 984413,
-      "total_prizes_remaining": 847939,
-      "total_prizes_pct_remaining": 86.14,
-      "remaining_cash_value": 9437525,
+      "total_prizes_remaining": 843762,
+      "total_prizes_pct_remaining": 85.71,
+      "remaining_cash_value": 9391090,
       "original_cash_value": 11022645,
-      "cash_value_pct_remaining": 85.62,
+      "cash_value_pct_remaining": 85.2,
       "tickets_printed": 3267400,
       "overall_odds": "1 in 3.32",
       "prize_tiers": [
@@ -6003,14 +6003,14 @@
         {
           "amount": 250,
           "total": 164,
-          "paid": 23,
-          "remaining": 141
+          "paid": 25,
+          "remaining": 139
         },
         {
           "amount": 100,
           "total": 219,
-          "paid": 30,
-          "remaining": 189
+          "paid": 31,
+          "remaining": 188
         },
         {
           "amount": 75,
@@ -6021,44 +6021,44 @@
         {
           "amount": 50,
           "total": 66702,
-          "paid": 9716,
-          "remaining": 56986
+          "paid": 10001,
+          "remaining": 56701
         },
         {
           "amount": 40,
           "total": 20599,
-          "paid": 3012,
-          "remaining": 17587
+          "paid": 3100,
+          "remaining": 17499
         },
         {
           "amount": 25,
           "total": 14318,
-          "paid": 2088,
-          "remaining": 12230
+          "paid": 2159,
+          "remaining": 12159
         },
         {
           "amount": 20,
           "total": 32774,
-          "paid": 4679,
-          "remaining": 28095
+          "paid": 4823,
+          "remaining": 27951
         },
         {
           "amount": 15,
           "total": 16404,
-          "paid": 2331,
-          "remaining": 14073
+          "paid": 2401,
+          "remaining": 14003
         },
         {
           "amount": 10,
           "total": 228418,
-          "paid": 32064,
-          "remaining": 196354
+          "paid": 33020,
+          "remaining": 195398
         },
         {
           "amount": 5,
           "total": 604468,
-          "paid": 82476,
-          "remaining": 521992
+          "paid": 85036,
+          "remaining": 519432
         }
       ]
     },
@@ -6077,11 +6077,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 368226,
-      "total_prizes_remaining": 153559,
-      "total_prizes_pct_remaining": 41.7,
-      "remaining_cash_value": 1647720,
+      "total_prizes_remaining": 152142,
+      "total_prizes_pct_remaining": 41.32,
+      "remaining_cash_value": 1632095,
       "original_cash_value": 4142225,
-      "cash_value_pct_remaining": 39.78,
+      "cash_value_pct_remaining": 39.4,
       "tickets_printed": 1228200,
       "overall_odds": "1 in 3.34",
       "prize_tiers": [
@@ -6106,56 +6106,56 @@
         {
           "amount": 100,
           "total": 126,
-          "paid": 74,
-          "remaining": 52
+          "paid": 75,
+          "remaining": 51
         },
         {
           "amount": 75,
           "total": 100,
-          "paid": 59,
-          "remaining": 41
+          "paid": 61,
+          "remaining": 39
         },
         {
           "amount": 50,
           "total": 25064,
-          "paid": 15336,
-          "remaining": 9728
+          "paid": 15431,
+          "remaining": 9633
         },
         {
           "amount": 30,
           "total": 8259,
-          "paid": 4974,
-          "remaining": 3285
+          "paid": 5009,
+          "remaining": 3250
         },
         {
           "amount": 25,
           "total": 3103,
-          "paid": 1898,
-          "remaining": 1205
+          "paid": 1908,
+          "remaining": 1195
         },
         {
           "amount": 20,
           "total": 12300,
-          "paid": 7381,
-          "remaining": 4919
+          "paid": 7435,
+          "remaining": 4865
         },
         {
           "amount": 15,
           "total": 6170,
-          "paid": 3658,
-          "remaining": 2512
+          "paid": 3690,
+          "remaining": 2480
         },
         {
           "amount": 10,
           "total": 85920,
-          "paid": 50869,
-          "remaining": 35051
+          "paid": 51234,
+          "remaining": 34686
         },
         {
           "amount": 5,
           "total": 227166,
-          "paid": 130406,
-          "remaining": 96760
+          "paid": 131229,
+          "remaining": 95937
         }
       ]
     },
@@ -6174,11 +6174,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 486270,
-      "total_prizes_remaining": 246047,
-      "total_prizes_pct_remaining": 50.6,
-      "remaining_cash_value": 2750160,
+      "total_prizes_remaining": 243767,
+      "total_prizes_pct_remaining": 50.13,
+      "remaining_cash_value": 2724485,
       "original_cash_value": 5596095,
-      "cash_value_pct_remaining": 49.14,
+      "cash_value_pct_remaining": 48.69,
       "tickets_printed": 1658500,
       "overall_odds": "1 in 3.41",
       "prize_tiers": [
@@ -6203,50 +6203,50 @@
         {
           "amount": 100,
           "total": 1682,
-          "paid": 900,
-          "remaining": 782
+          "paid": 904,
+          "remaining": 778
         },
         {
           "amount": 75,
           "total": 833,
-          "paid": 419,
-          "remaining": 414
+          "paid": 422,
+          "remaining": 411
         },
         {
           "amount": 50,
           "total": 34481,
-          "paid": 17208,
-          "remaining": 17273
+          "paid": 17386,
+          "remaining": 17095
         },
         {
           "amount": 30,
           "total": 6924,
-          "paid": 3611,
-          "remaining": 3313
+          "paid": 3642,
+          "remaining": 3282
         },
         {
           "amount": 25,
           "total": 2780,
-          "paid": 1393,
-          "remaining": 1387
+          "paid": 1411,
+          "remaining": 1369
         },
         {
           "amount": 20,
           "total": 16576,
-          "paid": 8417,
-          "remaining": 8159
+          "paid": 8502,
+          "remaining": 8074
         },
         {
           "amount": 10,
           "total": 140954,
-          "paid": 70662,
-          "remaining": 70292
+          "paid": 71315,
+          "remaining": 69639
         },
         {
           "amount": 5,
           "total": 282018,
-          "paid": 137599,
-          "remaining": 144419
+          "paid": 138907,
+          "remaining": 143111
         }
       ]
     },
@@ -6265,11 +6265,11 @@
       "top_prize_remaining": 4,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 641779,
-      "total_prizes_remaining": 641727,
-      "total_prizes_pct_remaining": 99.99,
-      "remaining_cash_value": 7487385,
+      "total_prizes_remaining": 641496,
+      "total_prizes_pct_remaining": 99.96,
+      "remaining_cash_value": 7484440,
       "original_cash_value": 7488155,
-      "cash_value_pct_remaining": 99.99,
+      "cash_value_pct_remaining": 99.95,
       "tickets_printed": 2220500,
       "overall_odds": "1 in 3.46",
       "prize_tiers": [
@@ -6300,38 +6300,38 @@
         {
           "amount": 50,
           "total": 45337,
-          "paid": 8,
-          "remaining": 45329
+          "paid": 29,
+          "remaining": 45308
         },
         {
           "amount": 30,
           "total": 12116,
-          "paid": 2,
-          "remaining": 12114
+          "paid": 11,
+          "remaining": 12105
         },
         {
           "amount": 25,
           "total": 4423,
-          "paid": 1,
-          "remaining": 4422
+          "paid": 3,
+          "remaining": 4420
         },
         {
           "amount": 20,
           "total": 44410,
-          "paid": 2,
-          "remaining": 44408
+          "paid": 22,
+          "remaining": 44388
         },
         {
           "amount": 10,
           "total": 155340,
-          "paid": 10,
-          "remaining": 155330
+          "paid": 66,
+          "remaining": 155274
         },
         {
           "amount": 5,
           "total": 377675,
-          "paid": 29,
-          "remaining": 377646
+          "paid": 152,
+          "remaining": 377523
         }
       ]
     },
@@ -6350,11 +6350,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 50.0,
       "total_prizes_total": 541709,
-      "total_prizes_remaining": 200521,
-      "total_prizes_pct_remaining": 37.02,
-      "remaining_cash_value": 2192875,
+      "total_prizes_remaining": 198633,
+      "total_prizes_pct_remaining": 36.67,
+      "remaining_cash_value": 2172875,
       "original_cash_value": 6082730,
-      "cash_value_pct_remaining": 36.05,
+      "cash_value_pct_remaining": 35.72,
       "tickets_printed": 1802400,
       "overall_odds": "1 in 3.33",
       "prize_tiers": [
@@ -6385,8 +6385,8 @@
         {
           "amount": 100,
           "total": 357,
-          "paid": 237,
-          "remaining": 120
+          "paid": 239,
+          "remaining": 118
         },
         {
           "amount": 90,
@@ -6397,68 +6397,68 @@
         {
           "amount": 75,
           "total": 90,
-          "paid": 59,
-          "remaining": 31
+          "paid": 60,
+          "remaining": 30
         },
         {
           "amount": 70,
           "total": 361,
-          "paid": 249,
-          "remaining": 112
+          "paid": 251,
+          "remaining": 110
         },
         {
           "amount": 60,
           "total": 304,
-          "paid": 210,
-          "remaining": 94
+          "paid": 212,
+          "remaining": 92
         },
         {
           "amount": 50,
           "total": 36802,
-          "paid": 24491,
-          "remaining": 12311
+          "paid": 24615,
+          "remaining": 12187
         },
         {
           "amount": 40,
           "total": 900,
-          "paid": 616,
-          "remaining": 284
+          "paid": 619,
+          "remaining": 281
         },
         {
           "amount": 30,
           "total": 10716,
-          "paid": 7050,
-          "remaining": 3666
+          "paid": 7084,
+          "remaining": 3632
         },
         {
           "amount": 25,
           "total": 5350,
-          "paid": 3462,
-          "remaining": 1888
+          "paid": 3477,
+          "remaining": 1873
         },
         {
           "amount": 20,
           "total": 18114,
-          "paid": 11721,
-          "remaining": 6393
+          "paid": 11766,
+          "remaining": 6348
         },
         {
           "amount": 15,
           "total": 9066,
-          "paid": 5713,
-          "remaining": 3353
+          "paid": 5744,
+          "remaining": 3322
         },
         {
           "amount": 10,
           "total": 125898,
-          "paid": 80265,
-          "remaining": 45633
+          "paid": 80713,
+          "remaining": 45185
         },
         {
           "amount": 5,
           "total": 333462,
-          "paid": 206925,
-          "remaining": 126537
+          "paid": 208106,
+          "remaining": 125356
         }
       ]
     },
@@ -6477,11 +6477,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 50.0,
       "total_prizes_total": 710124,
-      "total_prizes_remaining": 270370,
-      "total_prizes_pct_remaining": 38.07,
-      "remaining_cash_value": 3138425,
+      "total_prizes_remaining": 267638,
+      "total_prizes_pct_remaining": 37.69,
+      "remaining_cash_value": 3108240,
       "original_cash_value": 8318275,
-      "cash_value_pct_remaining": 37.73,
+      "cash_value_pct_remaining": 37.37,
       "tickets_printed": 2466900,
       "overall_odds": "1 in 3.47",
       "prize_tiers": [
@@ -6500,50 +6500,50 @@
         {
           "amount": 100,
           "total": 1229,
-          "paid": 787,
-          "remaining": 442
+          "paid": 790,
+          "remaining": 439
         },
         {
           "amount": 75,
           "total": 1521,
-          "paid": 955,
-          "remaining": 566
+          "paid": 962,
+          "remaining": 559
         },
         {
           "amount": 50,
           "total": 50580,
-          "paid": 32205,
-          "remaining": 18375
+          "paid": 32390,
+          "remaining": 18190
         },
         {
           "amount": 30,
           "total": 10434,
-          "paid": 6630,
-          "remaining": 3804
+          "paid": 6692,
+          "remaining": 3742
         },
         {
           "amount": 25,
           "total": 4953,
-          "paid": 3149,
-          "remaining": 1804
+          "paid": 3157,
+          "remaining": 1796
         },
         {
           "amount": 20,
           "total": 49338,
-          "paid": 31200,
-          "remaining": 18138
+          "paid": 31368,
+          "remaining": 17970
         },
         {
           "amount": 10,
           "total": 172684,
-          "paid": 107912,
-          "remaining": 64772
+          "paid": 108551,
+          "remaining": 64133
         },
         {
           "amount": 5,
           "total": 419371,
-          "paid": 256906,
-          "remaining": 162465
+          "paid": 258566,
+          "remaining": 160805
         }
       ]
     },
@@ -6562,11 +6562,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 40.0,
       "total_prizes_total": 952824,
-      "total_prizes_remaining": 538688,
-      "total_prizes_pct_remaining": 56.54,
-      "remaining_cash_value": 6004730,
+      "total_prizes_remaining": 536288,
+      "total_prizes_pct_remaining": 56.28,
+      "remaining_cash_value": 5978665,
       "original_cash_value": 10814950,
-      "cash_value_pct_remaining": 55.52,
+      "cash_value_pct_remaining": 55.28,
       "tickets_printed": 3207400,
       "overall_odds": "1 in 3.37",
       "prize_tiers": [
@@ -6585,56 +6585,56 @@
         {
           "amount": 500,
           "total": 57,
-          "paid": 23,
-          "remaining": 34
+          "paid": 24,
+          "remaining": 33
         },
         {
           "amount": 100,
           "total": 1577,
-          "paid": 709,
-          "remaining": 868
+          "paid": 710,
+          "remaining": 867
         },
         {
           "amount": 75,
           "total": 1857,
-          "paid": 840,
-          "remaining": 1017
+          "paid": 844,
+          "remaining": 1013
         },
         {
           "amount": 50,
           "total": 65537,
-          "paid": 29487,
-          "remaining": 36050
+          "paid": 29637,
+          "remaining": 35900
         },
         {
           "amount": 30,
           "total": 11255,
-          "paid": 5067,
-          "remaining": 6188
+          "paid": 5098,
+          "remaining": 6157
         },
         {
           "amount": 25,
           "total": 6447,
-          "paid": 2937,
-          "remaining": 3510
+          "paid": 2955,
+          "remaining": 3492
         },
         {
           "amount": 20,
           "total": 64148,
-          "paid": 28617,
-          "remaining": 35531
+          "paid": 28777,
+          "remaining": 35371
         },
         {
           "amount": 10,
           "total": 224476,
-          "paid": 98703,
-          "remaining": 125773
+          "paid": 99285,
+          "remaining": 125191
         },
         {
           "amount": 5,
           "total": 577416,
-          "paid": 247733,
-          "remaining": 329683
+          "paid": 249186,
+          "remaining": 328230
         }
       ]
     },
@@ -6653,11 +6653,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 984495,
-      "total_prizes_remaining": 162802,
-      "total_prizes_pct_remaining": 16.54,
-      "remaining_cash_value": 1714770,
+      "total_prizes_remaining": 162413,
+      "total_prizes_pct_remaining": 16.5,
+      "remaining_cash_value": 1710775,
       "original_cash_value": 11022395,
-      "cash_value_pct_remaining": 15.56,
+      "cash_value_pct_remaining": 15.52,
       "tickets_printed": 3267100,
       "overall_odds": "1 in 3.32",
       "prize_tiers": [
@@ -6700,44 +6700,44 @@
         {
           "amount": 50,
           "total": 66704,
-          "paid": 57487,
-          "remaining": 9217
+          "paid": 57510,
+          "remaining": 9194
         },
         {
           "amount": 40,
           "total": 20587,
-          "paid": 17783,
-          "remaining": 2804
+          "paid": 17788,
+          "remaining": 2799
         },
         {
           "amount": 25,
           "total": 14318,
-          "paid": 12150,
-          "remaining": 2168
+          "paid": 12154,
+          "remaining": 2164
         },
         {
           "amount": 20,
           "total": 32616,
-          "paid": 27867,
-          "remaining": 4749
+          "paid": 27881,
+          "remaining": 4735
         },
         {
           "amount": 15,
           "total": 16316,
-          "paid": 13800,
-          "remaining": 2516
+          "paid": 13808,
+          "remaining": 2508
         },
         {
           "amount": 10,
           "total": 228862,
-          "paid": 192162,
-          "remaining": 36700
+          "paid": 192256,
+          "remaining": 36606
         },
         {
           "amount": 5,
           "total": 604362,
-          "paid": 499824,
-          "remaining": 104538
+          "paid": 500065,
+          "remaining": 104297
         }
       ]
     },
@@ -6756,11 +6756,11 @@
       "top_prize_remaining": 163,
       "top_prize_pct_remaining": 16.01,
       "total_prizes_total": 663016,
-      "total_prizes_remaining": 127455,
+      "total_prizes_remaining": 127417,
       "total_prizes_pct_remaining": 19.22,
-      "remaining_cash_value": 1362840,
+      "remaining_cash_value": 1362455,
       "original_cash_value": 7497630,
-      "cash_value_pct_remaining": 18.18,
+      "cash_value_pct_remaining": 18.17,
       "tickets_printed": 2223000,
       "overall_odds": "1 in 3.35",
       "prize_tiers": [
@@ -6785,8 +6785,8 @@
         {
           "amount": 50,
           "total": 45199,
-          "paid": 37528,
-          "remaining": 7671
+          "paid": 37530,
+          "remaining": 7669
         },
         {
           "amount": 30,
@@ -6803,26 +6803,26 @@
         {
           "amount": 20,
           "total": 22158,
-          "paid": 18173,
-          "remaining": 3985
+          "paid": 18174,
+          "remaining": 3984
         },
         {
           "amount": 15,
           "total": 11026,
-          "paid": 8936,
-          "remaining": 2090
+          "paid": 8938,
+          "remaining": 2088
         },
         {
           "amount": 10,
           "total": 155826,
-          "paid": 126945,
-          "remaining": 28881
+          "paid": 126959,
+          "remaining": 28867
         },
         {
           "amount": 5,
           "total": 411378,
-          "paid": 329582,
-          "remaining": 81796
+          "paid": 329601,
+          "remaining": 81777
         }
       ]
     },
@@ -6841,11 +6841,11 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 731000,
-      "total_prizes_remaining": 82760,
+      "total_prizes_remaining": 82728,
       "total_prizes_pct_remaining": 11.32,
-      "remaining_cash_value": 837635,
+      "remaining_cash_value": 837385,
       "original_cash_value": 8320630,
-      "cash_value_pct_remaining": 10.07,
+      "cash_value_pct_remaining": 10.06,
       "tickets_printed": 2467900,
       "overall_odds": "1 in 3.38",
       "prize_tiers": [
@@ -6882,32 +6882,32 @@
         {
           "amount": 30,
           "total": 6336,
-          "paid": 5738,
-          "remaining": 598
+          "paid": 5740,
+          "remaining": 596
         },
         {
           "amount": 25,
           "total": 4927,
-          "paid": 4474,
-          "remaining": 453
+          "paid": 4475,
+          "remaining": 452
         },
         {
           "amount": 20,
           "total": 49358,
-          "paid": 44732,
-          "remaining": 4626
+          "paid": 44733,
+          "remaining": 4625
         },
         {
           "amount": 10,
           "total": 172700,
-          "paid": 154308,
-          "remaining": 18392
+          "paid": 154309,
+          "remaining": 18391
         },
         {
           "amount": 5,
           "total": 444328,
-          "paid": 390722,
-          "remaining": 53606
+          "paid": 390749,
+          "remaining": 53579
         }
       ]
     },
@@ -6926,11 +6926,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 50.0,
       "total_prizes_total": 650138,
-      "total_prizes_remaining": 294323,
-      "total_prizes_pct_remaining": 45.27,
-      "remaining_cash_value": 3257605,
+      "total_prizes_remaining": 293594,
+      "total_prizes_pct_remaining": 45.16,
+      "remaining_cash_value": 3249105,
       "original_cash_value": 7304350,
-      "cash_value_pct_remaining": 44.6,
+      "cash_value_pct_remaining": 44.48,
       "tickets_printed": 2164000,
       "overall_odds": "1 in 3.33",
       "prize_tiers": [
@@ -6955,50 +6955,50 @@
         {
           "amount": 100,
           "total": 2306,
-          "paid": 1315,
-          "remaining": 991
+          "paid": 1317,
+          "remaining": 989
         },
         {
           "amount": 50,
           "total": 43633,
-          "paid": 24719,
-          "remaining": 18914
+          "paid": 24783,
+          "remaining": 18850
         },
         {
           "amount": 30,
           "total": 14485,
-          "paid": 8168,
-          "remaining": 6317
+          "paid": 8184,
+          "remaining": 6301
         },
         {
           "amount": 25,
           "total": 5398,
-          "paid": 3009,
-          "remaining": 2389
+          "paid": 3014,
+          "remaining": 2384
         },
         {
           "amount": 20,
           "total": 21624,
-          "paid": 12167,
-          "remaining": 9457
+          "paid": 12187,
+          "remaining": 9437
         },
         {
           "amount": 15,
           "total": 10812,
-          "paid": 5941,
-          "remaining": 4871
+          "paid": 5953,
+          "remaining": 4859
         },
         {
           "amount": 10,
           "total": 151528,
-          "paid": 83729,
-          "remaining": 67799
+          "paid": 83902,
+          "remaining": 67626
         },
         {
           "amount": 5,
           "total": 400332,
-          "paid": 216757,
-          "remaining": 183575
+          "paid": 217194,
+          "remaining": 183138
         }
       ]
     },
@@ -7017,11 +7017,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 50.0,
       "total_prizes_total": 893565,
-      "total_prizes_remaining": 358128,
-      "total_prizes_pct_remaining": 40.08,
-      "remaining_cash_value": 4240665,
+      "total_prizes_remaining": 356018,
+      "total_prizes_pct_remaining": 39.84,
+      "remaining_cash_value": 4214910,
       "original_cash_value": 10695675,
-      "cash_value_pct_remaining": 39.65,
+      "cash_value_pct_remaining": 39.41,
       "tickets_printed": 3170200,
       "overall_odds": "1 in 3.55",
       "prize_tiers": [
@@ -7052,26 +7052,26 @@
         {
           "amount": 50,
           "total": 63801,
-          "paid": 39003,
-          "remaining": 24798
+          "paid": 39163,
+          "remaining": 24638
         },
         {
           "amount": 25,
           "total": 100353,
-          "paid": 61240,
-          "remaining": 39113
+          "paid": 61506,
+          "remaining": 38847
         },
         {
           "amount": 10,
           "total": 221938,
-          "paid": 134222,
-          "remaining": 87716
+          "paid": 134759,
+          "remaining": 87179
         },
         {
           "amount": 5,
           "total": 507184,
-          "paid": 300788,
-          "remaining": 206396
+          "paid": 301935,
+          "remaining": 205249
         }
       ]
     },
@@ -7090,11 +7090,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 645410,
-      "total_prizes_remaining": 134459,
-      "total_prizes_pct_remaining": 20.83,
-      "remaining_cash_value": 1473150,
+      "total_prizes_remaining": 134095,
+      "total_prizes_pct_remaining": 20.78,
+      "remaining_cash_value": 1469375,
       "original_cash_value": 7312990,
-      "cash_value_pct_remaining": 20.14,
+      "cash_value_pct_remaining": 20.09,
       "tickets_printed": 2165700,
       "overall_odds": "1 in 3.36",
       "prize_tiers": [
@@ -7125,14 +7125,14 @@
         {
           "amount": 100,
           "total": 3982,
-          "paid": 3213,
-          "remaining": 769
+          "paid": 3214,
+          "remaining": 768
         },
         {
           "amount": 50,
           "total": 43536,
-          "paid": 35370,
-          "remaining": 8166
+          "paid": 35393,
+          "remaining": 8143
         },
         {
           "amount": 40,
@@ -7143,38 +7143,38 @@
         {
           "amount": 30,
           "total": 5454,
-          "paid": 4411,
-          "remaining": 1043
+          "paid": 4413,
+          "remaining": 1041
         },
         {
           "amount": 25,
           "total": 6532,
-          "paid": 5275,
-          "remaining": 1257
+          "paid": 5280,
+          "remaining": 1252
         },
         {
           "amount": 20,
           "total": 21624,
-          "paid": 17341,
-          "remaining": 4283
+          "paid": 17354,
+          "remaining": 4270
         },
         {
           "amount": 15,
           "total": 10898,
-          "paid": 8738,
-          "remaining": 2160
+          "paid": 8748,
+          "remaining": 2150
         },
         {
           "amount": 10,
           "total": 151698,
-          "paid": 120508,
-          "remaining": 31190
+          "paid": 120584,
+          "remaining": 31114
         },
         {
           "amount": 5,
           "total": 400380,
-          "paid": 315057,
-          "remaining": 85323
+          "paid": 315291,
+          "remaining": 85089
         }
       ]
     },
@@ -7193,11 +7193,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 8.33,
       "total_prizes_total": 993656,
-      "total_prizes_remaining": 156891,
-      "total_prizes_pct_remaining": 15.79,
-      "remaining_cash_value": 1721040,
+      "total_prizes_remaining": 155586,
+      "total_prizes_pct_remaining": 15.66,
+      "remaining_cash_value": 1705400,
       "original_cash_value": 11715110,
-      "cash_value_pct_remaining": 14.69,
+      "cash_value_pct_remaining": 14.56,
       "tickets_printed": 4691900,
       "overall_odds": "1 in 4.72",
       "prize_tiers": [
@@ -7210,38 +7210,38 @@
         {
           "amount": 100,
           "total": 2858,
-          "paid": 2510,
-          "remaining": 348
+          "paid": 2515,
+          "remaining": 343
         },
         {
           "amount": 50,
           "total": 48486,
-          "paid": 42258,
-          "remaining": 6228
+          "paid": 42323,
+          "remaining": 6163
         },
         {
           "amount": 20,
           "total": 97758,
-          "paid": 84393,
-          "remaining": 13365
+          "paid": 84525,
+          "remaining": 13233
         },
         {
           "amount": 15,
           "total": 117226,
-          "paid": 100254,
-          "remaining": 16972
+          "paid": 100410,
+          "remaining": 16816
         },
         {
           "amount": 10,
           "total": 328576,
-          "paid": 278161,
-          "remaining": 50415
+          "paid": 278596,
+          "remaining": 49980
         },
         {
           "amount": 5,
           "total": 398740,
-          "paid": 329178,
-          "remaining": 69562
+          "paid": 329690,
+          "remaining": 69050
         }
       ]
     },
@@ -7260,9 +7260,9 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 938451,
-      "total_prizes_remaining": 160844,
+      "total_prizes_remaining": 160820,
       "total_prizes_pct_remaining": 17.14,
-      "remaining_cash_value": 1649130,
+      "remaining_cash_value": 1648895,
       "original_cash_value": 10660275,
       "cash_value_pct_remaining": 15.47,
       "tickets_printed": 3159000,
@@ -7301,14 +7301,14 @@
         {
           "amount": 50,
           "total": 64552,
-          "paid": 55303,
-          "remaining": 9249
+          "paid": 55304,
+          "remaining": 9248
         },
         {
           "amount": 30,
           "total": 11085,
-          "paid": 9535,
-          "remaining": 1550
+          "paid": 9536,
+          "remaining": 1549
         },
         {
           "amount": 25,
@@ -7325,14 +7325,14 @@
         {
           "amount": 10,
           "total": 221136,
-          "paid": 185410,
-          "remaining": 35726
+          "paid": 185419,
+          "remaining": 35717
         },
         {
           "amount": 5,
           "total": 568608,
-          "paid": 465244,
-          "remaining": 103364
+          "paid": 465257,
+          "remaining": 103351
         }
       ]
     },
@@ -7351,11 +7351,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 50.0,
       "total_prizes_total": 616849,
-      "total_prizes_remaining": 67123,
-      "total_prizes_pct_remaining": 10.88,
-      "remaining_cash_value": 821375,
+      "total_prizes_remaining": 66536,
+      "total_prizes_pct_remaining": 10.79,
+      "remaining_cash_value": 814925,
       "original_cash_value": 7152705,
-      "cash_value_pct_remaining": 11.48,
+      "cash_value_pct_remaining": 11.39,
       "tickets_printed": 2116500,
       "overall_odds": "1 in 3.43",
       "prize_tiers": [
@@ -7404,8 +7404,8 @@
         {
           "amount": 100,
           "total": 284,
-          "paid": 256,
-          "remaining": 28
+          "paid": 257,
+          "remaining": 27
         },
         {
           "amount": 90,
@@ -7434,8 +7434,8 @@
         {
           "amount": 50,
           "total": 43218,
-          "paid": 39034,
-          "remaining": 4184
+          "paid": 39073,
+          "remaining": 4145
         },
         {
           "amount": 45,
@@ -7446,50 +7446,50 @@
         {
           "amount": 40,
           "total": 1041,
-          "paid": 959,
-          "remaining": 82
+          "paid": 960,
+          "remaining": 81
         },
         {
           "amount": 35,
           "total": 3066,
-          "paid": 2790,
-          "remaining": 276
+          "paid": 2791,
+          "remaining": 275
         },
         {
           "amount": 30,
           "total": 10102,
-          "paid": 9123,
-          "remaining": 979
+          "paid": 9133,
+          "remaining": 969
         },
         {
           "amount": 25,
           "total": 6285,
-          "paid": 5674,
-          "remaining": 611
+          "paid": 5678,
+          "remaining": 607
         },
         {
           "amount": 20,
           "total": 21186,
-          "paid": 19036,
-          "remaining": 2150
+          "paid": 19065,
+          "remaining": 2121
         },
         {
           "amount": 15,
           "total": 10552,
-          "paid": 9522,
-          "remaining": 1030
+          "paid": 9540,
+          "remaining": 1012
         },
         {
           "amount": 10,
           "total": 148092,
-          "paid": 132828,
-          "remaining": 15264
+          "paid": 132959,
+          "remaining": 15133
         },
         {
           "amount": 5,
           "total": 370521,
-          "paid": 328212,
-          "remaining": 42309
+          "paid": 328565,
+          "remaining": 41956
         }
       ]
     },
@@ -7508,9 +7508,9 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 25.0,
       "total_prizes_total": 635878,
-      "total_prizes_remaining": 152704,
+      "total_prizes_remaining": 152696,
       "total_prizes_pct_remaining": 24.01,
-      "remaining_cash_value": 1686620,
+      "remaining_cash_value": 1686565,
       "original_cash_value": 7472725,
       "cash_value_pct_remaining": 22.57,
       "tickets_printed": 2215500,
@@ -7573,14 +7573,14 @@
         {
           "amount": 10,
           "total": 155108,
-          "paid": 119045,
-          "remaining": 36063
+          "paid": 119048,
+          "remaining": 36060
         },
         {
           "amount": 5,
           "total": 376589,
-          "paid": 281809,
-          "remaining": 94780
+          "paid": 281814,
+          "remaining": 94775
         }
       ]
     },
@@ -7599,11 +7599,11 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 638441,
-      "total_prizes_remaining": 95757,
+      "total_prizes_remaining": 95742,
       "total_prizes_pct_remaining": 15.0,
-      "remaining_cash_value": 977330,
+      "remaining_cash_value": 977180,
       "original_cash_value": 7251960,
-      "cash_value_pct_remaining": 13.48,
+      "cash_value_pct_remaining": 13.47,
       "tickets_printed": 2147700,
       "overall_odds": "1 in 3.36",
       "prize_tiers": [
@@ -7634,8 +7634,8 @@
         {
           "amount": 50,
           "total": 44025,
-          "paid": 38595,
-          "remaining": 5430
+          "paid": 38596,
+          "remaining": 5429
         },
         {
           "amount": 30,
@@ -7658,14 +7658,14 @@
         {
           "amount": 10,
           "total": 150368,
-          "paid": 128811,
-          "remaining": 21557
+          "paid": 128817,
+          "remaining": 21551
         },
         {
           "amount": 5,
           "total": 386528,
-          "paid": 325327,
-          "remaining": 61201
+          "paid": 325335,
+          "remaining": 61193
         }
       ]
     },
@@ -7684,11 +7684,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 276404,
-      "total_prizes_remaining": 242724,
-      "total_prizes_pct_remaining": 87.81,
-      "remaining_cash_value": 6781445,
+      "total_prizes_remaining": 239933,
+      "total_prizes_pct_remaining": 86.81,
+      "remaining_cash_value": 6708865,
       "original_cash_value": 7632355,
-      "cash_value_pct_remaining": 88.85,
+      "cash_value_pct_remaining": 87.9,
       "tickets_printed": 1047650,
       "overall_odds": "1 in 3.79",
       "prize_tiers": [
@@ -7707,44 +7707,44 @@
         {
           "amount": 500,
           "total": 267,
-          "paid": 36,
-          "remaining": 231
+          "paid": 40,
+          "remaining": 227
         },
         {
           "amount": 200,
           "total": 360,
-          "paid": 44,
-          "remaining": 316
+          "paid": 48,
+          "remaining": 312
         },
         {
           "amount": 100,
           "total": 21043,
-          "paid": 2606,
-          "remaining": 18437
+          "paid": 2842,
+          "remaining": 18201
         },
         {
           "amount": 50,
           "total": 22528,
-          "paid": 2796,
-          "remaining": 19732
+          "paid": 3039,
+          "remaining": 19489
         },
         {
           "amount": 25,
           "total": 43653,
-          "paid": 5362,
-          "remaining": 38291
+          "paid": 5846,
+          "remaining": 37807
         },
         {
           "amount": 20,
           "total": 41938,
-          "paid": 5131,
-          "remaining": 36807
+          "paid": 5504,
+          "remaining": 36434
         },
         {
           "amount": 10,
           "total": 146607,
-          "paid": 17704,
-          "remaining": 128903
+          "paid": 19151,
+          "remaining": 127456
         }
       ]
     },
@@ -7763,11 +7763,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 33.33,
       "total_prizes_total": 329494,
-      "total_prizes_remaining": 85964,
-      "total_prizes_pct_remaining": 26.09,
-      "remaining_cash_value": 2067855,
+      "total_prizes_remaining": 85507,
+      "total_prizes_pct_remaining": 25.95,
+      "remaining_cash_value": 2057110,
       "original_cash_value": 8096425,
-      "cash_value_pct_remaining": 25.54,
+      "cash_value_pct_remaining": 25.41,
       "tickets_printed": 1168500,
       "overall_odds": "1 in 3.55",
       "prize_tiers": [
@@ -7798,32 +7798,32 @@
         {
           "amount": 100,
           "total": 23662,
-          "paid": 17840,
-          "remaining": 5822
+          "paid": 17874,
+          "remaining": 5788
         },
         {
           "amount": 50,
           "total": 23752,
-          "paid": 17834,
-          "remaining": 5918
+          "paid": 17870,
+          "remaining": 5882
         },
         {
           "amount": 25,
           "total": 23861,
-          "paid": 17632,
-          "remaining": 6229
+          "paid": 17659,
+          "remaining": 6202
         },
         {
           "amount": 20,
           "total": 93473,
-          "paid": 69613,
-          "remaining": 23860
+          "paid": 69740,
+          "remaining": 23733
         },
         {
           "amount": 10,
           "total": 163604,
-          "paid": 119731,
-          "remaining": 43873
+          "paid": 119964,
+          "remaining": 43640
         }
       ]
     },
@@ -7842,11 +7842,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 33.33,
       "total_prizes_total": 590385,
-      "total_prizes_remaining": 158992,
-      "total_prizes_pct_remaining": 26.93,
-      "remaining_cash_value": 4054135,
+      "total_prizes_remaining": 158075,
+      "total_prizes_pct_remaining": 26.77,
+      "remaining_cash_value": 4033035,
       "original_cash_value": 15283850,
-      "cash_value_pct_remaining": 26.53,
+      "cash_value_pct_remaining": 26.39,
       "tickets_printed": 2097400,
       "overall_odds": "1 in 3.55",
       "prize_tiers": [
@@ -7877,38 +7877,38 @@
         {
           "amount": 200,
           "total": 697,
-          "paid": 511,
-          "remaining": 186
+          "paid": 513,
+          "remaining": 184
         },
         {
           "amount": 100,
           "total": 42480,
-          "paid": 31678,
-          "remaining": 10802
+          "paid": 31737,
+          "remaining": 10743
         },
         {
           "amount": 50,
           "total": 42638,
-          "paid": 31684,
-          "remaining": 10954
+          "paid": 31746,
+          "remaining": 10892
         },
         {
           "amount": 25,
           "total": 42834,
-          "paid": 31281,
-          "remaining": 11553
+          "paid": 31343,
+          "remaining": 11491
         },
         {
           "amount": 20,
           "total": 167855,
-          "paid": 123236,
-          "remaining": 44619
+          "paid": 123519,
+          "remaining": 44336
         },
         {
           "amount": 10,
           "total": 293510,
-          "paid": 212727,
-          "remaining": 80783
+          "paid": 213176,
+          "remaining": 80334
         }
       ]
     },
@@ -7927,11 +7927,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 66.67,
       "total_prizes_total": 626884,
-      "total_prizes_remaining": 258051,
-      "total_prizes_pct_remaining": 41.16,
-      "remaining_cash_value": 6796640,
+      "total_prizes_remaining": 256460,
+      "total_prizes_pct_remaining": 40.91,
+      "remaining_cash_value": 6759460,
       "original_cash_value": 16234450,
-      "cash_value_pct_remaining": 41.87,
+      "cash_value_pct_remaining": 41.64,
       "tickets_printed": 2222300,
       "overall_odds": "1 in 3.54",
       "prize_tiers": [
@@ -7962,38 +7962,38 @@
         {
           "amount": 200,
           "total": 294,
-          "paid": 177,
-          "remaining": 117
+          "paid": 179,
+          "remaining": 115
         },
         {
           "amount": 100,
           "total": 44821,
-          "paid": 26953,
-          "remaining": 17868
+          "paid": 27064,
+          "remaining": 17757
         },
         {
           "amount": 50,
           "total": 45178,
-          "paid": 27113,
-          "remaining": 18065
+          "paid": 27209,
+          "remaining": 17969
         },
         {
           "amount": 30,
           "total": 47325,
-          "paid": 28291,
-          "remaining": 19034
+          "paid": 28413,
+          "remaining": 18912
         },
         {
           "amount": 20,
           "total": 177796,
-          "paid": 105585,
-          "remaining": 72211
+          "paid": 106047,
+          "remaining": 71749
         },
         {
           "amount": 10,
           "total": 311098,
-          "paid": 180503,
-          "remaining": 130595
+          "paid": 181301,
+          "remaining": 129797
         }
       ]
     },
@@ -8012,11 +8012,11 @@
       "top_prize_remaining": 150,
       "top_prize_pct_remaining": 17.44,
       "total_prizes_total": 365900,
-      "total_prizes_remaining": 67552,
-      "total_prizes_pct_remaining": 18.46,
-      "remaining_cash_value": 1697705,
+      "total_prizes_remaining": 67500,
+      "total_prizes_pct_remaining": 18.45,
+      "remaining_cash_value": 1696515,
       "original_cash_value": 9486625,
-      "cash_value_pct_remaining": 17.9,
+      "cash_value_pct_remaining": 17.88,
       "tickets_printed": 1297750,
       "overall_odds": "1 in 3.55",
       "prize_tiers": [
@@ -8041,8 +8041,8 @@
         {
           "amount": 100,
           "total": 26293,
-          "paid": 21756,
-          "remaining": 4537
+          "paid": 21761,
+          "remaining": 4532
         },
         {
           "amount": 50,
@@ -8053,20 +8053,20 @@
         {
           "amount": 25,
           "total": 26487,
-          "paid": 21604,
-          "remaining": 4883
+          "paid": 21610,
+          "remaining": 4877
         },
         {
           "amount": 20,
           "total": 103845,
-          "paid": 84946,
-          "remaining": 18899
+          "paid": 84959,
+          "remaining": 18886
         },
         {
           "amount": 10,
           "total": 181635,
-          "paid": 147165,
-          "remaining": 34470
+          "paid": 147193,
+          "remaining": 34442
         }
       ]
     },
@@ -8085,11 +8085,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 33.33,
       "total_prizes_total": 603370,
-      "total_prizes_remaining": 107458,
-      "total_prizes_pct_remaining": 17.81,
-      "remaining_cash_value": 2931620,
+      "total_prizes_remaining": 105833,
+      "total_prizes_pct_remaining": 17.54,
+      "remaining_cash_value": 2892660,
       "original_cash_value": 15878525,
-      "cash_value_pct_remaining": 18.46,
+      "cash_value_pct_remaining": 18.22,
       "tickets_printed": 2175750,
       "overall_odds": "1 in 3.61",
       "prize_tiers": [
@@ -8114,44 +8114,44 @@
         {
           "amount": 500,
           "total": 179,
-          "paid": 153,
-          "remaining": 26
+          "paid": 154,
+          "remaining": 25
         },
         {
           "amount": 200,
           "total": 552,
-          "paid": 454,
-          "remaining": 98
+          "paid": 458,
+          "remaining": 94
         },
         {
           "amount": 100,
           "total": 36365,
-          "paid": 30248,
-          "remaining": 6117
+          "paid": 30367,
+          "remaining": 5998
         },
         {
           "amount": 50,
           "total": 43871,
-          "paid": 36428,
-          "remaining": 7443
+          "paid": 36533,
+          "remaining": 7338
         },
         {
           "amount": 25,
           "total": 43693,
-          "paid": 35893,
-          "remaining": 7800
+          "paid": 36009,
+          "remaining": 7684
         },
         {
           "amount": 20,
           "total": 174076,
-          "paid": 143422,
-          "remaining": 30654
+          "paid": 143903,
+          "remaining": 30173
         },
         {
           "amount": 10,
           "total": 304573,
-          "paid": 249264,
-          "remaining": 55309
+          "paid": 250063,
+          "remaining": 54510
         }
       ]
     },
@@ -8170,11 +8170,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 428038,
-      "total_prizes_remaining": 421003,
-      "total_prizes_pct_remaining": 98.36,
-      "remaining_cash_value": 10624465,
+      "total_prizes_remaining": 418694,
+      "total_prizes_pct_remaining": 97.82,
+      "remaining_cash_value": 10567790,
       "original_cash_value": 10790600,
-      "cash_value_pct_remaining": 98.46,
+      "cash_value_pct_remaining": 97.94,
       "tickets_printed": 1479850,
       "overall_odds": "1 in 3.46",
       "prize_tiers": [
@@ -8193,50 +8193,50 @@
         {
           "amount": 2500,
           "total": 3,
-          "paid": 0,
-          "remaining": 3
+          "paid": 1,
+          "remaining": 2
         },
         {
           "amount": 500,
           "total": 270,
-          "paid": 0,
-          "remaining": 270
+          "paid": 2,
+          "remaining": 268
         },
         {
           "amount": 200,
           "total": 297,
-          "paid": 5,
-          "remaining": 292
+          "paid": 7,
+          "remaining": 290
         },
         {
           "amount": 100,
           "total": 29723,
-          "paid": 491,
-          "remaining": 29232
+          "paid": 645,
+          "remaining": 29078
         },
         {
           "amount": 50,
           "total": 29723,
-          "paid": 498,
-          "remaining": 29225
+          "paid": 645,
+          "remaining": 29078
         },
         {
           "amount": 25,
           "total": 42428,
-          "paid": 693,
-          "remaining": 41735
+          "paid": 930,
+          "remaining": 41498
         },
         {
           "amount": 20,
           "total": 118367,
-          "paid": 2033,
-          "remaining": 116334
+          "paid": 2677,
+          "remaining": 115690
         },
         {
           "amount": 10,
           "total": 207221,
-          "paid": 3315,
-          "remaining": 203906
+          "paid": 4437,
+          "remaining": 202784
         }
       ]
     },
@@ -8246,28 +8246,28 @@
       "name": "MONEYBAG MULTIPLIER",
       "price": "$10",
       "game_number": "1964",
-      "last_day_to_redeem": null,
+      "last_day_to_redeem": "06/07/27",
       "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=1964",
       "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/1964.jpg",
       "top_prize_amount": 200000,
       "top_prize_total": 3,
-      "top_prize_paid": 2,
-      "top_prize_remaining": 1,
-      "top_prize_pct_remaining": 33.33,
+      "top_prize_paid": 3,
+      "top_prize_remaining": 0,
+      "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 413754,
-      "total_prizes_remaining": 100749,
-      "total_prizes_pct_remaining": 24.35,
-      "remaining_cash_value": 2544460,
+      "total_prizes_remaining": 98577,
+      "total_prizes_pct_remaining": 23.83,
+      "remaining_cash_value": 2291365,
       "original_cash_value": 10456175,
-      "cash_value_pct_remaining": 24.33,
+      "cash_value_pct_remaining": 21.91,
       "tickets_printed": 1430250,
       "overall_odds": "1 in 3.46",
       "prize_tiers": [
         {
           "amount": 200000,
           "total": 3,
-          "paid": 2,
-          "remaining": 1
+          "paid": 3,
+          "remaining": 0
         },
         {
           "amount": 10000,
@@ -8284,44 +8284,44 @@
         {
           "amount": 500,
           "total": 271,
-          "paid": 208,
-          "remaining": 63
+          "paid": 209,
+          "remaining": 62
         },
         {
           "amount": 200,
           "total": 287,
-          "paid": 227,
-          "remaining": 60
+          "paid": 232,
+          "remaining": 55
         },
         {
           "amount": 100,
           "total": 28731,
-          "paid": 22071,
-          "remaining": 6660
+          "paid": 22230,
+          "remaining": 6501
         },
         {
           "amount": 50,
           "total": 28718,
-          "paid": 22037,
-          "remaining": 6681
+          "paid": 22202,
+          "remaining": 6516
         },
         {
           "amount": 25,
           "total": 41041,
-          "paid": 31165,
-          "remaining": 9876
+          "paid": 31374,
+          "remaining": 9667
         },
         {
           "amount": 20,
           "total": 114378,
-          "paid": 86634,
-          "remaining": 27744
+          "paid": 87224,
+          "remaining": 27154
         },
         {
           "amount": 10,
           "total": 200319,
-          "paid": 150656,
-          "remaining": 49663
+          "paid": 151698,
+          "remaining": 48621
         }
       ]
     },
@@ -8340,9 +8340,9 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 33.33,
       "total_prizes_total": 626362,
-      "total_prizes_remaining": 51051,
+      "total_prizes_remaining": 51048,
       "total_prizes_pct_remaining": 8.15,
-      "remaining_cash_value": 1322020,
+      "remaining_cash_value": 1321980,
       "original_cash_value": 16191740,
       "cash_value_pct_remaining": 8.16,
       "tickets_printed": 2220450,
@@ -8399,14 +8399,14 @@
         {
           "amount": 20,
           "total": 177656,
-          "paid": 165018,
-          "remaining": 12638
+          "paid": 165019,
+          "remaining": 12637
         },
         {
           "amount": 10,
           "total": 310823,
-          "paid": 280832,
-          "remaining": 29991
+          "paid": 280834,
+          "remaining": 29989
         }
       ]
     },
@@ -8425,9 +8425,9 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 33.33,
       "total_prizes_total": 412620,
-      "total_prizes_remaining": 33396,
+      "total_prizes_remaining": 33371,
       "total_prizes_pct_remaining": 8.09,
-      "remaining_cash_value": 1002135,
+      "remaining_cash_value": 1001530,
       "original_cash_value": 10589515,
       "cash_value_pct_remaining": 9.46,
       "tickets_printed": 1451250,
@@ -8460,20 +8460,20 @@
         {
           "amount": 100,
           "total": 27109,
-          "paid": 25220,
-          "remaining": 1889
+          "paid": 25221,
+          "remaining": 1888
         },
         {
           "amount": 90,
           "total": 3007,
-          "paid": 2795,
-          "remaining": 212
+          "paid": 2796,
+          "remaining": 211
         },
         {
           "amount": 50,
           "total": 29643,
-          "paid": 27560,
-          "remaining": 2083
+          "paid": 27562,
+          "remaining": 2081
         },
         {
           "amount": 30,
@@ -8484,20 +8484,20 @@
         {
           "amount": 25,
           "total": 29629,
-          "paid": 27248,
-          "remaining": 2381
+          "paid": 27249,
+          "remaining": 2380
         },
         {
           "amount": 20,
           "total": 116137,
-          "paid": 107280,
-          "remaining": 8857
+          "paid": 107289,
+          "remaining": 8848
         },
         {
           "amount": 10,
           "total": 203101,
-          "paid": 185426,
-          "remaining": 17675
+          "paid": 185437,
+          "remaining": 17664
         }
       ]
     },
@@ -8516,9 +8516,9 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 33.33,
       "total_prizes_total": 785144,
-      "total_prizes_remaining": 113024,
-      "total_prizes_pct_remaining": 14.4,
-      "remaining_cash_value": 2878635,
+      "total_prizes_remaining": 113017,
+      "total_prizes_pct_remaining": 14.39,
+      "remaining_cash_value": 2878425,
       "original_cash_value": 19864175,
       "cash_value_pct_remaining": 14.49,
       "tickets_printed": 2721900,
@@ -8545,14 +8545,14 @@
         {
           "amount": 100,
           "total": 56073,
-          "paid": 48814,
-          "remaining": 7259
+          "paid": 48815,
+          "remaining": 7258
         },
         {
           "amount": 50,
           "total": 72576,
-          "paid": 62986,
-          "remaining": 9590
+          "paid": 62987,
+          "remaining": 9589
         },
         {
           "amount": 25,
@@ -8563,14 +8563,14 @@
         {
           "amount": 20,
           "total": 217768,
-          "paid": 187251,
-          "remaining": 30517
+          "paid": 187252,
+          "remaining": 30516
         },
         {
           "amount": 10,
           "total": 381034,
-          "paid": 323647,
-          "remaining": 57387
+          "paid": 323651,
+          "remaining": 57383
         }
       ]
     },
@@ -8589,11 +8589,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 66.67,
       "total_prizes_total": 233920,
-      "total_prizes_remaining": 210942,
-      "total_prizes_pct_remaining": 90.18,
-      "remaining_cash_value": 10412055,
+      "total_prizes_remaining": 208935,
+      "total_prizes_pct_remaining": 89.32,
+      "remaining_cash_value": 10325445,
       "original_cash_value": 11929030,
-      "cash_value_pct_remaining": 87.28,
+      "cash_value_pct_remaining": 86.56,
       "tickets_printed": 801510,
       "overall_odds": "1 in 3.43",
       "prize_tiers": [
@@ -8618,38 +8618,38 @@
         {
           "amount": 500,
           "total": 416,
-          "paid": 46,
-          "remaining": 370
+          "paid": 49,
+          "remaining": 367
         },
         {
           "amount": 200,
           "total": 6926,
-          "paid": 676,
-          "remaining": 6250
+          "paid": 725,
+          "remaining": 6201
         },
         {
           "amount": 100,
           "total": 32846,
-          "paid": 3274,
-          "remaining": 29572
+          "paid": 3555,
+          "remaining": 29291
         },
         {
           "amount": 50,
           "total": 33417,
-          "paid": 3322,
-          "remaining": 30095
+          "paid": 3622,
+          "remaining": 29795
         },
         {
           "amount": 25,
           "total": 106868,
-          "paid": 10419,
-          "remaining": 96449
+          "paid": 11365,
+          "remaining": 95503
         },
         {
           "amount": 20,
           "total": 53434,
-          "paid": 5240,
-          "remaining": 48194
+          "paid": 5668,
+          "remaining": 47766
         }
       ]
     },
@@ -8668,11 +8668,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 66.67,
       "total_prizes_total": 550983,
-      "total_prizes_remaining": 370752,
-      "total_prizes_pct_remaining": 67.29,
-      "remaining_cash_value": 18531990,
+      "total_prizes_remaining": 369193,
+      "total_prizes_pct_remaining": 67.01,
+      "remaining_cash_value": 18450755,
       "original_cash_value": 27631360,
-      "cash_value_pct_remaining": 67.07,
+      "cash_value_pct_remaining": 66.77,
       "tickets_printed": 1851570,
       "overall_odds": "1 in 3.36",
       "prize_tiers": [
@@ -8691,8 +8691,8 @@
         {
           "amount": 5000,
           "total": 20,
-          "paid": 7,
-          "remaining": 13
+          "paid": 9,
+          "remaining": 11
         },
         {
           "amount": 1000,
@@ -8703,38 +8703,38 @@
         {
           "amount": 500,
           "total": 968,
-          "paid": 316,
-          "remaining": 652
+          "paid": 317,
+          "remaining": 651
         },
         {
           "amount": 200,
           "total": 26618,
-          "paid": 8784,
-          "remaining": 17834
+          "paid": 8843,
+          "remaining": 17775
         },
         {
           "amount": 100,
           "total": 75844,
-          "paid": 25051,
-          "remaining": 50793
+          "paid": 25286,
+          "remaining": 50558
         },
         {
           "amount": 50,
           "total": 77174,
-          "paid": 25316,
-          "remaining": 51858
+          "paid": 25541,
+          "remaining": 51633
         },
         {
           "amount": 25,
           "total": 246876,
-          "paid": 80558,
-          "remaining": 166318
+          "paid": 81247,
+          "remaining": 165629
         },
         {
           "amount": 20,
           "total": 123438,
-          "paid": 40186,
-          "remaining": 83252
+          "paid": 40534,
+          "remaining": 82904
         }
       ]
     },
@@ -8753,11 +8753,11 @@
       "top_prize_remaining": 77,
       "top_prize_pct_remaining": 11.46,
       "total_prizes_total": 264291,
-      "total_prizes_remaining": 34046,
+      "total_prizes_remaining": 34034,
       "total_prizes_pct_remaining": 12.88,
-      "remaining_cash_value": 1719280,
+      "remaining_cash_value": 1718465,
       "original_cash_value": 13853770,
-      "cash_value_pct_remaining": 12.41,
+      "cash_value_pct_remaining": 12.4,
       "tickets_printed": 926490,
       "overall_odds": "1 in 3.51",
       "prize_tiers": [
@@ -8782,8 +8782,8 @@
         {
           "amount": 200,
           "total": 15331,
-          "paid": 13433,
-          "remaining": 1898
+          "paid": 13436,
+          "remaining": 1895
         },
         {
           "amount": 100,
@@ -8800,14 +8800,14 @@
         {
           "amount": 25,
           "total": 123532,
-          "paid": 107396,
-          "remaining": 16136
+          "paid": 107403,
+          "remaining": 16129
         },
         {
           "amount": 20,
           "total": 61766,
-          "paid": 53537,
-          "remaining": 8229
+          "paid": 53539,
+          "remaining": 8227
         }
       ]
     },
@@ -8826,11 +8826,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 60.0,
       "total_prizes_total": 526657,
-      "total_prizes_remaining": 236004,
-      "total_prizes_pct_remaining": 44.81,
-      "remaining_cash_value": 12628750,
+      "total_prizes_remaining": 234966,
+      "total_prizes_pct_remaining": 44.61,
+      "remaining_cash_value": 12574620,
       "original_cash_value": 27567290,
-      "cash_value_pct_remaining": 45.81,
+      "cash_value_pct_remaining": 45.61,
       "tickets_printed": 1849380,
       "overall_odds": "1 in 3.51",
       "prize_tiers": [
@@ -8855,44 +8855,44 @@
         {
           "amount": 1000,
           "total": 60,
-          "paid": 33,
-          "remaining": 27
+          "paid": 35,
+          "remaining": 25
         },
         {
           "amount": 500,
           "total": 923,
-          "paid": 532,
-          "remaining": 391
+          "paid": 534,
+          "remaining": 389
         },
         {
           "amount": 200,
           "total": 30786,
-          "paid": 17262,
-          "remaining": 13524
+          "paid": 17342,
+          "remaining": 13444
         },
         {
           "amount": 100,
           "total": 63181,
-          "paid": 35604,
-          "remaining": 27577
+          "paid": 35732,
+          "remaining": 27449
         },
         {
           "amount": 50,
           "total": 61801,
-          "paid": 33070,
-          "remaining": 28731
+          "paid": 33183,
+          "remaining": 28618
         },
         {
           "amount": 25,
           "total": 246584,
-          "paid": 136108,
-          "remaining": 110476
+          "paid": 136592,
+          "remaining": 109992
         },
         {
           "amount": 20,
           "total": 123292,
-          "paid": 68027,
-          "remaining": 55265
+          "paid": 68256,
+          "remaining": 55036
         }
       ]
     },
@@ -8911,11 +8911,11 @@
       "top_prize_remaining": 3,
       "top_prize_pct_remaining": 100.0,
       "total_prizes_total": 559077,
-      "total_prizes_remaining": 400865,
-      "total_prizes_pct_remaining": 71.7,
-      "remaining_cash_value": 21233745,
+      "total_prizes_remaining": 398855,
+      "total_prizes_pct_remaining": 71.34,
+      "remaining_cash_value": 21141615,
       "original_cash_value": 28429600,
-      "cash_value_pct_remaining": 74.69,
+      "cash_value_pct_remaining": 74.36,
       "tickets_printed": 1848900,
       "overall_odds": "1 in 3.31",
       "prize_tiers": [
@@ -8940,44 +8940,44 @@
         {
           "amount": 1000,
           "total": 120,
-          "paid": 31,
-          "remaining": 89
+          "paid": 32,
+          "remaining": 88
         },
         {
           "amount": 500,
           "total": 606,
-          "paid": 165,
-          "remaining": 441
+          "paid": 167,
+          "remaining": 439
         },
         {
           "amount": 200,
           "total": 16201,
-          "paid": 4641,
-          "remaining": 11560
+          "paid": 4707,
+          "remaining": 11494
         },
         {
           "amount": 100,
           "total": 83422,
-          "paid": 23782,
-          "remaining": 59640
+          "paid": 24088,
+          "remaining": 59334
         },
         {
           "amount": 50,
           "total": 88920,
-          "paid": 25394,
-          "remaining": 63526
+          "paid": 25699,
+          "remaining": 63221
         },
         {
           "amount": 25,
           "total": 246520,
-          "paid": 69479,
-          "remaining": 177041
+          "paid": 70375,
+          "remaining": 176145
         },
         {
           "amount": 20,
           "total": 123260,
-          "paid": 34714,
-          "remaining": 88546
+          "paid": 35148,
+          "remaining": 88112
         }
       ]
     },
@@ -8996,9 +8996,9 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 550724,
-      "total_prizes_remaining": 117415,
+      "total_prizes_remaining": 117408,
       "total_prizes_pct_remaining": 21.32,
-      "remaining_cash_value": 5471605,
+      "remaining_cash_value": 5471410,
       "original_cash_value": 27620140,
       "cash_value_pct_remaining": 19.81,
       "tickets_printed": 1850730,
@@ -9049,20 +9049,20 @@
         {
           "amount": 50,
           "total": 77128,
-          "paid": 60926,
-          "remaining": 16202
+          "paid": 60927,
+          "remaining": 16201
         },
         {
           "amount": 25,
           "total": 246764,
-          "paid": 193791,
-          "remaining": 52973
+          "paid": 193796,
+          "remaining": 52968
         },
         {
           "amount": 20,
           "total": 123382,
-          "paid": 96613,
-          "remaining": 26769
+          "paid": 96614,
+          "remaining": 26768
         }
       ]
     },
@@ -9081,9 +9081,9 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 527067,
-      "total_prizes_remaining": 48285,
+      "total_prizes_remaining": 48282,
       "total_prizes_pct_remaining": 9.16,
-      "remaining_cash_value": 2267320,
+      "remaining_cash_value": 2267175,
       "original_cash_value": 27585450,
       "cash_value_pct_remaining": 8.22,
       "tickets_printed": 1850850,
@@ -9128,8 +9128,8 @@
         {
           "amount": 100,
           "total": 63246,
-          "paid": 58005,
-          "remaining": 5241
+          "paid": 58006,
+          "remaining": 5240
         },
         {
           "amount": 50,
@@ -9140,14 +9140,14 @@
         {
           "amount": 25,
           "total": 246780,
-          "paid": 223708,
-          "remaining": 23072
+          "paid": 223709,
+          "remaining": 23071
         },
         {
           "amount": 20,
           "total": 123390,
-          "paid": 111634,
-          "remaining": 11756
+          "paid": 111635,
+          "remaining": 11755
         }
       ]
     },
@@ -9166,9 +9166,9 @@
       "top_prize_remaining": 26,
       "top_prize_pct_remaining": 6.09,
       "total_prizes_total": 268286,
-      "total_prizes_remaining": 18668,
+      "total_prizes_remaining": 18665,
       "total_prizes_pct_remaining": 6.96,
-      "remaining_cash_value": 1232590,
+      "remaining_cash_value": 1232500,
       "original_cash_value": 18325000,
       "cash_value_pct_remaining": 6.73,
       "tickets_printed": 802590,
@@ -9225,8 +9225,8 @@
         {
           "amount": 30,
           "total": 107012,
-          "paid": 99514,
-          "remaining": 7498
+          "paid": 99517,
+          "remaining": 7495
         }
       ]
     },
@@ -9245,11 +9245,11 @@
       "top_prize_remaining": 1,
       "top_prize_pct_remaining": 33.33,
       "total_prizes_total": 619127,
-      "total_prizes_remaining": 195738,
-      "total_prizes_pct_remaining": 31.62,
-      "remaining_cash_value": 13924280,
+      "total_prizes_remaining": 194076,
+      "total_prizes_pct_remaining": 31.35,
+      "remaining_cash_value": 13818910,
       "original_cash_value": 43816500,
-      "cash_value_pct_remaining": 31.78,
+      "cash_value_pct_remaining": 31.54,
       "tickets_printed": 1851660,
       "overall_odds": "1 in 2.99",
       "prize_tiers": [
@@ -9274,38 +9274,38 @@
         {
           "amount": 500,
           "total": 1090,
-          "paid": 758,
-          "remaining": 332
+          "paid": 762,
+          "remaining": 328
         },
         {
           "amount": 200,
           "total": 62337,
-          "paid": 42775,
-          "remaining": 19562
+          "paid": 42965,
+          "remaining": 19372
         },
         {
           "amount": 100,
           "total": 61875,
-          "paid": 42480,
-          "remaining": 19395
+          "paid": 42648,
+          "remaining": 19227
         },
         {
           "amount": 50,
           "total": 123444,
-          "paid": 84439,
-          "remaining": 39005
+          "paid": 84750,
+          "remaining": 38694
         },
         {
           "amount": 40,
           "total": 123444,
-          "paid": 84315,
-          "remaining": 39129
+          "paid": 84650,
+          "remaining": 38794
         },
         {
           "amount": 30,
           "total": 246888,
-          "paid": 168589,
-          "remaining": 78299
+          "paid": 169243,
+          "remaining": 77645
         }
       ]
     },
@@ -9324,11 +9324,11 @@
       "top_prize_remaining": 2,
       "top_prize_pct_remaining": 66.67,
       "total_prizes_total": 619348,
-      "total_prizes_remaining": 438855,
-      "total_prizes_pct_remaining": 70.86,
-      "remaining_cash_value": 30791140,
+      "total_prizes_remaining": 436057,
+      "total_prizes_pct_remaining": 70.41,
+      "remaining_cash_value": 30621600,
       "original_cash_value": 43831700,
-      "cash_value_pct_remaining": 70.25,
+      "cash_value_pct_remaining": 69.86,
       "tickets_printed": 1852290,
       "overall_odds": "1 in 2.99",
       "prize_tiers": [
@@ -9353,38 +9353,38 @@
         {
           "amount": 500,
           "total": 1092,
-          "paid": 301,
-          "remaining": 791
+          "paid": 306,
+          "remaining": 786
         },
         {
           "amount": 200,
           "total": 62365,
-          "paid": 18256,
-          "remaining": 44109
+          "paid": 18536,
+          "remaining": 43829
         },
         {
           "amount": 100,
           "total": 61898,
-          "paid": 18161,
-          "remaining": 43737
+          "paid": 18428,
+          "remaining": 43470
         },
         {
           "amount": 50,
           "total": 123486,
-          "paid": 35989,
-          "remaining": 87497
+          "paid": 36540,
+          "remaining": 86946
         },
         {
           "amount": 40,
           "total": 123486,
-          "paid": 35915,
-          "remaining": 87571
+          "paid": 36509,
+          "remaining": 86977
         },
         {
           "amount": 30,
           "total": 246972,
-          "paid": 71857,
-          "remaining": 175115
+          "paid": 72958,
+          "remaining": 174014
         }
       ]
     },
@@ -9403,9 +9403,9 @@
       "top_prize_remaining": 0,
       "top_prize_pct_remaining": 0.0,
       "total_prizes_total": 1171485,
-      "total_prizes_remaining": 74307,
+      "total_prizes_remaining": 74287,
       "total_prizes_pct_remaining": 6.34,
-      "remaining_cash_value": 4415940,
+      "remaining_cash_value": 4414720,
       "original_cash_value": 78598580,
       "cash_value_pct_remaining": 5.62,
       "tickets_printed": 3350460,
@@ -9438,8 +9438,8 @@
         {
           "amount": 200,
           "total": 132673,
-          "paid": 124509,
-          "remaining": 8164
+          "paid": 124512,
+          "remaining": 8161
         },
         {
           "amount": 150,
@@ -9456,26 +9456,26 @@
         {
           "amount": 60,
           "total": 113143,
-          "paid": 106314,
-          "remaining": 6829
+          "paid": 106315,
+          "remaining": 6828
         },
         {
           "amount": 50,
           "total": 223364,
-          "paid": 209208,
-          "remaining": 14156
+          "paid": 209209,
+          "remaining": 14155
         },
         {
           "amount": 40,
           "total": 223364,
-          "paid": 208442,
-          "remaining": 14922
+          "paid": 208448,
+          "remaining": 14916
         },
         {
           "amount": 30,
           "total": 446728,
-          "paid": 418404,
-          "remaining": 28324
+          "paid": 418413,
+          "remaining": 28315
         }
       ]
     }
