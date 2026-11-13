@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-11-13T12:44:03.482923+00:00",
-  "count": 108,
+  "scraped_at": "2026-11-13T20:10:40.447986+00:00",
+  "count": 110,
   "warnings": [],
   "sources": {
     "WA": {
-      "scraped_at": "2026-11-13T12:44:03.482923+00:00",
-      "count": 60,
+      "scraped_at": "2026-11-13T20:10:40.447986+00:00",
+      "count": 62,
       "warnings": []
     },
     "OR": {
@@ -4162,6 +4162,91 @@
       "pct_tickets_sold": 19.34
     },
     {
+      "id": "WA-2028",
+      "state": "WA",
+      "name": "SWEATER WEATHER",
+      "price": "$1",
+      "game_number": "2028",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2028",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2028.jpg",
+      "top_prize_amount": 2000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 482482,
+      "total_prizes_remaining": 482482,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 1133966,
+      "original_cash_value": 1133966,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 1849600,
+      "overall_odds": "1 in 3.83",
+      "prize_tiers": [
+        {
+          "amount": 2000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 100,
+          "total": 63,
+          "paid": 0,
+          "remaining": 63
+        },
+        {
+          "amount": 50,
+          "total": 152,
+          "paid": 0,
+          "remaining": 152
+        },
+        {
+          "amount": 30,
+          "total": 309,
+          "paid": 0,
+          "remaining": 309
+        },
+        {
+          "amount": 20,
+          "total": 1139,
+          "paid": 0,
+          "remaining": 1139
+        },
+        {
+          "amount": 10,
+          "total": 4644,
+          "paid": 0,
+          "remaining": 4644
+        },
+        {
+          "amount": 5,
+          "total": 34689,
+          "paid": 0,
+          "remaining": 34689
+        },
+        {
+          "amount": 4,
+          "total": 108635,
+          "paid": 0,
+          "remaining": 108635
+        },
+        {
+          "amount": 2,
+          "total": 94743,
+          "paid": 0,
+          "remaining": 94743
+        },
+        {
+          "amount": 1,
+          "total": 238105,
+          "paid": 0,
+          "remaining": 238105
+        }
+      ]
+    },
+    {
       "id": "WA-2023",
       "state": "WA",
       "name": "WHITE ELEPHANT",
@@ -7706,6 +7791,91 @@
           "total": 386528,
           "paid": 325376,
           "remaining": 61152
+        }
+      ]
+    },
+    {
+      "id": "WA-2027",
+      "state": "WA",
+      "name": "SILVER STREAK",
+      "price": "$10",
+      "game_number": "2027",
+      "last_day_to_redeem": null,
+      "explorer_url": "https://walottery.com/Scratch/Explorer.aspx?id=2027",
+      "image_url": "https://walottery.com/scratch/assets/imgs/tickets/grid/2027.jpg",
+      "top_prize_amount": 250000,
+      "top_prize_total": 3,
+      "top_prize_paid": 0,
+      "top_prize_remaining": 3,
+      "top_prize_pct_remaining": 100.0,
+      "total_prizes_total": 590385,
+      "total_prizes_remaining": 590385,
+      "total_prizes_pct_remaining": 100.0,
+      "remaining_cash_value": 15283475,
+      "original_cash_value": 15283475,
+      "cash_value_pct_remaining": 100.0,
+      "tickets_printed": 2097200,
+      "overall_odds": "1 in 3.55",
+      "prize_tiers": [
+        {
+          "amount": 250000,
+          "total": 3,
+          "paid": 0,
+          "remaining": 3
+        },
+        {
+          "amount": 75000,
+          "total": 5,
+          "paid": 0,
+          "remaining": 5
+        },
+        {
+          "amount": 10000,
+          "total": 10,
+          "paid": 0,
+          "remaining": 10
+        },
+        {
+          "amount": 500,
+          "total": 350,
+          "paid": 0,
+          "remaining": 350
+        },
+        {
+          "amount": 200,
+          "total": 710,
+          "paid": 0,
+          "remaining": 710
+        },
+        {
+          "amount": 100,
+          "total": 42461,
+          "paid": 0,
+          "remaining": 42461
+        },
+        {
+          "amount": 50,
+          "total": 42657,
+          "paid": 0,
+          "remaining": 42657
+        },
+        {
+          "amount": 25,
+          "total": 42837,
+          "paid": 0,
+          "remaining": 42837
+        },
+        {
+          "amount": 20,
+          "total": 167808,
+          "paid": 0,
+          "remaining": 167808
+        },
+        {
+          "amount": 10,
+          "total": 293544,
+          "paid": 0,
+          "remaining": 293544
         }
       ]
     },
